@@ -1,0 +1,61 @@
+site_name: eHive One – Dokumentation
+site_description: Endanwender-Dokumentation für eHive One (OpenArc) und Apps
+site_url: https://ehive-dev.github.io/doc/
+repo_url: https://github.com/ehive-dev/doc
+repo_name: ehive-dev/doc
+theme:
+  name: material
+  language: de
+  features:
+  - navigation.instant
+  - navigation.tabs
+  - navigation.sections
+  - navigation.top
+  - search.highlight
+  - content.code.copy
+  palette:
+  - scheme: slate
+    toggle:
+      icon: material/weather-night
+      name: Dunkel
+  - scheme: default
+    toggle:
+      icon: material/weather-sunny
+      name: Hell
+markdown_extensions:
+- admonition
+- toc:
+    permalink: true
+- tables
+- footnotes
+- attr_list
+plugins:
+- search
+nav:
+- Überblick: index.md
+- Erste Schritte:
+  - Inbetriebnahme: getting-started.md
+  - Zugriff & URLs: access.md
+- Gerät:
+  - Überblick & Sicherheit: hardware/overview.md
+  - Anschlüsse & Bedienelemente: hardware/connectors.md
+  - Netzwerkeinrichtung: hardware/network.md
+  - LEDs & Taster: hardware/leds-buttons.md
+  - Technische Daten: hardware/specs.md
+- Software:
+  - SmartHub (Dashboard): software/smarthub.md
+  - WattRadar: software/wattradar.md
+  - ioManager: software/iomanager.md
+  - Tunnel Manager: software/tunnel-manager.md
+  - NetMode (Netzwerk-Taster): software/netmode.md
+  - Weitere Apps: software/other-apps.md
+- Wartung:
+  - Updates: maintenance/updates.md
+  - Backup & Wiederherstellung: maintenance/backup-restore.md
+  - Troubleshooting: maintenance/troubleshooting.md
+- Rechtliches:
+  - Hinweise & Sicherheit: legal/safety.md
+  - Garantie & Haftung: legal/warranty-liability.md
+  - Konformität: legal/compliance.md
+- FAQ: faq.md
+- Changelog: changelog.md

@@ -1,18 +1,11 @@
 <div class="shop-hero">
   <h1>eHive One Dokumentation</h1>
-  <p>Der Leitfaden für Inbetriebnahme, Betrieb und Service im Look der eHive Shop-Marke.</p>
-  <div class="shop-badges">
-    <span>Smart Solutions</span>
-    <span>Industrial Edge</span>
-    <span>Installateur Fokus</span>
-  </div>
+  <p>Kompakte Anleitungen für Inbetriebnahme, Betrieb und Service im eHive Shop-Stil.</p>
 </div>
 
 ![eHive Logo](assets/images/ehive-logo.png){ width=220 }
 
-[Jetzt starten](getting-started/){ .md-button .md-button--primary }
-[Zugriff und URLs](access/){ .md-button }
-[FAQ](faq/){ .md-button }
+## Schnellzugriff
 
 <div class="shop-grid">
   <a class="shop-card" href="getting-started/">
@@ -35,6 +28,10 @@
     <strong>Rechtliches</strong>
     <span>Sicherheit, Haftung und Konformität.</span>
   </a>
+  <a class="shop-card" href="faq/">
+    <strong>FAQ</strong>
+    <span>Antworten auf die häufigsten Fragen zum täglichen Betrieb.</span>
+  </a>
 </div>
 
 ## Schnellstart
@@ -50,14 +47,6 @@
    - Passwort: `ehive`
 
 > Es wird nur HTTP bereitgestellt (kein HTTPS). Zugangsdaten nach der Inbetriebnahme ändern.
-
-## Inhalte
-
-- Erste Schritte: Inbetriebnahme, Zugriff, typische Erstkonfiguration
-- Gerät: Anschlüsse, LEDs/Taster, technische Daten
-- Software: Bedienung von SmartHub, WattRadar, ioManager, Tunnel Manager, NetMode
-- Wartung: Updates, Backup/Restore, Troubleshooting
-- Rechtliches: Sicherheitshinweise, Garantie/Haftung, Konformität
 
 ## Support
 

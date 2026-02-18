@@ -6,6 +6,7 @@ repo_name: ehive-dev/doc
 theme:
   name: material
   language: de
+  font: false
   features:
   - navigation.instant
   - navigation.tabs
@@ -14,11 +15,15 @@ theme:
   - search.highlight
   - content.code.copy
   palette:
-  - scheme: slate
+  - scheme: default
+    primary: black
+    accent: amber
     toggle:
       icon: material/weather-night
       name: Dunkel
-  - scheme: default
+  - scheme: slate
+    primary: black
+    accent: amber
     toggle:
       icon: material/weather-sunny
       name: Hell
@@ -31,6 +36,8 @@ markdown_extensions:
 - attr_list
 plugins:
 - search
+extra_css:
+- assets/stylesheets/extra.css
 nav:
 - Überblick: index.md
 - Erste Schritte:

@@ -10,6 +10,7 @@ NetMode ist die Funktion hinter dem Hardware‑Taster, um das Gerät im Netzwerk
 - **Taste gedrückt:** LED dauerhaft an
 - **Loslassen nach ≥ 10 s:** auf **DHCP** umstellen und Neustart
 - **Loslassen nach ≥ 30 s:** auf **Default‑IP 192.168.100.1/24** umstellen und Neustart
+- **NetMode-Reset:** setzt die Zugangspasswörter zurück
 
 
 LED‑Hinweis:

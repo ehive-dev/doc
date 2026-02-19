@@ -6,6 +6,7 @@ Standardmäßig:
 
 - Benutzer: `admin`
 - Passwort: (wurde bei der Integration geändert)
+- Hinweis: NetMode setzt die Zugangspasswörter zurück.
 
 Empfehlung: nach Inbetriebnahme ändern.
 

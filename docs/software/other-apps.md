@@ -11,7 +11,6 @@ Diese Endanwender‑Doku beschreibt die Bedienung der wichtigsten eHive‑Apps. 
 - Node‑RED
 - Grafana
 - Webmin
-- Homer / Startseite
 - Homebridge
 
 > Welche Apps tatsächlich verfügbar sind, hängt vom installierten Image/Setup ab.

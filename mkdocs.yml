@@ -10,7 +10,6 @@ theme:
   font: false
   features:
   - navigation.instant
-  - navigation.tabs
   - navigation.sections
   - navigation.top
   - search.highlight
@@ -44,32 +43,30 @@ extra_css:
 - assets/stylesheets/extra.css
 
 nav:
-- Dokumentation:
-  - Ueberblick: index.md
-  - Erste Schritte:
-    - Inbetriebnahme: getting-started.md
-    - Zugriff und URLs: access.md
-  - Geraet:
-    - Ueberblick und Sicherheit: hardware/overview.md
-    - Anschluesse und Bedienelemente: hardware/connectors.md
-    - Netzwerkeinrichtung: hardware/network.md
-    - LEDs und Taster: hardware/leds-buttons.md
-    - Technische Daten: hardware/specs.md
-  - Software:
-    - SmartHub (Dashboard): software/smarthub.md
-    - WattRadar: software/wattradar.md
-    - ioManager: software/iomanager.md
-    - Tunnel Manager: software/tunnel-manager.md
-    - NetMode (Netzwerk-Taster): software/netmode.md
-    - Weitere Apps: software/other-apps.md
-  - Wartung:
-    - Updates: maintenance/updates.md
-    - Backup und Wiederherstellung: maintenance/backup-restore.md
-    - Troubleshooting: maintenance/troubleshooting.md
-- Service:
-  - FAQ: faq.md
-  - Changelog: changelog.md
-  - Rechtliches:
-    - Hinweise und Sicherheit: legal/safety.md
-    - Garantie und Haftung: legal/warranty-liability.md
-    - Konformitaet: legal/compliance.md
+- Ueberblick: index.md
+- Erste Schritte:
+  - Inbetriebnahme: getting-started.md
+  - Zugriff und URLs: access.md
+- Geraet:
+  - Ueberblick und Sicherheit: hardware/overview.md
+  - Anschluesse und Bedienelemente: hardware/connectors.md
+  - Netzwerkeinrichtung: hardware/network.md
+  - LEDs und Taster: hardware/leds-buttons.md
+  - Technische Daten: hardware/specs.md
+- Software:
+  - SmartHub (Dashboard): software/smarthub.md
+  - WattRadar: software/wattradar.md
+  - ioManager: software/iomanager.md
+  - Tunnel Manager: software/tunnel-manager.md
+  - NetMode (Netzwerk-Taster): software/netmode.md
+  - Weitere Apps: software/other-apps.md
+- Wartung:
+  - Updates: maintenance/updates.md
+  - Backup und Wiederherstellung: maintenance/backup-restore.md
+  - Troubleshooting: maintenance/troubleshooting.md
+- FAQ: faq.md
+- Changelog: changelog.md
+- Rechtliches:
+  - Hinweise und Sicherheit: legal/safety.md
+  - Garantie und Haftung: legal/warranty-liability.md
+  - Konformitaet: legal/compliance.md

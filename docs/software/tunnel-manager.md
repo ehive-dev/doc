@@ -1,6 +1,6 @@
 # Tunnel Manager (Remote‑Zugriff)
 
-Der Tunnel Manager richtet einen Remote‑Zugriff ein, damit **Installateure/Service** die Weboberflächen des Geräts aus der Ferne erreichen können.
+Der Tunnel Manager richtet einen Remote‑Zugriff ein.
 
 - Veröffentlicht **nur Web‑UIs** (keine SSH‑Freigabe).
 - Der Zugriff erfolgt über eine **seriennummernbasierte Subdomain** plus persönlichen **Hash**.

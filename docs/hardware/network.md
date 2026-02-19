@@ -20,10 +20,6 @@
 
 > Wenn die neue Adresse nicht erreichbar ist, stellt das System nach Ablauf automatisch die vorherige Konfiguration wieder her.
 
-## HTTPS
-
-- Lokal wird **nur HTTP** bereitgestellt.
-
 ## Netzwerk zurücksetzen (Hardware‑Taster)
 
 Siehe *Software → NetMode (Netzwerk‑Taster)*.

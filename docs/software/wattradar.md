@@ -1,6 +1,6 @@
 # WattRadar
 
-WattRadar visualisiert Erzeugung/Verbrauch und weitere Energie‑Kennzahlen als zeitlichen Verlauf. Die Daten stammen aus der vorkonfigurierten evcc‑Datenbasis (z. B. InfluxDB) – für Endanwender ist **keine Konfiguration** nötig.
+WattRadar visualisiert Erzeugung/Verbrauch und weitere Energie‑Kennzahlen als zeitlichen Verlauf. Die Daten stammen aus der vorkonfigurierten evcc‑Datenbank (z. B. InfluxDB) – für Endanwender ist **keine Konfiguration** nötig.
 
 ## Oberfläche (Bedienung)
 

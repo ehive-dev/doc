@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Exo+2:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap");
 
 :root {
   --ehive-black: #0e0e0e;
@@ -13,8 +13,8 @@
   --md-default-fg-color: var(--ehive-text);
   --md-default-fg-color--light: var(--ehive-text-soft);
   --md-default-bg-color: var(--ehive-bg);
-  --md-primary-fg-color: #f7f7f7;
-  --md-primary-bg-color: var(--ehive-black);
+  --md-primary-fg-color: var(--ehive-surface);
+  --md-primary-bg-color: #111;
   --md-accent-fg-color: var(--ehive-black);
 }
 
@@ -30,13 +30,30 @@ textarea {
 .md-typeset h2,
 .md-typeset h3,
 .md-header__title,
-.md-nav {
-  font-family: "Exo 2", "Segoe UI", sans-serif;
+.md-header__topic,
+.md-nav,
+.md-nav__link,
+.md-sidebar--primary .md-nav__title {
+  font-family: "Barlow", "Segoe UI", sans-serif;
 }
 
 .md-header {
+  background: var(--ehive-surface);
   border-bottom: 1px solid var(--ehive-border);
   box-shadow: none;
+}
+
+.md-header__button,
+.md-header__title,
+.md-header__topic,
+.md-header .md-icon,
+.md-search__icon,
+.md-search__input {
+  color: #111 !important;
+}
+
+.md-search__form {
+  background: #f3f3f3;
 }
 
 .md-typeset a {

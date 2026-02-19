@@ -39,7 +39,6 @@ nav:
   - Inbetriebnahme: getting-started.md
   - Zugriff und URLs: access.md
 - Geraet:
-  - Ueberblick und Sicherheit: hardware/overview.md
   - Anschluesse und Bedienelemente: hardware/connectors.md
   - Netzwerkeinrichtung: hardware/network.md
   - LEDs und Taster: hardware/leds-buttons.md

@@ -141,4 +141,12 @@ textarea {
   .md-sidebar--primary {
     margin-left: -0.65rem;
   }
+
+  [dir="ltr"] .md-sidebar--primary .md-nav--primary .md-nav__link .md-nav__icon {
+    margin-right: 0.45rem;
+  }
+
+  [dir="rtl"] .md-sidebar--primary .md-nav--primary .md-nav__link .md-nav__icon {
+    margin-left: 0.45rem;
+  }
 }

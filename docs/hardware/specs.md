@@ -16,18 +16,6 @@
 | Netzteil-Empfehlung | **mind. 15 W** |
 | Schutzklasse | schutzisoliert (Kleinspannung) |
 
-## Systembasis
-
-Die konkrete Hardwareplattform ist projektspezifisch und kann je nach Ausführung variieren.
-
-| Merkmal | Wert |
-|---|---|
-| Rechenplattform | Embedded-Plattform (projektspezifisch) |
-| RAM | je nach Ausführung |
-| Ethernet | 1× Gigabit Ethernet; PoE je nach Variante |
-| USB | 2× USB-C |
-| Betriebstemperatur (Basis) | 0 °C bis 50 °C (je nach Ausführung) |
-
 ## Geräteschnittstellen (eHive One)
 
 | Schnittstelle | Beschreibung |

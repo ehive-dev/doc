@@ -90,51 +90,50 @@ textarea {
   color: inherit;
 }
 
-.shop-grid {
+.rubric-list {
+  margin: 0.8rem 0 1.2rem;
+  border-top: 1px solid var(--ehive-border);
+}
+
+.rubric-row {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 0.7rem;
-  margin: 0.8rem 0 1.1rem;
+  grid-template-columns: minmax(170px, 230px) 1fr;
+  gap: 1.1rem;
+  align-items: start;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--ehive-border);
 }
 
-.shop-card {
-  display: block;
-  text-decoration: none !important;
-  color: inherit;
-  border: 1px solid var(--ehive-border);
-  border-top: 3px solid rgb(228 183 38 / 70%);
-  border-radius: 8px;
-  background: #fff;
-  padding: 0.8rem 0.9rem;
-}
-
-.shop-card strong {
-  display: block;
-  margin-bottom: 0.2rem;
+.rubric-name a {
+  display: inline-block;
+  font-weight: 700;
   color: #20252f;
+  text-decoration: none;
 }
 
-.shop-card span {
-  display: block;
+.rubric-name a:hover {
+  color: #7a5f04;
+}
+
+.rubric-text {
+  margin: 0;
   color: #4f5867;
-  font-size: 0.9rem;
-  line-height: 1.3;
+  line-height: 1.35;
 }
 
-.shop-card:hover {
-  border-color: rgb(228 183 38 / 72%);
+[data-md-color-scheme="slate"] .rubric-list {
+  border-top-color: rgb(202 209 219 / 30%);
 }
 
-[data-md-color-scheme="slate"] .shop-card {
-  background: rgb(36 39 46 / 96%);
-  border-color: rgb(228 183 38 / 30%);
+[data-md-color-scheme="slate"] .rubric-row {
+  border-bottom-color: rgb(202 209 219 / 30%);
 }
 
-[data-md-color-scheme="slate"] .shop-card strong {
+[data-md-color-scheme="slate"] .rubric-name a {
   color: #f0f2f5;
 }
 
-[data-md-color-scheme="slate"] .shop-card span {
+[data-md-color-scheme="slate"] .rubric-text {
   color: #cad1db;
 }
 
@@ -147,5 +146,10 @@ textarea {
 @media (max-width: 600px) {
   .shop-hero {
     padding: 0.8rem 0.85rem;
+  }
+
+  .rubric-row {
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
   }
 }

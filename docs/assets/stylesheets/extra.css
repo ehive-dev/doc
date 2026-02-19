@@ -136,3 +136,9 @@ textarea {
   border: 1px solid var(--ehive-border);
   box-shadow: none;
 }
+
+@media screen and (min-width: 60em) {
+  .md-sidebar--primary {
+    margin-left: -0.65rem;
+  }
+}

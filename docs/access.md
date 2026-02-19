@@ -12,7 +12,7 @@ Zugriff erfolgt über das zentrale Dashboard **SmartHub** (Reverse Proxy). Einze
 ## Standard-Zugang
 
 - Benutzer: `admin`
-- Passwort: `ehive`
+- Passwort: (wurde bei der Integration geändert)
 
 Empfehlung:
 - Passwort nach Inbetriebnahme ändern.

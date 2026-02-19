@@ -38,7 +38,7 @@ Netzteil-Empfehlung:
    - oder `http://<IP-ADRESSE>/`
 3. Login:
    - Benutzer: `admin`
-   - Passwort: `ehive`
+   - Passwort: (wurde bei der Integration geändert)
 
 ## Erste Schritte nach Login
 

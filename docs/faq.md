@@ -5,7 +5,7 @@
 Standardmäßig:
 
 - Benutzer: `admin`
-- Passwort: `ehive`
+- Passwort: (wurde bei der Integration geändert)
 
 Empfehlung: nach Inbetriebnahme ändern.
 

@@ -9,7 +9,7 @@ SmartHub ist das zentrale Dashboard von eHive One. Es listet verfügbare Apps, z
 ## Login (Standard)
 
 - Benutzer: `admin`
-- Passwort: `ehive`
+- Passwort: (wurde bei der Integration geändert)
 
 Beim ersten Öffnen kann SmartHub das Setzen eines neuen Admin‑Passworts erzwingen.
 

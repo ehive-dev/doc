@@ -10,7 +10,7 @@
    - oder `http://<IP-ADRESSE>/`
 5. Login (Standard):
    - Benutzer: `admin`
-   - Passwort: `ehive`
+   - Passwort: (wurde bei der Integration geändert)
 
 > Es wird nur HTTP bereitgestellt (kein HTTPS). Zugangsdaten nach der Inbetriebnahme ändern.
 

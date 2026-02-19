@@ -10,7 +10,7 @@ Der Tunnel Manager richtet einen Remote‑Zugriff ein.
 - Öffne den Tunnel Manager über **SmartHub**.
 - Standard-Zugang (Geräteauslieferung):
   - Benutzer: `admin`
-  - Passwort: `ehive`
+  - Passwort: (wurde bei der Integration geändert)
 
 ## Typischer Ablauf
 

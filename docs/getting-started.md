@@ -9,7 +9,7 @@
 
 ## Montage
 
-- Montage als **Hutschienengerät**.
+- Montage auf **Hutschiene**.
 - Betrieb nur in **trockener Innenumgebung**.
 - **Nicht offen** montieren – vorgesehen für **Schaltschrank / Abdeckung** (Schutzart IP20).
 - Für ausreichende Luftzirkulation im Schaltschrank sorgen.

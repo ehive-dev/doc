@@ -4,7 +4,7 @@
 
 - **Gerätename:** eHive One
 - **Hersteller:** Loher ECS (Projekt/Plattform: eHive)
-- **Geräteklasse:** Hutschienengerät‑PC für Linux-basierte Dienste (z. B. Energiemonitoring, Remote-Zugriff, Smart‑Home‑Integration)
+- **Geräteklasse:** Hutschienen-PC für Linux-basierte Dienste (z. B. Energiemonitoring, Remote-Zugriff, Smart‑Home‑Integration)
 
 ## Bestimmungsgemäße Verwendung
 

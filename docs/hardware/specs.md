@@ -12,7 +12,7 @@
 
 | Merkmal | Wert |
 |---|---|
-| Versorgung | **12–30 V DC** (Klemme) oder **PoE** (IEEE 802.3af, je nach Variante) |
+| Versorgung | **12–30 V DC** (Klemme) oder **PoE** (IEEE 802.3af) |
 | Netzteil-Empfehlung | **mind. 15 W** |
 | Schutzklasse | schutzisoliert (Kleinspannung) |
 

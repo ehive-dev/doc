@@ -11,7 +11,7 @@ Die folgenden Anschlüsse/Funktionen sind für die Standardausführung vorgesehe
 | Bereich | Element | Zweck / Hinweis |
 |---|---|---|
 | Versorgung | **12–30 V DC** (Schraub-/Push‑In‑Klemme) | Kleinspannungsversorgung, Polung gemäß Beschriftung am Gerät |
-| Netzwerk | **RJ45 Ethernet (Gigabit)** | Netzwerkzugang; optional PoE (je nach Variante) |
+| Netzwerk | **RJ45 Ethernet (Gigabit)** | Netzwerkzugang; mit PoE |
 | USB | **USB‑C** | Erweiterungen (z. B. WLAN‑Stick, USB‑Peripherie); je nach System auch Service/Diagnose |
 | Feldbus | **RS485 (on‑board)** | Serielle Schnittstelle für Feld-/Zähler-/Gateway‑Anbindungen. **Klemmenbelegung: G (GND), B, A** |
 | Digitaleingang | **DI (EnWG §14a)** | Digitaler Eingang für ein **12 V‑Steuersignal** (nicht galvanisch getrennt) |

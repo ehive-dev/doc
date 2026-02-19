@@ -9,8 +9,6 @@ Zugriff erfolgt über das zentrale Dashboard **SmartHub** (Reverse Proxy). Einze
 - `http://ehiveone.local/`
 - `http://<IP-ADRESSE>/`
 
-> Hinweis: Es wird **nur HTTP** bereitgestellt.
-
 ## Standard-Zugang
 
 - Benutzer: `admin`

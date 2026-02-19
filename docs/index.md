@@ -1,9 +1,8 @@
+# eHive One Dokumentation
+
 <div class="shop-hero">
-  <h1>eHive One Dokumentation</h1>
   <p>Wie im Shop aufgebaut: links Rubrik, rechts die kurze Erklaerung.</p>
 </div>
-
-![eHive Logo](assets/images/ehive-logo.png){ width=220 }
 
 ## Rubriken
 

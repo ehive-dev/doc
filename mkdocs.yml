@@ -10,8 +10,10 @@ theme:
   font: false
   features:
   - navigation.instant
+  - navigation.tracking
   - navigation.sections
   - navigation.top
+  - toc.follow
   - search.highlight
   - content.code.copy
   palette:
@@ -41,6 +43,9 @@ plugins:
 
 extra_css:
 - assets/stylesheets/extra.css
+
+extra_javascript:
+- assets/javascripts/toc-top-active.js
 
 nav:
 - Ueberblick: index.md

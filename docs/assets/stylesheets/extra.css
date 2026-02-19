@@ -42,7 +42,7 @@ textarea {
   background: #111;
   border-bottom: 1px solid var(--ehive-border);
   box-shadow: none;
-  min-height: 3.1rem;
+  min-height: 3.5rem;
 }
 
 .md-header__button,
@@ -70,7 +70,7 @@ textarea {
 
 .md-header__button.md-logo img,
 .md-header__button.md-logo svg {
-  height: 1.75rem;
+  height: 2.15rem;
   width: auto;
 }
 
@@ -118,6 +118,19 @@ textarea {
 .md-sidebar--primary .md-nav__link:hover,
 .md-sidebar--secondary .md-nav__link:hover {
   color: var(--evcc-green);
+}
+
+.md-sidebar--secondary .md-nav__title {
+  color: var(--ehive-text-soft);
+  font-size: 0.76rem;
+  font-weight: 600;
+}
+
+.md-sidebar--secondary .md-nav__link {
+  color: var(--ehive-text-soft);
+  font-size: 0.79rem;
+  line-height: 1.4;
+  font-weight: 400;
 }
 
 .md-typeset a {

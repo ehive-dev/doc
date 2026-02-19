@@ -18,17 +18,6 @@ Wähle den Zeitraum:
 - Letzte 3 Tage / 7 Tage
 - Alle Daten
 
-## Typische Nutzung
-
-- Prüfen, ob ein Eingang stabil HIGH/LOW ist
-- Erkennen von Flanken/Schaltvorgängen über Zeit
-- Nachvollziehen, ob ein externes Steuersignal (z. B. §14a EnWG) anliegt
-
-## Hinweis
-
-Welche Signalquelle überwacht wird, ist in der Geräteauslieferung/Integration festgelegt. Änderungen daran sind ein Service-/Admin‑Thema und nicht Teil der Endanwender‑Bedienung.
-
-
 ## Screenshots
 
 ![ioManager – Verlauf / Status](../assets/images/ui-iomanager-main.png)

@@ -20,6 +20,5 @@ Während des Tastendrucks:
 ## DI‑LED (EnWG §14a)
 
 - Zeigt den Status des digitalen Eingangs (DI) an.
-- Bedeutung des DI‑Signals hängt von der Integration/Parametrierung ab.
 
 Hintergrund (allgemein): §14a EnWG beschreibt die netzorientierte Steuerung bestimmter Verbrauchseinrichtungen. Informationen dazu z. B. über Bundesnetzagentur/gesetzliche Grundlagen.

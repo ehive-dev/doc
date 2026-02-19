@@ -40,7 +40,7 @@ Die folgenden Anschlüsse/Funktionen sind für die Standardausführung vorgesehe
 ## Versorgungsempfehlung
 
 - Netzteil: **mindestens 15 W**
-- Absicherung: gemäß verwendetem **Netzteil (Zukauf)** und Installation durch Elektrofachkraft
+- Absicherung: gemäß verwendetem **Netzteil** und Installation durch Elektrofachkraft
 
 ## Fotos
 

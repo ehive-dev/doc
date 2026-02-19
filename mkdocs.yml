@@ -11,24 +11,14 @@ theme:
   features:
   - navigation.instant
   - navigation.tracking
-  - navigation.sections
   - navigation.top
   - toc.integrate
   - search.highlight
   - content.code.copy
   palette:
-  - scheme: slate
-    primary: black
-    accent: amber
-    toggle:
-      icon: material/weather-sunny
-      name: Hell
   - scheme: default
     primary: black
-    accent: amber
-    toggle:
-      icon: material/weather-night
-      name: Dunkel
+    accent: black
 
 markdown_extensions:
 - admonition
@@ -45,7 +35,6 @@ extra_css:
 - assets/stylesheets/extra.css
 
 nav:
-- Ueberblick: index.md
 - Erste Schritte:
   - Inbetriebnahme: getting-started.md
   - Zugriff und URLs: access.md

@@ -8,6 +8,7 @@ theme:
   name: material
   language: de
   font: false
+  logo: assets/images/ehive-logo-white.png
   features:
   - navigation.instant
   - navigation.tracking
@@ -17,7 +18,7 @@ theme:
   - content.code.copy
   palette:
   - scheme: default
-    primary: white
+    primary: black
     accent: black
 
 markdown_extensions:

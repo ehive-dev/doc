@@ -5,8 +5,6 @@
 - eHive One
 - Typenschild (Seriennummer am Gerät)
 
-> Abweichungen je nach Ausführung/Projektstand möglich.
-
 ## Montage
 
 - Montage auf **Hutschiene**.

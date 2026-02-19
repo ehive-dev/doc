@@ -11,11 +11,11 @@ Empfehlung:
 
 ## App‑Updates (über UI)
 
-Einige Apps bieten eine Update‑Funktion innerhalb der Web‑Oberfläche. Dort kann – je nach Projektstand – zwischen stabilen Versionen und Beta‑Versionen unterschieden werden.
+Einige Apps bieten eine Update‑Funktion innerhalb der Web‑Oberfläche. Dort können je nach Projektstand unterschiedliche Releasestände angezeigt werden.
 
 Hinweis:
 
-- In Beta‑Phasen können Updates Funktionen ändern oder vorübergehend instabil sein.
+- Während der Erprobung können Updates Funktionen ändern oder vorübergehend instabil sein.
 - Wenn das Gerät Teil einer größeren Anlagenintegration ist, sollten Updates durch den Installateur/Service abgestimmt werden.
 
 ## System‑Updates

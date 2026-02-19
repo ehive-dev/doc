@@ -1,14 +1,12 @@
 # Garantie & Haftung
 
-> Hinweis: Dieser Abschnitt ist eine allgemeine Vorlage und ersetzt keine Rechtsberatung. Für die finale Veröffentlichung sollte der Text rechtlich geprüft werden.
-
 ## Gewährleistung
 
 Es gelten die **gesetzlichen Gewährleistungsrechte**. Darüber hinaus wird – soweit gesetzlich zulässig – keine zusätzliche Garantie zugesagt.
 
-## Software‑Status (Beta)
+## Software‑Status
 
-Die auf eHive One bereitgestellten Apps können sich im **Beta‑Status** befinden. Es besteht kein Anspruch auf fehlerfreien Betrieb, bestimmte Funktionen oder dauerhafte Verfügbarkeit.
+Alle Apps außer **evcc** befinden sich in Erprobung. Für diese Apps wird keine Gewährleistung übernommen; ein Anspruch auf fehlerfreien Betrieb oder dauerhafte Verfügbarkeit besteht nicht. Der Funktionsumfang kann sich ändern, und Apps können wieder entfernt werden.
 
 ## Haftungsbeschränkung
 

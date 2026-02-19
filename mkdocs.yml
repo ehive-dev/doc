@@ -30,6 +30,9 @@ markdown_extensions:
 plugins:
 - search
 
+extra:
+  generator: false
+
 extra_css:
 - assets/stylesheets/extra.css
 

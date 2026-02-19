@@ -6,11 +6,11 @@ Diese Endanwender‑Doku beschreibt die Bedienung der wichtigsten eHive‑Apps. 
 
 ## Typische Komponenten (Beispiele)
 
-- EVCC (Ladesteuerung)
+- evcc
 - Home Assistant
 - Node‑RED
 - Grafana
 - Webmin
 - Homebridge
 
-> Welche Apps tatsächlich verfügbar sind, hängt vom installierten Image/Setup ab.
+> Hinweis: Alle Apps außer **evcc** befinden sich in Erprobung. Für diese Apps wird keine Gewährleistung übernommen, keine Verfügbarkeit zugesichert und sie können jederzeit wieder entfernt werden.

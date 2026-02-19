@@ -11,7 +11,7 @@ theme:
   - navigation.instant
   - navigation.tracking
   - navigation.top
-  - toc.integrate
+  - toc.follow
   - search.highlight
   - content.code.copy
   palette:

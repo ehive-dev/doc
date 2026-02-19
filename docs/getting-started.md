@@ -42,7 +42,7 @@ Netzteil-Empfehlung:
 
 ## Erste Schritte nach Login
 
-1. **Passwort ändern** (SmartHub kann dies beim ersten Login erzwingen).
-2. Optional: Hostname prüfen/anpassen.
+1. **Passwort ändern** (Klick auf Einstellung).
+2. Optional: Hostname anpassen.
 3. Optional: Netzwerk (DHCP/Statisch) konfigurieren.
-4. Bei Bedarf: Remote-Zugriff über Tunnel Manager einrichten (für Installateure/Service).
+4. Bei Bedarf: Remote-Zugriff über Tunnel Manager einrichten (für Installateure/Service). Für den Zugang wird das Admin Passwort benötigt.

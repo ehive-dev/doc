@@ -48,9 +48,6 @@ Zeigt u. a.:
 
 - Neustart über Button (Bestätigung erforderlich)
 
-## Hinweis: Apps hinzufügen
-
-Das nachträgliche Hinzufügen/Installieren weiterer Apps ("App‑Store") ist **nicht Teil** dieser Endanwender‑Dokumentation.
 
 
 ## Screenshots

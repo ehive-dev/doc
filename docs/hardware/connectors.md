@@ -14,7 +14,7 @@ Die folgenden Anschlüsse/Funktionen sind für die Standardausführung vorgesehe
 | Netzwerk | **RJ45 Ethernet (Gigabit)** | Netzwerkzugang; mit PoE |
 | USB | **USB‑C** | Erweiterungen (z. B. WLAN‑Stick, USB‑Peripherie); je nach System auch Service/Diagnose |
 | Feldbus | **RS485 (on‑board)** | Serielle Schnittstelle für Feld-/Zähler-/Gateway‑Anbindungen. **Klemmenbelegung: G (GND), B, A** |
-| Digitaleingang | **DI (EnWG §14a)** | Digitaler Eingang für ein **12 V‑Steuersignal** (nicht galvanisch getrennt) |
+| Digitaleingang | **DI (EnWG §14a)** | Digitaler Eingang für ein Steuersignal (nicht galvanisch getrennt), Es muss ein Relais Kontakt verwendet werden |
 
 
 ## RS485 (on‑board)
@@ -24,8 +24,8 @@ Die folgenden Anschlüsse/Funktionen sind für die Standardausführung vorgesehe
 
 ## Digitaler Eingang (EnWG §14a)
 
-- Eingangssignal: **12 V**
-- Hinweis: Der Eingang ist **nicht potentialfrei**. Anschluss nur gemäß Gerätespezifikation/Integrationsvorgaben.
+- Eingangssignal: Steuersignal
+- Hinweis: Der Eingang ist **nicht potentialfrei**. Es muss ein Relais Kontakt verwendet werden.
 
 ## Taster
 

@@ -20,7 +20,7 @@ Der Tunnel Manager richtet einen Remote‑Zugriff ein.
 2. Assistent/Setup starten.
 3. Der Manager erzeugt eine Remote‑Adresse nach dem Schema:
    - `<SERIAL>-<HASH>.<domain>`
-4. Ein **QR‑Code** kann angezeigt werden, um die URL schnell zu teilen.
+4. Ein **QR‑Code** kann angezeigt werden; abhängig vom Handy öffnet er die **evcc App** und richtet die Verbindung ein.
 
 ### 2) Hash neu erzeugen (Sicherheitsmaßnahme)
 

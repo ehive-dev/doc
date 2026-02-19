@@ -42,11 +42,6 @@ Die folgenden Anschlüsse/Funktionen sind für die Standardausführung vorgesehe
 - Netzteil: **mindestens 15 W**
 - Absicherung: gemäß verwendetem **Netzteil (Zukauf)** und Installation durch Elektrofachkraft
 
-## Quellen (Hardwarebasis)
-
-- Radxa ZERO 3E Product Brief (USB/Ethernet/PoE‑Hinweise):
-  - https://dl.radxa.com/zero3/docs/hw/3e/radxa_zero_3e_product_brief.pdf
-
 ## Fotos
 
 Ablage:

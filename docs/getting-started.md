@@ -16,7 +16,7 @@
 
 ## Versorgung
 
-Es gibt zwei Versorgungswege (je nach Variante):
+Es gibt zwei Versorgungswege:
 
 1. **12–30 V DC** über Schraub-/Push‑In‑Klemme
 2. **PoE (optional)** über Ethernet (wenn die Variante/Erweiterung PoE unterstützt)

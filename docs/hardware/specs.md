@@ -16,7 +16,7 @@
 | Netzteil-Empfehlung | **mind. 15 W** |
 | Schutzklasse | schutzisoliert (Kleinspannung) |
 
-## Geräteschnittstellen (eHive One)
+## Geräteschnittstellen
 
 | Schnittstelle | Beschreibung |
 |---|---|

@@ -1,11 +1,11 @@
 <div class="shop-hero">
   <h1>eHive One Dokumentation</h1>
-  <p>Kompakte Anleitungen für Inbetriebnahme, Betrieb und Service im eHive Shop-Stil.</p>
+  <p>Dokumentation im Aufbau wie im Shop: klare Bereiche, kurze Wege, reduzierte Gestaltung.</p>
 </div>
 
 ![eHive Logo](assets/images/ehive-logo.png){ width=220 }
 
-## Schnellzugriff
+## Kategorien
 
 <div class="shop-grid">
   <a class="shop-card" href="getting-started/">

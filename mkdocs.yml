@@ -15,18 +15,18 @@ theme:
   - search.highlight
   - content.code.copy
   palette:
-  - scheme: default
-    primary: black
-    accent: amber
-    toggle:
-      icon: material/weather-night
-      name: Dunkel
   - scheme: slate
     primary: black
     accent: amber
     toggle:
       icon: material/weather-sunny
       name: Hell
+  - scheme: default
+    primary: black
+    accent: amber
+    toggle:
+      icon: material/weather-night
+      name: Dunkel
 markdown_extensions:
 - admonition
 - toc:

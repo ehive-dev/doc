@@ -52,6 +52,10 @@ textarea {
   color: #111 !important;
 }
 
+.md-sidebar--primary .md-nav__title {
+  display: none;
+}
+
 .md-search__form {
   background: #f3f3f3;
 }

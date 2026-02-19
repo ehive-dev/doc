@@ -23,10 +23,3 @@
 | RS485 | On-board (Integration abhängig von Projekt/Parametrierung) |
 | DI (EnWG §14a) | Digitaler Eingang; Status über DI-LED sichtbar |
 | HDMI | **nicht Bestandteil der Standardausführung**, optional auf Anfrage |
-
-## Software
-
-| Merkmal | Wert |
-|---|---|
-| Betriebssystem | OpenArc |
-| Bedienung | Weboberflächen über SmartHub (Reverse Proxy) |

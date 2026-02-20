@@ -6,6 +6,7 @@
 2. NetMode nutzen:
    - 10 s → DHCP
    - 30 s → Default-IP 192.168.100.1
+   - Hinweis: NetMode setzt immer alle Zugangspasswörter zurück.
 3. Danach IP erneut ermitteln und SmartHub öffnen.
 
 ## App in SmartHub „off“

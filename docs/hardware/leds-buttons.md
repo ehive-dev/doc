@@ -4,6 +4,7 @@
 
 - Position: **unterhalb der RJ45‑Buchse**.
 - Zweck: Netzwerk‑Recovery (DHCP / Default‑IP).
+- Hinweis: NetMode setzt immer alle Zugangspasswörter zurück.
 
 Details siehe *Software → NetMode (Netzwerk‑Taster)*.
 

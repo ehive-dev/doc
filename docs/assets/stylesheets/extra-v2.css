@@ -39,7 +39,7 @@ textarea {
 }
 
 .md-header {
-  background: #fff;
+  background: #fff !important;
   border-bottom: 1px solid var(--ehive-border);
   box-shadow: none;
   min-height: 3.5rem;

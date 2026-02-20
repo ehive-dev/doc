@@ -34,7 +34,7 @@ extra:
   generator: false
 
 extra_css:
-- assets/stylesheets/extra.css
+- assets/stylesheets/extra-v2.css
 
 nav:
 - Erste Schritte:

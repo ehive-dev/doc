@@ -55,6 +55,7 @@ textarea {
 }
 
 .md-header__title {
+  display: none;
   font-size: 1.02rem;
   font-weight: 600;
 }

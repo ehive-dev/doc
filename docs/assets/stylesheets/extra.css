@@ -5,7 +5,6 @@
   --ehive-bg: #f5f6f7;
   --ehive-surface: #fff;
   --ehive-border: #dadde1;
-  --ehive-header-accent: #088178;
   --evcc-green: #00aa0f;
   --evcc-font: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell,
     "Noto Sans", sans-serif, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
@@ -40,17 +39,10 @@ textarea {
 }
 
 .md-header {
-  background: #fff;
+  background: #111;
   border-bottom: 1px solid var(--ehive-border);
   box-shadow: none;
-}
-
-.md-header__inner {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  max-width: 1080px;
-  padding: 0 20px;
+  min-height: 3.5rem;
 }
 
 .md-header__button,
@@ -59,75 +51,31 @@ textarea {
 .md-header .md-icon,
 .md-search__icon,
 .md-search__input {
-  color: var(--ehive-text) !important;
+  color: #fff !important;
 }
 
 .md-header__title {
-  display: none;
+  font-size: 1.02rem;
+  font-weight: 600;
 }
 
 .md-header__topic {
-  display: none;
+  font-size: 1.02rem;
+  font-weight: 600;
 }
 
 .md-header__topic + .md-header__topic {
   display: none;
 }
 
-.md-header__button.md-logo {
-  margin: 0;
-  padding: 0;
-}
-
 .md-header__button.md-logo img,
 .md-header__button.md-logo svg {
-  width: 196px;
-  height: 56px;
-  object-fit: contain;
-}
-
-.ehive-shop-header-links {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  margin-left: auto;
-}
-
-.ehive-shop-header-links a {
-  color: var(--ehive-text-soft);
-  font-weight: 700;
-  padding: 8px 2px;
-  display: inline-flex;
-  align-items: center;
-  line-height: 1;
-  border-bottom: 2px solid transparent;
-}
-
-.ehive-shop-header-links a:hover {
-  color: var(--ehive-text);
-  border-bottom-color: rgb(0 0 0 / 12%);
-}
-
-.ehive-shop-header-links a[aria-current="page"] {
-  color: var(--ehive-text);
-  border-bottom-color: var(--ehive-header-accent);
-}
-
-.md-header__option {
-  display: none;
-}
-
-.md-header__button.md-icon {
-  border: none;
-  padding: 8px;
+  height: 2.45rem;
+  width: auto;
 }
 
 .md-search__form {
-  background: rgb(17 17 17 / 6%);
-}
-
-.md-search__input::placeholder {
-  color: var(--ehive-text-soft);
+  background: rgb(255 255 255 / 12%);
 }
 
 .md-sidebar--primary .md-nav__title {
@@ -200,23 +148,6 @@ textarea {
   border-radius: 6px;
   border: 1px solid var(--ehive-border);
   box-shadow: none;
-}
-
-@media screen and (max-width: 76.2344em) {
-  .md-header__inner {
-    padding: 0 16px;
-    gap: 10px;
-  }
-
-  .ehive-shop-header-links {
-    display: none;
-  }
-
-  .md-header__button.md-logo img,
-  .md-header__button.md-logo svg {
-    width: 120px;
-    height: 34px;
-  }
 }
 
 @media screen and (min-width: 60em) {

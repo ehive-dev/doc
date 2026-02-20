@@ -2,7 +2,7 @@
 
 ## Lokal im Netzwerk
 
-Zugriff erfolgt über das zentrale Dashboard **SmartHub** (Reverse Proxy). Einzelne App-Ports sind für Endanwender in der Regel **nicht relevant**. Ausgenommen ist **evcc** mit Port **7070**.
+Zugriff erfolgt über das zentrale Dashboard **SmartHub**. Einzelne App-Ports sind für Endanwender in der Regel **nicht relevant**. Ausgenommen ist **evcc** mit Port **7070**.
 
 Öffnen im Browser:
 

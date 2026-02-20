@@ -10,4 +10,4 @@ Wenn Sie konkrete Dokument-IDs oder Nachweise benötigen (z. B. für Abnahme/P
 
 ## Support
 
-- E‑Mail: suppport-eHive@gmx.de
+- E‑Mail: support-eHive@gmx.de

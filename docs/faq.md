@@ -18,7 +18,7 @@ Empfehlung: nach Inbetriebnahme ändern.
 
 ## Warum gibt es kein HTTPS?
 
-Lokal wird nur **HTTP** bereitgestellt. Für Zugriff über das Internet ausschließlich die Remote‑Lösung (Tunnel Manager) mit Zugriffsschutz verwenden.
+Lokal wird nur **HTTP** bereitgestellt. Für den Zugriff über das Internet ausschließlich die Remote‑Lösung (Tunnel Manager) mit Zugriffsschutz verwenden. Zwischen eHive und kritischer Infrastruktur (Firmennetzwerk) muss eine Firewall verwendet werden.
 
 ## Wie exportiere ich Daten aus WattRadar?
 

@@ -1,10 +1,5 @@
 # Inbetriebnahme
 
-## Lieferumfang (typisch)
-
-- eHive One
-- Typenschild (Seriennummer am Gerät)
-
 ## Montage
 
 - Montage auf **Hutschiene**.
@@ -17,10 +12,10 @@
 Es gibt zwei Versorgungswege:
 
 1. **12–30 V DC** über Schraub-/Push‑In‑Klemme
-2. **PoE:** über Ethernet (wenn die Variante/Erweiterung PoE unterstützt)
+2. **PoE:** über Ethernet (wenn PoE vorhanden)
 
 Netzteil-Empfehlung:
-- **mindestens 15 W** (zusätzlich zu angeschlossenen USB‑Erweiterungen berücksichtigen)
+- **mindestens 15 W**
 
 ## Netzwerk
 
@@ -40,7 +35,7 @@ Netzteil-Empfehlung:
 
 ## Erste Schritte nach Login
 
-1. **Passwort ändern** (Klick auf Einstellung).
+1. **Passwort ändern** (Klick auf Einstellungen).
 2. Optional: Hostname anpassen.
 3. Optional: Netzwerk (DHCP/Statisch) konfigurieren.
-4. Bei Bedarf: Remote-Zugriff über Tunnel Manager einrichten (für Installateure/Service). Für den Zugang wird das Admin Passwort benötigt.
+4. Bei Bedarf: Remote-Zugriff über Tunnel Manager einrichten (für Installateure/Service). Für den Zugang wird das Admin-Passwort benötigt.

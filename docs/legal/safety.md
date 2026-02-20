@@ -15,7 +15,7 @@
 ## Support
 
 - Hersteller: Loher ECS
-- Kontakt: `suppport-eHive@gmx.de`
+- Kontakt: `support-eHive@gmx.de`
 
 ## Rechtliches
 

@@ -39,7 +39,7 @@ textarea {
 }
 
 .md-header {
-  background: #111;
+  background: #fff;
   border-bottom: 1px solid var(--ehive-border);
   box-shadow: none;
   min-height: 3.5rem;
@@ -51,7 +51,7 @@ textarea {
 .md-header .md-icon,
 .md-search__icon,
 .md-search__input {
-  color: #fff !important;
+  color: var(--ehive-text) !important;
 }
 
 .md-header__title {
@@ -75,7 +75,11 @@ textarea {
 }
 
 .md-search__form {
-  background: rgb(255 255 255 / 12%);
+  background: rgb(17 17 17 / 6%);
+}
+
+.md-search__input::placeholder {
+  color: var(--ehive-text-soft);
 }
 
 .md-sidebar--primary .md-nav__title {

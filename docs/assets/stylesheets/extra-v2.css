@@ -83,6 +83,23 @@ textarea {
   color: var(--ehive-text-soft);
 }
 
+.md-header-shop-link {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  color: var(--ehive-text);
+  font-weight: 700;
+  padding: 8px 2px;
+  line-height: 1;
+  border-bottom: 2px solid transparent;
+  text-decoration: none;
+}
+
+.md-header-shop-link:hover {
+  color: var(--ehive-text);
+  border-bottom-color: rgb(0 0 0 / 12%);
+}
+
 .md-sidebar--primary .md-nav__title {
   display: none;
 }
@@ -167,5 +184,11 @@ textarea {
 
   [dir="rtl"] .md-sidebar--primary .md-nav--primary .md-nav__link .md-nav__icon {
     margin-left: 0.45rem;
+  }
+}
+
+@media screen and (max-width: 44.9375em) {
+  .md-header-shop-link {
+    display: none;
   }
 }

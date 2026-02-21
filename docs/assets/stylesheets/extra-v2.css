@@ -186,9 +186,3 @@ textarea {
     margin-left: 0.45rem;
   }
 }
-
-@media screen and (max-width: 44.9375em) {
-  .md-header-shop-link {
-    display: none;
-  }
-}

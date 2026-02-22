@@ -12,17 +12,17 @@
 
 ![eHive One Gesamtansicht](../assets/images/eHiveOne.png)
 
-### Draufsicht (transparent)
+### Draufsicht
 
-![eHive One Draufsicht transparent](../assets/images/eHive_Draufsicht.png)
+![eHive One Draufsicht](../assets/images/eHiveOne_Draufsicht.png)
 
 ### Anschlussseite oben
 
-![eHive One Anschlussseite oben](../assets/images/eHive_oben.png)
+![eHive One Anschlussseite oben](../assets/images/eHiveOne_Oben.PNG)
 
 ### Anschlussseite unten
 
-![eHive One Anschlussseite unten](../assets/images/eHive_unten.png)
+![eHive One Anschlussseite unten](../assets/images/eHiveOne_Unten.PNG)
 
 ## Bestimmungsgemäße Verwendung
 

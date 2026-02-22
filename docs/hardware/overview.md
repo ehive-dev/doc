@@ -6,6 +6,24 @@
 - **Hersteller:** Loher ECS (Projekt/Plattform: eHive)
 - **Geräteklasse:** Hutschienen-PC für Linux-basierte Dienste (z. B. Energiemonitoring, Remote-Zugriff, Smart‑Home‑Integration)
 
+## Produktansichten
+
+### Gesamtansicht (Render)
+
+![eHive One Gesamtansicht](../assets/images/eHiveOne.png)
+
+### Draufsicht (transparent)
+
+![eHive One Draufsicht transparent](../assets/images/eHive_Draufsicht.png)
+
+### Anschlussseite oben
+
+![eHive One Anschlussseite oben](../assets/images/eHive_oben.png)
+
+### Anschlussseite unten
+
+![eHive One Anschlussseite unten](../assets/images/eHive_unten.png)
+
 ## Bestimmungsgemäße Verwendung
 
 eHive One ist für den Betrieb in Niederspannungs-Umgebungen vorgesehen und wird üblicherweise im Schaltschrank eingesetzt. Die Software ist auf Bedienung über Weboberflächen ausgelegt.

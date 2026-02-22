@@ -12,8 +12,8 @@
       link = document.createElement("a");
       link.className = "md-header-shop-link";
       link.href = SHOP_URL;
-      link.textContent = "Shop";
-      link.setAttribute("aria-label", "Zum Shop");
+      link.textContent = "Produktseite";
+      link.setAttribute("aria-label", "Zur Produktseite");
 
       const searchToggle = headerInner.querySelector('label.md-header__button[for="__search"]');
       if (searchToggle) {

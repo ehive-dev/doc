@@ -1,0 +1,191 @@
+:root {
+  --ehive-black: #111;
+  --ehive-text: #1f1f1f;
+  --ehive-text-soft: #606770;
+  --ehive-bg: #f5f6f7;
+  --ehive-surface: #fff;
+  --ehive-border: #dadde1;
+  --evcc-green: #00aa0f;
+  --evcc-font: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell,
+    "Noto Sans", sans-serif, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+[data-md-color-scheme="default"] {
+  --md-default-fg-color: var(--ehive-text);
+  --md-default-fg-color--light: var(--ehive-text-soft);
+  --md-default-bg-color: var(--ehive-bg);
+  --md-primary-fg-color: var(--ehive-surface);
+  --md-primary-bg-color: var(--ehive-black);
+  --md-accent-fg-color: var(--evcc-green);
+}
+
+body,
+input,
+button,
+select,
+textarea {
+  font-family: var(--evcc-font);
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-header__title,
+.md-header__topic,
+.md-nav,
+.md-nav__link {
+  font-family: var(--evcc-font);
+}
+
+.md-header {
+  background: #fff !important;
+  border-bottom: 1px solid var(--ehive-border);
+  box-shadow: none;
+  min-height: 3.5rem;
+}
+
+.md-header__button,
+.md-header__title,
+.md-header__topic,
+.md-header .md-icon,
+.md-search__icon,
+.md-search__input {
+  color: var(--ehive-text) !important;
+}
+
+.md-header__title {
+  display: none;
+  font-size: 1.02rem;
+  font-weight: 600;
+}
+
+.md-header__topic {
+  font-size: 1.02rem;
+  font-weight: 600;
+}
+
+.md-header__topic + .md-header__topic {
+  display: none;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 2.1rem;
+  width: auto;
+  max-width: none;
+  object-fit: contain;
+  image-rendering: auto;
+}
+
+.md-search__form {
+  background: rgb(17 17 17 / 6%);
+}
+
+.md-search__input::placeholder {
+  color: var(--ehive-text-soft);
+}
+
+.md-header-shop-link {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  color: var(--ehive-text);
+  font-weight: 700;
+  padding: 8px 2px;
+  line-height: 1;
+  border-bottom: 2px solid transparent;
+  text-decoration: none;
+}
+
+.md-header-shop-link:hover {
+  color: var(--ehive-text);
+  border-bottom-color: rgb(0 0 0 / 12%);
+}
+
+.md-sidebar--primary .md-nav__title {
+  display: none;
+}
+
+.md-sidebar--primary .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link,
+.md-sidebar--primary .md-nav--primary > .md-nav__list > .md-nav__item > label.md-nav__link {
+  font-size: 0.92rem;
+  line-height: 1.4;
+  font-weight: 600;
+  margin: 0;
+  padding-top: 0.34rem;
+  padding-bottom: 0.34rem;
+}
+
+.md-sidebar--primary .md-nav--primary .md-nav__item .md-nav .md-nav__link,
+.md-sidebar--primary .md-nav--primary .md-nav__item .md-nav label.md-nav__link {
+  font-size: 0.79rem;
+  line-height: 1.4;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 0.32rem;
+  padding-bottom: 0.32rem;
+}
+
+.md-sidebar--primary .md-nav--primary .md-nav__item .md-nav .md-nav__link--active,
+.md-sidebar--primary .md-nav--primary .md-nav__item .md-nav label.md-nav__link--active {
+  font-size: 0.79rem;
+  font-weight: 500;
+}
+
+.md-sidebar--primary .md-nav__link--active,
+.md-sidebar--primary .md-nav__link--active:hover,
+.md-sidebar--secondary .md-nav__link--active {
+  color: var(--evcc-green) !important;
+  font-weight: 600;
+}
+
+.md-sidebar--primary .md-nav__link:hover,
+.md-sidebar--secondary .md-nav__link:hover {
+  color: var(--evcc-green);
+}
+
+.md-sidebar--secondary .md-nav__title {
+  color: var(--ehive-text-soft);
+  font-size: 0.76rem;
+  font-weight: 600;
+}
+
+.md-sidebar--secondary .md-nav__link {
+  color: var(--ehive-text-soft);
+  font-size: 0.79rem;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.md-typeset a {
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+.md-typeset a:hover {
+  color: #000;
+  text-decoration: underline;
+  text-underline-offset: 0.14em;
+}
+
+.md-typeset img {
+  border-radius: 6px;
+  border: 1px solid var(--ehive-border);
+  box-shadow: none;
+}
+
+@media screen and (min-width: 60em) {
+  .md-sidebar--primary {
+    margin-left: -0.65rem;
+    margin-right: 0.9rem;
+  }
+
+  [dir="ltr"] .md-sidebar--primary .md-nav--primary .md-nav__link .md-nav__icon {
+    margin-right: 0.45rem;
+  }
+
+  [dir="rtl"] .md-sidebar--primary .md-nav--primary .md-nav__link .md-nav__icon {
+    margin-left: 0.45rem;
+  }
+}

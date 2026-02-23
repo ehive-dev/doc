@@ -69,13 +69,24 @@ textarea {
   display: none;
 }
 
+.md-header__button.md-logo {
+  width: 176px;
+  min-width: 176px;
+  margin-right: 12px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+}
+
 .md-header__button.md-logo img,
 .md-header__button.md-logo svg {
-  height: 2.1rem;
-  width: auto;
-  max-width: none;
+  width: 100%;
+  height: auto;
+  max-height: none;
   object-fit: contain;
+  object-position: left center;
   image-rendering: auto;
+  display: block;
 }
 
 .md-search__form {
@@ -173,6 +184,14 @@ textarea {
   border-radius: 6px;
   border: 1px solid var(--ehive-border);
   box-shadow: none;
+}
+
+@media screen and (max-width: 44.9375em) {
+  .md-header__button.md-logo {
+    width: 132px;
+    min-width: 132px;
+    margin-right: 8px;
+  }
 }
 
 @media screen and (min-width: 60em) {

@@ -11,11 +11,11 @@
 
 Es gibt zwei Versorgungswege:
 
-1. **12–30 V DC** über Schraub-/Push‑In‑Klemme
+1. **12–30 V DC** über Schraub-/Push-In-Klemme
 2. **PoE:** über Ethernet (wenn PoE vorhanden)
 
 Netzteil-Empfehlung:
-- **mindestens 15 W**
+- **mindestens 15 W**
 
 ## Netzwerk
 
@@ -29,13 +29,18 @@ Netzteil-Empfehlung:
 2. Browser öffnen:
    - `http://ehiveone.local/`
    - oder `http://<IP-ADRESSE>/`
-3. Login:
+3. Wenn `ehiveone.local` nicht funktioniert:
+   - IP in Router-/DHCP-Liste nachsehen
+   - bei Fehlkonfiguration `NetMode` verwenden (siehe *Software → NetMode (Netzwerk-Taster)*)
+4. Login:
    - Benutzer: `admin`
    - Passwort: (wurde bei der Integration geändert)
 
+> Hinweis: `NetMode` setzt immer alle Zugangspasswörter zurück.
+
 ## Erste Schritte nach Login
 
-1. **Passwort ändern** (Klick auf Einstellungen).
+1. **Passwort ändern** (`SmartHub -> Einstellungen`).
 2. Optional: Hostname anpassen.
 3. Optional: Netzwerk (DHCP/Statisch) konfigurieren.
 4. Bei Bedarf: Remote-Zugriff über Tunnel Manager einrichten (für Installateure/Service). Für den Zugang wird das Admin-Passwort benötigt.

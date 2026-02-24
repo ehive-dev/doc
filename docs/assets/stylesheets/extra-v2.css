@@ -114,10 +114,6 @@ textarea {
   border-bottom-color: rgb(0 0 0 / 12%);
 }
 
-.md-sidebar--primary .md-nav__title {
-  display: none;
-}
-
 .md-sidebar--primary .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link,
 .md-sidebar--primary .md-nav--primary > .md-nav__list > .md-nav__item > label.md-nav__link {
   font-size: 0.92rem;
@@ -195,6 +191,12 @@ textarea {
 }
 
 @media screen and (min-width: 60em) {
+  /* Hide only the redundant root title on desktop, keep mobile back-navigation titles visible */
+  .md-sidebar--primary .md-nav--primary > .md-nav__title,
+  .md-sidebar--primary .md-nav--primary > label.md-nav__title {
+    display: none;
+  }
+
   .md-sidebar--primary {
     margin-left: -0.65rem;
     margin-right: 0.9rem;

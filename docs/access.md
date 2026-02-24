@@ -9,6 +9,11 @@ Zugriff erfolgt über das zentrale Dashboard **SmartHub**. Einzelne App-Ports si
 - `http://ehiveone.local/`
 - `http://<IP-ADRESSE>/`
 
+Wenn `ehiveone.local` nicht funktioniert:
+
+- IP in Router-/DHCP-Liste ermitteln
+- bei Fehlkonfiguration `NetMode` nutzen (siehe *Software → NetMode (Netzwerk-Taster)*)
+
 ## Standard-Zugang
 
 - Benutzer: `admin`
@@ -16,4 +21,5 @@ Zugriff erfolgt über das zentrale Dashboard **SmartHub**. Einzelne App-Ports si
 
 Empfehlung:
 - Passwort nach Inbetriebnahme ändern.
+- Lokal wird nur **HTTP** bereitgestellt (kein HTTPS).
 - Remote-Zugriff nur gezielt aktivieren (siehe *Software → Tunnel Manager*).

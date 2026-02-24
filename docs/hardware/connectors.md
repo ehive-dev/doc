@@ -11,7 +11,7 @@ Die folgenden Anschlüsse/Funktionen sind für die Standardausführung vorgesehe
 | Bereich | Element | Zweck / Hinweis |
 |---|---|---|
 | Versorgung | **12–30 V DC** (Schraub-/Push‑In‑Klemme) | Kleinspannungsversorgung, Polung gemäß Beschriftung am Gerät |
-| Netzwerk | **RJ45 Ethernet (Gigabit)** | Netzwerkzugang; optional mit PoE (je nach Variante) |
+| Netzwerk | **RJ45 Ethernet (Gigabit)** | Netzwerkzugang; optional mit PoE |
 | USB | **USB‑C** | Erweiterungen (z. B. WLAN‑Stick, USB‑Peripherie); je nach System auch Service/Diagnose |
 | Feldbus | **RS485 (on‑board)** | Serielle Schnittstelle für Feld-/Zähler-/Gateway‑Anbindungen. **Klemmenbelegung: G (GND), B, A** |
 | Digitaleingang | **DI (EnWG §14a)** | Digitaler Eingang für ein Steuersignal (nicht galvanisch getrennt). Es muss ein Relaiskontakt verwendet werden |
@@ -30,7 +30,7 @@ Die folgenden Anschlüsse/Funktionen sind für die Standardausführung vorgesehe
 ## Taster
 
 - **Reset/NetMode‑Taster:** unterhalb der RJ45‑Buchse.
-  - Funktion: Netzwerk‑Recovery (DHCP/Default‑IP) → siehe *Software → NetMode*.
+  - Funktion: Netzwerk und Passwort‑Recovery (DHCP/Default‑IP) → siehe *Software → NetMode*.
 
 ## LEDs
 

@@ -2,11 +2,7 @@
 
 ## Übersicht
 
-Die folgende Abbildung zeigt die Position der Schnittstellen am Gerät.
-
-![Schnittstellenübersicht (DI/RS485 oben, Versorgung/RJ45 unten, USB‑C seitlich)](../assets/images/ports-overview.png)
-
-## Fotoansichten der Anschlussseiten
+Die folgenden Fotoansichten zeigen die Position der Schnittstellen am Gerät.
 
 ### Front-/Labelseite (USB-C und QR-Login)
 

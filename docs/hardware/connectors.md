@@ -6,6 +6,20 @@ Die folgende Abbildung zeigt die Position der Schnittstellen am Gerät.
 
 ![Schnittstellenübersicht (DI/RS485 oben, Versorgung/RJ45 unten, USB‑C seitlich)](../assets/images/ports-overview.png)
 
+## Fotoansichten der Anschlussseiten
+
+### Front-/Labelseite (USB-C und QR-Login)
+
+![eHive One Front-/Labelseite](../assets/images/eHiveOne_Draufsicht.png)
+
+### Ethernet + Versorgung + NetMode-Taster
+
+![eHive One Anschlussseite Ethernet und Versorgung](../assets/images/eHiveOne_Oben.PNG)
+
+### RS485-/DI-Klemmenseite
+
+![eHive One Anschlussseite RS485 und DI](../assets/images/eHiveOne_Unten.PNG)
+
 Die folgenden Anschlüsse/Funktionen sind für die Standardausführung vorgesehen.
 
 | Bereich | Element | Zweck / Hinweis |
@@ -31,6 +45,7 @@ Die folgenden Anschlüsse/Funktionen sind für die Standardausführung vorgesehe
 
 - **Reset/NetMode‑Taster:** unterhalb der RJ45‑Buchse.
   - Funktion: Netzwerk und Passwort‑Recovery (DHCP/Default‑IP) → siehe *Software → NetMode*.
+  - Position siehe Foto: *Ethernet + Versorgung + NetMode-Taster*.
 
 ## LEDs
 

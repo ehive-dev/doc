@@ -6,6 +6,8 @@
 - Zweck: Netzwerk‑Recovery (DHCP / Default‑IP).
 - Hinweis: NetMode setzt immer alle Zugangspasswörter zurück.
 
+![Position des NetMode‑Tasters unterhalb der RJ45‑Buchse](../assets/images/eHiveOne_Oben.PNG)
+
 Details siehe *Software → NetMode (Netzwerk‑Taster)*.
 
 ## NetMode‑LED

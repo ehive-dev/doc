@@ -8,21 +8,23 @@
 
 ## Produktansichten
 
-### Gesamtansicht (Render)
+### Gesamtansicht (Perspektive)
 
 ![eHive One Gesamtansicht](../assets/images/eHiveOne.png)
 
-### Draufsicht
+### Frontansicht (Labelseite mit USB-C)
 
-![eHive One Draufsicht](../assets/images/eHiveOne_Draufsicht.png)
+![eHive One Frontansicht](../assets/images/eHiveOne_Draufsicht.png)
 
-### Anschlussseite oben
+### Anschlussseite Ethernet + Versorgung (RJ45, 12-30 V DC, Taster)
 
-![eHive One Anschlussseite oben](../assets/images/eHiveOne_Oben.PNG)
+![eHive One Anschlussseite Ethernet und Versorgung](../assets/images/eHiveOne_Oben.PNG)
 
-### Anschlussseite unten
+### Anschlussseite RS485 + DI (Klemmen)
 
-![eHive One Anschlussseite unten](../assets/images/eHiveOne_Unten.PNG)
+![eHive One Anschlussseite RS485 und DI](../assets/images/eHiveOne_Unten.PNG)
+
+Hinweis: Detaillierte Klemmen- und Tasterbeschreibung siehe *Gerät -> Anschlüsse und Bedienelemente*.
 
 ## Bestimmungsgemäße Verwendung
 

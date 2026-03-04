@@ -182,6 +182,17 @@ textarea {
   box-shadow: none;
 }
 
+.md-typeset video.ehive-video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 0 !important;
+  outline: 0;
+  box-shadow: none;
+  border-radius: 0;
+  background: transparent;
+}
+
 @media screen and (max-width: 44.9375em) {
   .md-header__button.md-logo {
     width: 132px;

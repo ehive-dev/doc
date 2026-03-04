@@ -2,7 +2,7 @@
 
 ## Produktvideo
 
-<video controls preload="metadata" width="100%">
+<video class="ehive-video" autoplay loop muted playsinline preload="metadata" width="100%">
   <source src="../assets/videos/ehive-doc.mp4" type="video/mp4">
   Ihr Browser unterstützt kein HTML5-Video.
 </video>

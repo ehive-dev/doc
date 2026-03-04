@@ -1,5 +1,12 @@
 # eHive One Dokumentation
 
+## Produktvideo
+
+<video controls preload="metadata" width="100%">
+  <source src="assets/videos/ehive-doc.mp4" type="video/mp4">
+  Ihr Browser unterstützt kein HTML5-Video.
+</video>
+
 ## Schnellstart
 
 1. Gerät montieren und versorgen:

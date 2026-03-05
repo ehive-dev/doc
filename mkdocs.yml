@@ -60,9 +60,11 @@ nav:
   - Updates: maintenance/updates.md
   - Backup und Wiederherstellung: maintenance/backup-restore.md
   - Troubleshooting: maintenance/troubleshooting.md
+- Support-Prozess: support.md
 - FAQ: faq.md
 - Changelog: changelog.md
 - Rechtliches:
   - Hinweise und Sicherheit: legal/safety.md
   - Garantie und Haftung: legal/warranty-liability.md
   - Konformität: legal/compliance.md
+  - Licensing (Open Source): legal/licensing.md

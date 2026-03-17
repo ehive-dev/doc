@@ -4,7 +4,7 @@
 
 Die folgenden Fotoansichten zeigen die Position der Schnittstellen am Gerät.
 
-### Front-/Labelseite (USB-C und QR-Login)
+### QR mit USB-C
 
 ![eHive One Front-/Labelseite](../assets/images/eHiveOne_Draufsicht.png)
 
@@ -12,7 +12,7 @@ Die folgenden Fotoansichten zeigen die Position der Schnittstellen am Gerät.
 
 ![eHive One Anschlussseite Ethernet und Versorgung](../assets/images/eHiveOne_Oben.PNG)
 
-### RS485-/DI-Klemmenseite
+### RJ45, 12-30 V DC, NetMode Taster + LED
 
 ![eHive One Anschlussseite RS485 und DI](../assets/images/eHiveOne_Unten.PNG)
 
@@ -23,11 +23,11 @@ Die folgenden Anschlüsse/Funktionen sind für die Standardausführung vorgesehe
 | Versorgung | **12–30 V DC** (Schraub-/Push‑In‑Klemme) | Kleinspannungsversorgung, Polung gemäß Beschriftung am Gerät |
 | Netzwerk | **RJ45 Ethernet (Gigabit)** | Netzwerkzugang; optional mit PoE |
 | USB | **USB‑C** | Erweiterungen (z. B. WLAN‑Stick, USB‑Peripherie); je nach System auch Service/Diagnose |
-| Feldbus | **RS485 (on‑board)** | Serielle Schnittstelle für Feld-/Zähler-/Gateway‑Anbindungen. **Klemmenbelegung: G (GND), B, A** |
+| Feldbus | **RS485** | Serielle Schnittstelle für Feld-/Zähler-/Gateway‑Anbindungen. **Klemmenbelegung: G (GND), B, A** |
 | Digitaleingang | **DI (EnWG §14a)** | Digitaler Eingang für ein Steuersignal (nicht galvanisch getrennt). Es muss ein Relaiskontakt verwendet werden |
 
 
-## RS485 (on‑board)
+## RS485
 
 - Klemmen: **G (GND)**, **B**, **A**
 - Verwendung: Integrationsabhängig (z. B. Zähler/Gateway/Feldbus‑Anbindungen)

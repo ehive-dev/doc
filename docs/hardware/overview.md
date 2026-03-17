@@ -1,33 +1,27 @@
 # Gerät – Überblick & Sicherheit
 
-## Produktvideo
-
-<video class="ehive-video" autoplay loop muted playsinline preload="metadata" width="100%">
-  <source src="../assets/videos/ehive-doc.mp4" type="video/mp4">
-  Ihr Browser unterstützt kein HTML5-Video.
-</video>
-
 ## Produkt
 
 - **Gerätename:** eHive One
 - **Hersteller:** Loher ECS (Projekt/Plattform: eHive)
 - **Geräteklasse:** Hutschienen-PC für Linux-basierte Dienste (z. B. Energiemonitoring, Remote-Zugriff, Smart‑Home‑Integration)
+- **Speicher:** Im eHive One werden ausschließlich hochwertige SLC-Speicher verwendet, ausgelegt für bis zu **100.000 Schreib-/Lesezyklen** und geeignet für höhere Betriebstemperaturen
 
 ## Produktansichten
 
-### Gesamtansicht (Perspektive)
+### Gesamtansicht 
 
 ![eHive One Gesamtansicht](../assets/images/eHiveOne.png)
 
-### Frontansicht (Labelseite mit USB-C)
+### QR mit USB-C
 
 ![eHive One Frontansicht](../assets/images/eHiveOne_Draufsicht.png)
 
-### Anschlussseite Ethernet + Versorgung (RJ45, 12-30 V DC, Taster)
+### RJ45, 12-30 V DC, NetMode Taster + LED
 
 ![eHive One Anschlussseite Ethernet und Versorgung](../assets/images/eHiveOne_Oben.PNG)
 
-### Anschlussseite RS485 + DI (Klemmen)
+### RS485 + DI
 
 ![eHive One Anschlussseite RS485 und DI](../assets/images/eHiveOne_Unten.PNG)
 

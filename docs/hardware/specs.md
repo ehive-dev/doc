@@ -16,6 +16,14 @@
 | Netzteil-Empfehlung | **mind. 15 W** |
 | Schutzklasse | schutzisoliert (Kleinspannung) |
 
+## Speicher
+
+| Merkmal | Wert |
+|---|---|
+| Speichertechnologie | Hochwertiger **SLC-Speicher** |
+| Ausdauer | Ausgelegt für bis zu **100.000 Schreib-/Lesezyklen** |
+| Temperaturverhalten | Geeignet für **höhere Betriebstemperaturen** |
+
 ## Geräteschnittstellen
 
 | Schnittstelle | Beschreibung |

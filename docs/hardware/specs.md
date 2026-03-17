@@ -22,7 +22,7 @@
 |---|---|
 | Speichertechnologie | Hochwertiger **SLC-Speicher** |
 | Ausdauer | Ausgelegt für bis zu **100.000 Schreib-/Lesezyklen** |
-| Temperaturverhalten | Geeignet für **höhere Betriebstemperaturen** |
+| Temperaturbereich | **-40°C bis +85°C** |
 
 ## Geräteschnittstellen
 

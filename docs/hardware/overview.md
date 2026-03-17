@@ -5,7 +5,7 @@
 - **Gerätename:** eHive One
 - **Hersteller:** Loher ECS (Projekt/Plattform: eHive)
 - **Geräteklasse:** Hutschienen-PC für Linux-basierte Dienste (z. B. Energiemonitoring, Remote-Zugriff, Smart‑Home‑Integration)
-- **Speicher:** Im eHive One werden ausschließlich hochwertige SLC-Speicher verwendet, ausgelegt für bis zu **100.000 Schreib-/Lesezyklen** und geeignet für höhere Betriebstemperaturen
+- **Speicher:** Im eHive One werden ausschließlich hochwertige SLC-Speicher verwendet, ausgelegt für bis zu **100.000 Schreib-/Lesezyklen** sowie einen Temperaturbereich von **-40°C bis +85°C**, was den zuverlässigen Einsatz in extremen Umgebungen ermöglicht
 
 ## Produktansichten
 

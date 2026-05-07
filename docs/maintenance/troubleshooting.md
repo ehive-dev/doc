@@ -15,11 +15,15 @@
 2. `ehiveone.local` funktioniert nicht:
    - direkten IP-Aufruf im Browser testen.
    - alternativ zweiten Browser/Privatmodus verwenden.
-3. Bei falscher Netzkonfiguration:
+3. Update-/Rettungsoberfläche testen:
+   - `http://<IP-ADRESSE>/update/`
+   - `http://<IP-ADRESSE>:3003/`
+   - Wenn diese Oberfläche erreichbar ist, kann SmartHub dort neu gestartet oder aktualisiert werden.
+4. Bei falscher Netzkonfiguration:
    - NetMode `10 s` -> DHCP
    - NetMode `30 s` -> `192.168.100.1`
    - Hinweis: NetMode setzt alle Zugangspasswörter zurück.
-4. Danach SmartHub erneut öffnen und Login prüfen.
+5. Danach SmartHub erneut öffnen und Login prüfen.
 
 ## App in SmartHub "off"
 

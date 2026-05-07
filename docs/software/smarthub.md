@@ -48,6 +48,16 @@ Zeigt u. a.:
 
 - Neustart über Button (Bestätigung erforderlich)
 
+### Updates und Wiederherstellung
+
+SmartHub stellt eine Update-/Rettungsoberfläche bereit:
+
+- `http://ehiveone.local/update/`
+- `http://<IP-ADRESSE>/update/`
+- `http://<IP-ADRESSE>:3003/` als direkter Rettungszugriff
+
+Details: [Updates](../maintenance/updates.md) und [Backup und Wiederherstellung](../maintenance/backup-restore.md).
+
 
 
 ## Screenshots

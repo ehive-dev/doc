@@ -33,6 +33,8 @@ Weiterführend:
 
 - [Inbetriebnahme](getting-started.md)
 - [Zugriff & URLs](access.md)
+- [Updates](maintenance/updates.md)
+- [Backup und Wiederherstellung](maintenance/backup-restore.md)
 - [NetMode (Netzwerk-Taster)](software/netmode.md)
 - [Troubleshooting](maintenance/troubleshooting.md)
 

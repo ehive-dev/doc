@@ -33,6 +33,8 @@ Ab SmartHub `1.1.4` leitet Caddy bei einem Ausfall des SmartHub-Dienstes automat
 
 Während des Updates wird vorab ein SmartHub-Rollback-Backup angelegt. Dieses Backup ist für das Zurückrollen eines SmartHub-Updates gedacht und ersetzt kein vollständiges System-Backup.
 
+Ab SmartHub `1.1.5` kann zusätzlich im Bereich **System-Backup** ein portables Backup auf USB erstellt, geprüft und heruntergeladen werden. Ein wöchentlicher USB-Backup-Timer wird automatisch eingerichtet und überspringt den Lauf ohne Fehler, wenn kein USB-Stick eingesteckt ist.
+
 ## Wenn ein Update fehlschlägt
 
 1. Update-Log vollständig lesen.

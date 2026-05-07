@@ -5,7 +5,7 @@
 Ein Backup soll den Ist-Zustand des eHive-Systems sichern, damit ein Gerät nach einem Update, Defekt oder Austausch wieder auf den bekannten Stand gebracht werden kann.
 
 !!! note "Aktueller Stand"
-    Der SmartHub-Rollback ist bereits für SmartHub-Updates vorgesehen. Das vollständige System-Backup mit USB-/Download-Wiederherstellung beschreibt den Zielprozess für Gerätebackup und Austausch. Wenn diese Funktion in deiner Oberfläche noch nicht sichtbar ist, ist für vollständige Wiederherstellungen der Service einzubeziehen.
+    Ab SmartHub `1.1.5` gibt es die erste sichere Stufe des System-Backups: USB-Sicherung, Backup-Liste, Prüfsummenprüfung und Download. Die automatische Voll-Wiederherstellung ist noch nicht freigegeben; für eine Wiederherstellung nach Gerätetausch muss das geprüfte Backup aktuell durch Service oder Installateur eingespielt werden.
 
 Es gibt zwei unterschiedliche Backup-Arten:
 
@@ -51,6 +51,8 @@ Ein System-Backup sollte enthalten:
 - Datenbank-Dumps, nicht nur rohe Datenbankdateien
 - Prüfsummen zur Integritätsprüfung
 
+SmartHub `1.1.5` erstellt dafür ein portables Backup-Verzeichnis mit `manifest.json`, `manifest.public.json`, `payload.tar.gz`, `exports.tar.gz`, `checksums.sha256` und `backup.log`. InfluxDB wird als portables Backup exportiert. SQLite-Dateien werden zusätzlich per `sqlite3 .backup` gesichert, wenn `sqlite3` auf dem Gerät verfügbar ist. Apps können später eigene Backup-Hooks unter `/opt/<app>/scripts/backup.sh` bereitstellen.
+
 ## Datenbanken
 
 Datenbanken sollten kontrolliert exportiert werden:
@@ -63,19 +65,27 @@ Dadurch wird vermieden, dass ein Backup zwar vollständig aussieht, aber inkonsi
 
 ## USB-Backup
 
-Für Service- und Austauschfälle ist ein USB-Backup besonders hilfreich. Sobald die Funktion in der Oberfläche verfügbar ist, gilt dieser Ablauf:
+Für Service- und Austauschfälle ist ein USB-Backup besonders hilfreich.
 
 1. USB-Stick einstecken.
-2. Backup in der SmartHub- oder Updater-Oberfläche starten.
-3. Ziel **USB** auswählen.
-4. Backup erstellen und Abschlussmeldung abwarten.
-5. USB-Stick sicher entfernen und getrennt vom Gerät aufbewahren.
+2. Update-Oberfläche öffnen: `http://ehiveone.local/update/` oder `http://<IP-ADRESSE>/update/`.
+3. Im Bereich **System-Backup** prüfen, ob der USB-Stick als Ziel angezeigt wird.
+4. **Auf USB sichern** starten.
+5. Abschluss im Live-Log abwarten.
+6. Backup über **Prüfen** kontrollieren.
+7. USB-Stick sicher entfernen und getrennt vom Gerät aufbewahren.
+
+SmartHub erkennt beschreibbare Datenträger unter `/media`, `/mnt` und `/run/media`. Ein Stick mit Label `EHIVE_BACKUP` wird bevorzugt eingebunden. Die Backups liegen auf dem Stick unter:
+
+`EHIVE-BACKUPS/<geraete-id>/<zeitstempel>/`
+
+Zusätzlich richtet SmartHub einen wöchentlichen Timer ein. Jeden Sonntag ab ca. 03:15 Uhr wird ein USB-Backup erstellt, wenn ein passender USB-Stick eingesteckt ist. Ist kein USB-Stick vorhanden, wird der Lauf ohne Fehler übersprungen.
 
 Der USB-Stick sollte nur vertrauenswürdig verwendet werden. Backups können Zugangsdaten, Tokens und Konfigurationsdaten enthalten.
 
 ## Backup herunterladen
 
-Wenn kein USB-Stick verwendet wird, sollte das Backup über die Weboberfläche heruntergeladen und sicher abgelegt werden, sobald die Download-Funktion verfügbar ist.
+Wenn kein USB-Stick verwendet wird, kann ein vorhandenes System-Backup über die Update-Oberfläche heruntergeladen und sicher abgelegt werden.
 
 Empfehlung:
 
@@ -85,18 +95,18 @@ Empfehlung:
 
 ## Wiederherstellung
 
-Typischer Ablauf nach einem Gerätetausch:
+Aktueller sicherer Ablauf nach einem Gerätetausch:
 
 1. Ersatzgerät installieren und ins Netzwerk bringen.
 2. SmartHub oder Update-Oberfläche öffnen.
-3. Backup von USB auswählen oder Backup-Datei hochladen.
+3. USB-Stick mit `EHIVE-BACKUPS` einstecken.
 4. Manifest prüfen: Gerät, Datum, Versionen und enthaltene Apps.
-5. Wiederherstellung starten.
-6. SmartHub installiert fehlende Apps in passender Version.
-7. Dienste werden gestoppt, Daten und Datenbanken wiederhergestellt und Dienste neu gestartet.
+5. Backup über **Prüfen** kontrollieren.
+6. Backup herunterladen oder dem Service bereitstellen.
+7. Wiederherstellung durch Service/Installateur durchführen.
 8. Healthchecks prüfen und Log kontrollieren.
 
-Wenn die Wiederherstellung fehlschlägt, das Gerät nicht mehrfach neu bespielen. Log sichern und Support kontaktieren.
+Ein automatischer Restore-Button wird erst freigegeben, wenn die Wiederherstellung inklusive App-Versionen, Datenbankimporten und app-spezifischen Restore-Hooks zuverlässig abgesichert ist. Wenn eine Wiederherstellung fehlschlägt, das Gerät nicht mehrfach neu bespielen. Log sichern und Support kontaktieren.
 
 ## Sicherheit
 

@@ -40,5 +40,5 @@ Weiterführend:
 
 ## Support
 
-- Kontakt: `support-eHive@gmx.de`
+- Kontakt: `eHive@gmx.de`
 - Ablauf: [Support-Prozess](support.md)

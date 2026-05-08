@@ -17,7 +17,7 @@
 
 ## 3) Meldung senden
 
-- E-Mail: `support-eHive@gmx.de`
+- E-Mail: `eHive@gmx.de`
 - Betreff-Empfehlung: `eHive One | <Seriennummer> | <Kurzproblem>`
 
 ## 4) Meldungsvorlage

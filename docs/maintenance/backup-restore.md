@@ -5,7 +5,7 @@
 Ein Backup soll den Ist-Zustand des eHive-Systems sichern, damit ein Gerät nach einem Update, Defekt oder Austausch wieder auf den bekannten Stand gebracht werden kann.
 
 !!! note "Aktueller Stand"
-    Ab SmartHub `1.1.5` gibt es die erste sichere Stufe des System-Backups: USB-Sicherung, Backup-Liste, Prüfsummenprüfung und Download. Die automatische Voll-Wiederherstellung ist noch nicht freigegeben; für eine Wiederherstellung nach Gerätetausch muss das geprüfte Backup aktuell durch Service oder Installateur eingespielt werden.
+    Ab SmartHub `1.1.6` gibt es die erste sichere Stufe des System-Backups: optionale USB-Sicherung, Backup-Liste, Prüfsummenprüfung und Download. Ein USB-Stick ist nicht erforderlich. Wenn kein Stick eingesteckt ist, wird kein Backup erzeugt und der automatische Timer überspringt den Lauf ohne Fehler. Die automatische Voll-Wiederherstellung ist noch nicht freigegeben; für eine Wiederherstellung nach Gerätetausch muss das geprüfte Backup aktuell durch Service oder Installateur eingespielt werden.
 
 Es gibt zwei unterschiedliche Backup-Arten:
 
@@ -36,7 +36,7 @@ Für Gerätetausch oder Defekt ist ein vollständiges System-Backup sinnvoll. Di
 
 Empfohlene Speicherorte:
 
-- USB-Stick am Gerät
+- optionaler USB-Stick am Gerät
 - Download über die Update-/Backup-Oberfläche
 - Sicherer Service-Speicher beim Installateur oder Betreiber
 
@@ -51,7 +51,7 @@ Ein System-Backup sollte enthalten:
 - Datenbank-Dumps, nicht nur rohe Datenbankdateien
 - Prüfsummen zur Integritätsprüfung
 
-SmartHub `1.1.5` erstellt dafür ein portables Backup-Verzeichnis mit `manifest.json`, `manifest.public.json`, `payload.tar.gz`, `exports.tar.gz`, `checksums.sha256` und `backup.log`. InfluxDB wird als portables Backup exportiert. SQLite-Dateien werden zusätzlich per `sqlite3 .backup` gesichert, wenn `sqlite3` auf dem Gerät verfügbar ist. Apps können später eigene Backup-Hooks unter `/opt/<app>/scripts/backup.sh` bereitstellen.
+SmartHub `1.1.6` erstellt dafür ein portables Backup-Verzeichnis mit `manifest.json`, `manifest.public.json`, `payload.tar.gz`, `exports.tar.gz`, `checksums.sha256` und `backup.log`. InfluxDB wird als portables Backup exportiert. SQLite-Dateien werden zusätzlich per `sqlite3 .backup` gesichert, wenn `sqlite3` auf dem Gerät verfügbar ist. Apps können später eigene Backup-Hooks unter `/opt/<app>/scripts/backup.sh` bereitstellen.
 
 ## Datenbanken
 
@@ -80,6 +80,8 @@ SmartHub erkennt beschreibbare Datenträger unter `/media`, `/mnt` und `/run/med
 `EHIVE-BACKUPS/<geraete-id>/<zeitstempel>/`
 
 Zusätzlich richtet SmartHub einen wöchentlichen Timer ein. Jeden Sonntag ab ca. 03:15 Uhr wird ein USB-Backup erstellt, wenn ein passender USB-Stick eingesteckt ist. Ist kein USB-Stick vorhanden, wird der Lauf ohne Fehler übersprungen.
+
+Ohne USB-Stick zeigt die Oberfläche **kein USB, Backup wird übersprungen**. Der Button **Auf USB sichern** ist dann deaktiviert. Das ist ein normaler Zustand und keine Störung.
 
 Der USB-Stick sollte nur vertrauenswürdig verwendet werden. Backups können Zugangsdaten, Tokens und Konfigurationsdaten enthalten.
 

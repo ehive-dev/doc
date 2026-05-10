@@ -6,7 +6,7 @@ Standardmäßig:
 
 - Benutzer: `admin`
 - Passwort: (wurde bei der Integration geändert)
-- Hinweis: NetMode setzt immer alle Zugangspasswörter zurück.
+- Hinweis: NetMode setzt die Zugangspasswörter zurück und startet das Gerät neu. Der Ablauf dauert ca. 1 Minute.
 
 Empfehlung: nach Inbetriebnahme ändern.
 
@@ -14,7 +14,7 @@ Empfehlung: nach Inbetriebnahme ändern.
 
 - Router/DHCP‑Liste
 - mDNS: `http://ehiveone.local/`
-- NetMode: Default‑IP `192.168.100.1` (Taste **30 s** halten; Taster unterhalb RJ45)
+- NetMode: **5 s** halten für DHCP oder **10 s** halten für Default‑IP `192.168.100.1` (Taster unterhalb RJ45). Beim Loslassen werden die Zugangspasswörter zurückgesetzt und das Gerät startet neu; das dauert ca. 1 Minute.
 
 ## Warum gibt es kein HTTPS?
 

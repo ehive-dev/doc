@@ -40,12 +40,12 @@ Die folgenden Anschlüsse/Funktionen sind für die Standardausführung vorgesehe
 ## Taster
 
 - **Reset/NetMode‑Taster:** unterhalb der RJ45‑Buchse.
-  - Funktion: Netzwerk und Passwort‑Recovery (DHCP/Default‑IP) → siehe *Software → NetMode*.
+  - Funktion: Netzwerk und Passwort‑Recovery (`5 s` DHCP / `10 s` Default‑IP) → siehe *Software → NetMode*.
   - Position siehe Foto: *Ethernet + Versorgung + NetMode-Taster*.
 
 ## LEDs
 
-- **NetMode‑LED:** zeigt, ob der Netzwerk‑Recovery‑Modus (NetMode) aktiv ist.
+- **NetMode‑LED:** zeigt den Netzwerk‑Recovery‑Modus und den Neustart nach NetMode an.
 - **DI‑LED (EnWG §14a):** zeigt den Status des digitalen Eingangs an.
 
 ## Versorgungsempfehlung

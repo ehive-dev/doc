@@ -36,7 +36,7 @@ Netzteil-Empfehlung:
    - Benutzer: `admin`
    - Passwort: (wurde bei der Integration geändert)
 
-> Hinweis: `NetMode` setzt immer alle Zugangspasswörter zurück.
+> Hinweis: `NetMode` setzt die Zugangspasswörter zurück und startet das Gerät neu. Der Ablauf dauert ca. 1 Minute.
 
 ## Erste Schritte nach Login
 

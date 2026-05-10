@@ -3,8 +3,8 @@
 ## NetMode‑Taster
 
 - Position: **unterhalb der RJ45‑Buchse**.
-- Zweck: Netzwerk‑Recovery (DHCP / Default‑IP).
-- Hinweis: NetMode setzt immer alle Zugangspasswörter zurück.
+- Zweck: Netzwerk‑ und Passwort‑Recovery (`5 s` DHCP / `10 s` Default‑IP).
+- Hinweis: NetMode setzt bei beiden Aktionen die Zugangspasswörter zurück und startet das Gerät neu.
 
 ![Position des NetMode‑Tasters unterhalb der RJ45‑Buchse](../assets/images/eHiveOne_Oben.PNG)
 
@@ -12,13 +12,17 @@ Details siehe *Software → NetMode (Netzwerk‑Taster)*.
 
 ## NetMode‑LED
 
-Die NetMode‑LED signalisiert den Netzwerk‑Recovery‑Modus:
+Die grüne NetMode‑LED signalisiert den Netzwerk‑Recovery‑Modus:
 
-- **NetMode aktiv:** LED signalisiert/zeigt den Recovery‑Modus an.
-- **NetMode inaktiv:** LED aus bzw. kein Recovery‑Signal.
+- **Taster unter 5 s gehalten:** LED leuchtet dauerhaft.
+- **Taster 5 s bis unter 10 s gehalten:** LED aus.
+- **Taster ab 10 s gehalten:** LED blinkt schnell.
+- **Neustart nach NetMode:** LED leuchtet dauerhaft; der Ablauf dauert ca. 1 Minute.
 
-Während des Tastendrucks:
-- LED leuchtet dauerhaft.
+Nach abgeschlossenem Start zeigt die LED den aktiven Netzwerkmodus an:
+
+- **DHCP:** LED blinkt.
+- **Default‑IP:** LED leuchtet dauerhaft.
 
 ## DI‑LED (EnWG §14a)
 

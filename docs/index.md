@@ -16,7 +16,7 @@
    - oder `http://<IP-ADRESSE>/`
 4. Wenn `ehiveone.local` nicht funktioniert:
    - IP in Router-/DHCP-Liste suchen
-   - bei Fehlkonfiguration `NetMode` nutzen: `10 s` -> DHCP, `30 s` -> `192.168.100.1`
+   - bei Fehlkonfiguration `NetMode` nutzen: `5 s` -> DHCP, `10 s` -> `192.168.100.1`
 5. Login in **SmartHub**:
    - Benutzer: `admin`
    - Passwort: (wurde bei der Integration geändert)
@@ -27,7 +27,7 @@
 
 > Lokal wird nur **HTTP** bereitgestellt (kein HTTPS). Für Internetzugriff nur den **Tunnel Manager** verwenden.
 >
-> Hinweis: `NetMode` setzt immer alle Zugangspasswörter zurück.
+> Hinweis: `NetMode` setzt die Zugangspasswörter zurück und startet das Gerät neu. Der Ablauf dauert ca. 1 Minute; während des Reboots leuchtet die grüne NetMode-LED dauerhaft.
 
 Weiterführend:
 

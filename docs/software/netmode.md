@@ -1,31 +1,41 @@
 # NetMode (Netzwerk‑Taster)
 
-NetMode ist die Funktion hinter dem Hardware‑Taster, um das Gerät im Netzwerk wieder erreichbar zu machen (z. B. nach Fehlkonfiguration).
+NetMode ist die Funktion hinter dem Hardware‑Taster, um das Gerät im Netzwerk wieder erreichbar zu machen (z. B. nach Fehlkonfiguration) und die Zugangspasswörter zurückzusetzen.
 
 - Tasterposition: **unterhalb der RJ45‑Buchse**.
 - Default‑IP im Recovery‑Modus: **192.168.100.1/24** (fix).
+- Bei beiden NetMode‑Aktionen werden die Zugangspasswörter zurückgesetzt.
+- Nach dem Loslassen startet das Gerät neu. Der Ablauf dauert ca. **1 Minute**; während des Reboots leuchtet die **grüne NetMode‑LED dauerhaft**.
 
-## Verhalten
+## Ablauf
 
-- **Taste gedrückt:** LED dauerhaft an
-- **Loslassen nach ≥ 10 s:** auf **DHCP** umstellen und Neustart
-- **Loslassen nach ≥ 30 s:** auf **Default‑IP 192.168.100.1/24** umstellen und Neustart
-- **NetMode-Reset:** setzt immer alle Zugangspasswörter zurück
+| Tastendruck | Aktion beim Loslassen | Ergebnis nach Reboot |
+| --- | --- | --- |
+| **unter 5 s** | keine NetMode‑Aktion | bestehende Netzwerkkonfiguration bleibt aktiv |
+| **5 s bis unter 10 s** | Passwörter zurücksetzen, auf **DHCP** umstellen, Neustart | Gerät erhält eine Adresse per DHCP |
+| **ab 10 s** | Passwörter zurücksetzen, auf **Default‑IP** umstellen, Neustart | Gerät ist unter `192.168.100.1/24` erreichbar |
 
+## LED‑Hinweise
 
-LED‑Hinweis:
+Während der Taster gehalten wird, zeigt die grüne NetMode‑LED die erreichte Schwelle an:
 
-- Während des Tastendrucks leuchtet die LED dauerhaft.
-- Nach dem Umschalten zeigt die LED den aktiven NetMode‑Recovery an.
+- **unter 5 s:** LED leuchtet dauerhaft
+- **5 s bis unter 10 s:** LED aus
+- **ab 10 s:** LED blinkt schnell
 
+Nach dem Loslassen läuft der Neustart. In dieser Zeit leuchtet die grüne NetMode‑LED dauerhaft. Sobald das Gerät wieder hochgefahren ist, SmartHub erneut öffnen und bei Bedarf die Netzwerkkonfiguration korrigieren.
 
 ## Beispiel: Wiederherstellung nach falscher statischer IP
 
-1. Taste **10 s** halten → loslassen → Gerät rebootet → DHCP.
-2. Router nach neuer IP durchsuchen → SmartHub öffnen → Konfiguration korrigieren.
+1. Taste **5 s bis unter 10 s** halten und loslassen.
+2. Gerät setzt die Zugangspasswörter zurück, stellt auf DHCP um und rebootet.
+3. Ca. **1 Minute** warten.
+4. Router nach neuer IP durchsuchen, SmartHub öffnen und Konfiguration korrigieren.
 
 ## Beispiel: Direkter Zugriff per Default‑IP
 
-1. Taste **30 s** halten → loslassen → Gerät rebootet → IP `192.168.100.1`.
-2. PC/Notebook temporär auf `192.168.100.2/24` stellen.
-3. SmartHub unter `http://192.168.100.1/` öffnen.
+1. Taste **mindestens 10 s** halten und loslassen.
+2. Gerät setzt die Zugangspasswörter zurück, stellt auf `192.168.100.1/24` um und rebootet.
+3. Ca. **1 Minute** warten.
+4. PC/Notebook temporär auf `192.168.100.2/24` stellen.
+5. SmartHub unter `http://192.168.100.1/` öffnen.

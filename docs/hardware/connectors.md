@@ -45,7 +45,8 @@ Die folgenden Anschlüsse/Funktionen sind für die Standardausführung vorgesehe
 
 ## LEDs
 
-- **NetMode‑LED:** zeigt den Netzwerk‑Recovery‑Modus und den Neustart nach NetMode an.
+- **NetMode‑LED:** zeigt den Netzwerk‑Recovery‑Modus an.
+- **System‑LED:** befindet sich nahe USB‑C und leuchtet während des Reboots nach NetMode dauerhaft.
 - **DI‑LED (EnWG §14a):** zeigt den Status des digitalen Eingangs an.
 
 ## Versorgungsempfehlung

@@ -27,7 +27,7 @@
 
 > Lokal wird nur **HTTP** bereitgestellt (kein HTTPS). Für Internetzugriff nur den **Tunnel Manager** verwenden.
 >
-> Hinweis: `NetMode` setzt die Zugangspasswörter zurück und startet das Gerät neu. Der Ablauf dauert ca. 1 Minute; während des Reboots leuchtet die grüne NetMode-LED dauerhaft.
+> Hinweis: `NetMode` setzt die Zugangspasswörter zurück und startet das Gerät neu. Der Ablauf dauert ca. 1 Minute; während des Reboots leuchtet die System-LED nahe USB-C dauerhaft.
 
 Weiterführend:
 

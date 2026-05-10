@@ -23,7 +23,7 @@
    - NetMode `5 s` -> DHCP
    - NetMode `10 s` -> `192.168.100.1`
    - Hinweis: NetMode setzt die Zugangspasswörter zurück und startet das Gerät neu.
-   - Während des Reboots leuchtet die grüne NetMode-LED dauerhaft; der Ablauf dauert ca. 1 Minute.
+   - Während des Reboots leuchtet die System-LED nahe USB-C dauerhaft; der Ablauf dauert ca. 1 Minute.
 5. Danach SmartHub erneut öffnen und Login prüfen.
 
 ## App in SmartHub "off"

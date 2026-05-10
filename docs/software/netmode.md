@@ -5,7 +5,7 @@ NetMode ist die Funktion hinter dem Hardware‑Taster, um das Gerät im Netzwerk
 - Tasterposition: **unterhalb der RJ45‑Buchse**.
 - Default‑IP im Recovery‑Modus: **192.168.100.1/24** (fix).
 - Bei beiden NetMode‑Aktionen werden die Zugangspasswörter zurückgesetzt.
-- Nach dem Loslassen startet das Gerät neu. Der Ablauf dauert ca. **1 Minute**; während des Reboots leuchtet die **grüne NetMode‑LED dauerhaft**.
+- Nach dem Loslassen startet das Gerät neu. Der Ablauf dauert ca. **1 Minute**; während des Reboots leuchtet die **System‑LED nahe USB‑C dauerhaft**.
 
 ## Ablauf
 
@@ -23,7 +23,7 @@ Während der Taster gehalten wird, zeigt die grüne NetMode‑LED die erreichte 
 - **5 s bis unter 10 s:** LED aus
 - **ab 10 s:** LED blinkt schnell
 
-Nach dem Loslassen läuft der Neustart. In dieser Zeit leuchtet die grüne NetMode‑LED dauerhaft. Sobald das Gerät wieder hochgefahren ist, SmartHub erneut öffnen und bei Bedarf die Netzwerkkonfiguration korrigieren.
+Nach dem Loslassen läuft der Neustart. In dieser Zeit leuchtet die System‑LED nahe USB‑C dauerhaft. Sobald das Gerät wieder hochgefahren ist, SmartHub erneut öffnen und bei Bedarf die Netzwerkkonfiguration korrigieren.
 
 ## Beispiel: Wiederherstellung nach falscher statischer IP
 

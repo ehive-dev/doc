@@ -1,6 +1,6 @@
 # SmartHub (Dashboard)
 
-SmartHub ist das zentrale Dashboard von eHive One. Es listet verfügbare Apps, zeigt Status und bietet **Einstellungen** für Gerät, Netzwerk, Updates, Backups und Diagnose.
+SmartHub ist das zentrale Dashboard von eHive One. Es listet verfügbare Apps, zeigt Status und bietet **Einstellungen** für Gerät, Netzwerk, Updates und Backups.
 
 Dokumentierter Softwarestand: **SmartHub 1.1.28**
 
@@ -51,24 +51,6 @@ Zeigt u. a.:
 
 - Neustart über Button (Bestätigung erforderlich)
 
-### Systemdiagnose
-
-SmartHub stellt Diagnoseansichten bereit:
-
-- `/sysDiag`
-- `/sysDiag/usv`
-
-Die USV-Seite zeigt verfügbare USV-Daten, Status, Steuerung und ein kleines Ereignislog. Die USV-Steuerung ist standardmäßig **aus**. Das Feature wird erst aktiv genutzt, wenn Hardware und Verhalten ausreichend getestet und freigegeben sind.
-
-Auf der USV-Seite kann konfiguriert werden:
-
-- USV-Steuerung ein/aus
-- Zeit bis zum Herunterfahren bei USV-Ereignis
-- aktueller Status und Diagnosewerte
-- Ereignislog, wann welche Zustandsänderung erkannt wurde
-
-Hinweis: USV-Funktionalität wird mit SmartHub ausgeliefert, damit neue Geräte nicht separat mit einem zweiten Paket versorgt werden müssen. Bei Geräten ohne USV-Hardware muss die Seite einen deaktivierten bzw. nicht verfügbaren Zustand anzeigen.
-
 ### Updates und Wiederherstellung
 
 SmartHub stellt eine Update-/Rettungsoberfläche bereit:
@@ -78,7 +60,3 @@ SmartHub stellt eine Update-/Rettungsoberfläche bereit:
 - `http://<IP-ADRESSE>:3003/` als direkter Rettungszugriff
 
 Details: [Updates](../maintenance/updates.md) und [Backup und Wiederherstellung](../maintenance/backup-restore.md).
-
-## Screenshots
-
-![SmartHub - USV-Diagnose](../assets/images/ui-smarthub-usv.png)

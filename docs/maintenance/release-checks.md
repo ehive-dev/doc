@@ -8,7 +8,7 @@ Aktueller dokumentierter Release-Stand:
 
 | Komponente | Version / Stand | Hinweis |
 |---|---:|---|
-| SmartHub | `1.1.28` | inklusive Systemdiagnose und USV-Seite |
+| SmartHub | `1.1.28` | Dashboard, Einstellungen, Updates und Backups |
 | wattRadar | `0.4.3` | mobile Optimierungen, Timeline, Status-/Export-Icons |
 | ioManager | `1.0.4` | Layoutbreite, Trenddarstellung und Statusbereinigung |
 | chargeLedger | `0.2.8` | PDF-/Zahlenformatierung und km-Korrekturen |
@@ -24,7 +24,6 @@ evcc wird bewusst ausgeklammert, weil evcc einen eigenen Stil und eigene Update-
 - Heller und dunkler Theme-Modus.
 - App-Layouts in Desktop- und Mobilansicht.
 - Entfernen alter App-eigener Update-Routen und Update-Runner-Reste.
-- USV-API, USV-Seite unter `/sysDiag/usv`, deaktivierter Standardzustand und Ereignislog.
 - Tunnel-Manager mit Remote-Zugriff, Login und Statusanzeige.
 - Zentrale App-Updates über SmartHub.
 - Statusanzeigen mit Icons statt sichtbarer Alttexte wie `Status: OK`.
@@ -41,7 +40,6 @@ Durchgeführt bzw. als aktueller Stand dokumentiert:
 - Browserprüfung für Desktop und Mobil.
 - String-Regression auf alte Status-, CSV- und Update-Begriffe.
 - Logprüfung nach Neustart der Dienste.
-- USV-Smoke-Test auf Gerät mit vorhandener Hardware.
 - Tunnel-Manager-Thermalläufe auf Testgerät `.83`.
 - Tunnel-Manager Smoke-Test nach finalem Versionbump und Release-Build.
 
@@ -67,7 +65,7 @@ Aktualisiert wurden:
 - Hardware-Überblick mit Montage- und Wärmeabfuhrhinweisen.
 - Technische Daten mit klarer Trennung zwischen Speicher-Komponententemperatur und Schaltschrank-Umgebung.
 - Sicherheitshinweise zu Lüftung, Abstand und Wärmequellen.
-- SmartHub-Dokumentation mit `/sysDiag/usv`.
+- SmartHub-Dokumentation.
 - Tunnel-Manager-Dokumentation.
 - Release-Check-Stand 2026-06-09.
 

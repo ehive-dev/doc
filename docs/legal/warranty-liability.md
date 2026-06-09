@@ -20,7 +20,7 @@ Soweit gesetzlich zulässig, gilt:
 
 ## Dritt-Hardware und Fremdanlagen
 
-eHive One kann mit Dritt-Hardware, bauseitigen Anlagen und externen Diensten verbunden werden. Dazu können z. B. Netzteile, USV-Module, Zähler, Wallboxen, Wechselrichter, Netzwerkkomponenten, Relais, Sensoren, Gateways, Speicher, USB-Geräte, Gebäudeautomation oder Cloud-/API-Dienste gehören.
+eHive One kann mit Dritt-Hardware, bauseitigen Anlagen und externen Diensten verbunden werden. Dazu können z. B. Netzteile, Zähler, Wallboxen, Wechselrichter, Netzwerkkomponenten, Relais, Sensoren, Gateways, Speicher, USB-Geräte, Gebäudeautomation oder Cloud-/API-Dienste gehören.
 
 Für Dritt-Hardware, Fremdanlagen und externe Dienste gilt:
 

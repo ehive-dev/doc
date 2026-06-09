@@ -51,6 +51,7 @@ nav:
   - Technische Daten: hardware/specs.md
 - Software:
   - SmartHub (Dashboard): software/smarthub.md
+  - Style-System: software/style-system.md
   - WattRadar: software/wattradar.md
   - ioManager: software/iomanager.md
   - Tunnel Manager: software/tunnel-manager.md
@@ -58,6 +59,7 @@ nav:
   - Weitere Apps: software/other-apps.md
 - Wartung:
   - Updates: maintenance/updates.md
+  - Release-Checks: maintenance/release-checks.md
   - Backup und Wiederherstellung: maintenance/backup-restore.md
   - Troubleshooting: maintenance/troubleshooting.md
 - Support-Prozess: support.md

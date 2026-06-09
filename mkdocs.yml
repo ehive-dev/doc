@@ -52,6 +52,9 @@ nav:
   - SmartHub (Dashboard): software/smarthub.md
   - WattRadar: software/wattradar.md
   - ioManager: software/iomanager.md
+  - chargeLedger: software/chargeledger.md
+  - tenantLedger: software/tenantledger.md
+  - ChargeAndGo: software/chargeandgo.md
   - Tunnel Manager: software/tunnel-manager.md
   - NetMode (Netzwerk-Taster): software/netmode.md
   - Weitere Apps: software/other-apps.md

@@ -1,5 +1,6 @@
 # Changelog
 
+- 0.1.9 - 2026-06-09 - Aktuelle eHive-Tools chargeLedger, tenantLedger und ChargeAndGo in die öffentliche Software-Doku aufgenommen.
 - 0.1.8 - 2026-06-09 - Interne UI-Entwicklungsseite aus der öffentlichen Navigation entfernt und sichtbare Überschrift-Permalinks deaktiviert.
 - 0.1.7 - 2026-06-09 - Hinweise zu Dritt-Hardware, Fremdanlagen, Inbetriebnehmerverantwortung, Fehlbedienung und Normprüfung ergänzt.
 - 0.1.6 - 2026-06-09 - Firewall-/Netzwerksegmentierungshinweise für kritische Infrastruktur ergänzt; Haftungs- und Supporthinweise präzisiert.

@@ -14,7 +14,6 @@ Aktueller dokumentierter Release-Stand:
 | chargeLedger | `0.2.8` | PDF-/Zahlenformatierung und km-Korrekturen |
 | tenantLedger | `0.1.8` | Style-Anpassungen und Beta-Hinweis |
 | tunnel-manager | `0.9.17` | ohne `systemd-status`/`shelljs`, reduziertes Polling |
-| knx-bridge | `0.1.0` | Test-/Integrationsstand |
 | chargeandgo | `0.1.0` | falls im System aktiviert |
 
 evcc wird bewusst ausgeklammert, weil evcc einen eigenen Stil und eigene Update-/Betriebslogik hat.
@@ -96,7 +95,6 @@ Geprüft und neu gebaut wurden:
 - chargeLedger `0.2.7`
 - tenantLedger `0.1.7`
 - tunnel-manager `0.9.14`
-- knx-bridge `0.1.0`
 
 evcc wurde bewusst ausgeklammert.
 
@@ -105,8 +103,6 @@ evcc wurde bewusst ausgeklammert.
 - Alte App-eigene Update-Routen und Update-Runner-Reste entfernt.
 - Unbenutzte `update.png`-Icons aus wattRadar, ioManager und chargeLedger entfernt.
 - Interne Alttexte wie `Status OK`, `Vorschau aktuell`, `Preset 24h` und `CSV Export` aus den relevanten Quellen entfernt.
-- knx-bridge-Testtexte auf korrekte Umlaute umgestellt.
-- knx-bridge `qs` per npm-Override auf `6.15.2` aktualisiert, danach `npm audit` ohne Schwachstellen.
 - wattRadar serverseitig von `globalThis.fetch` auf einen kleinen `http/https`-Wrapper umgestellt, damit die Node-18-Fetch-Warnung nicht mehr im Log erscheint.
 
 ### Tests
@@ -115,7 +111,6 @@ Durchgeführt:
 
 - Node-Syntaxchecks für die App-Einstiege.
 - Build-Skripte mit `.deb`-Erzeugung, Installation und Health-Check.
-- knx-bridge `build.sh` inklusive Selfcheck, Unit-Tests und 12 Simulationstests.
 - API- und Routenprüfung über SmartHub/Caddy.
 - Browserprüfung für Desktop und Mobil.
 - String-Regression auf alte Status-, CSV- und Update-Begriffe.

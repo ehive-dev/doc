@@ -1,16 +1,21 @@
-# Weitere Apps (Übersicht)
+# Weitere Apps und Dienste
 
-Je nach Auslieferungsstand können auf eHive One weitere Open‑Source‑Dienste vorinstalliert sein. Diese werden (wenn aktiviert) über **SmartHub** erreichbar gemacht.
+Je nach Auslieferungsstand können auf eHive One weitere Dienste vorinstalliert oder vorbereitet sein. Diese werden, wenn aktiviert, über **SmartHub** erreichbar gemacht.
 
-Diese Endanwender‑Doku beschreibt die Bedienung der wichtigsten eHive‑Apps. Für Dritt‑UIs gelten die jeweiligen Projektdokumentationen.
+Diese Endanwender-Doku beschreibt die wichtigsten eHive-Tools. Für Dritt-UIs und externe Dienste gelten zusätzlich die jeweiligen Projektdokumentationen und Herstellerangaben.
 
-## Typische Komponenten (Beispiele)
+## Typische Dritt- oder Zusatzkomponenten
 
 - evcc
 - Home Assistant
-- Node‑RED
+- Node-RED
 - Grafana
 - Webmin
 - Homebridge
 
-> Hinweis: Alle Apps außer **evcc** befinden sich in Erprobung. Für diese Apps wird keine Gewährleistung übernommen, keine Verfügbarkeit zugesichert und sie können jederzeit wieder entfernt werden.
+## Hinweise
+
+- Dritt-UIs können einen eigenen Stil, eigene Bedienlogik und eigene Updatewege haben.
+- Nicht installierte oder nicht aktivierte Apps werden in SmartHub nicht als laufende App erwartet.
+- Alle Apps außer **evcc** befinden sich in Erprobung. Für diese Apps wird keine Gewährleistung übernommen, keine Verfügbarkeit zugesichert und sie können jederzeit wieder entfernt werden.
+- Für Dritt-Hardware, externe Dienste und Fremdanlagen gelten die Hinweise unter *Rechtliches -> Garantie und Haftung*.

@@ -59,6 +59,10 @@ Für Supportfälle kann ein temporärer Zugang eingerichtet werden:
 - Remote-Zugriff nur aktiv lassen, wenn er benötigt wird.
 - Links/QR-Codes nicht öffentlich teilen.
 - Temporäre Zugänge nach Abschluss des Servicefalls entfernen.
+- Bei Einsatz in kritischer Infrastruktur oder produktiven Unternehmensnetzen muss eHive One über eine Firewall bzw. geeignete Netzwerksegmentierung abgesichert werden.
+- Remote-Zugriff und Firewall-Regeln müssen vor Aktivierung mit der zuständigen IT-/OT-Administration bzw. dem Betreiber abgestimmt werden.
+
+Für Schäden durch unsachgemäße Freigaben, fehlende Firewall, fehlende Netzwerksegmentierung oder nicht abgestimmte Remote-Zugriffe wird - soweit gesetzlich zulässig - keine Gewährleistung oder Haftung übernommen. Bei Fragen zur sicheren Einbindung unterstützen wir gerne.
 
 ## Prüfungen
 

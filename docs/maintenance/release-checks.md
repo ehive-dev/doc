@@ -13,7 +13,7 @@ Aktueller dokumentierter Release-Stand:
 | ioManager | `1.0.4` | Layoutbreite, Trenddarstellung und Statusbereinigung |
 | chargeLedger | `0.2.8` | PDF-/Zahlenformatierung und km-Korrekturen |
 | tenantLedger | `0.1.8` | Style-Anpassungen und Beta-Hinweis |
-| tunnel-manager | `0.9.17` | ohne `systemd-status`/`shelljs`, reduziertes Polling |
+| tunnel-manager | `0.9.17` | Remote-Zugriff, Login und Statusanzeige |
 | chargeandgo | `0.1.0` | falls im System aktiviert |
 
 evcc wird bewusst ausgeklammert, weil evcc einen eigenen Stil und eigene Update-/Betriebslogik hat.
@@ -25,7 +25,7 @@ evcc wird bewusst ausgeklammert, weil evcc einen eigenen Stil und eigene Update-
 - App-Layouts in Desktop- und Mobilansicht.
 - Entfernen alter App-eigener Update-Routen und Update-Runner-Reste.
 - USV-API, USV-Seite unter `/sysDiag/usv`, deaktivierter Standardzustand und Ereignislog.
-- Tunnel-Manager `0.9.17` mit direkter `systemctl show`-Statusabfrage statt `systemd-status`/`shelljs`.
+- Tunnel-Manager mit Remote-Zugriff, Login und Statusanzeige.
 - Zentrale App-Updates über SmartHub.
 - Statusanzeigen mit Icons statt sichtbarer Alttexte wie `Status: OK`.
 - CSV-/Download-Aktionen als Icon-Buttons.
@@ -43,29 +43,27 @@ Durchgeführt bzw. als aktueller Stand dokumentiert:
 - Logprüfung nach Neustart der Dienste.
 - USV-Smoke-Test auf Gerät mit vorhandener Hardware.
 - Tunnel-Manager-Thermalläufe auf Testgerät `.83`.
-- Tunnel-Manager `0.9.17` Smoke-Test nach finalem Versionbump und Release-Build.
+- Tunnel-Manager Smoke-Test nach finalem Versionbump und Release-Build.
 
-Ergebnis Tunnel-Manager `0.9.17`:
+Ergebnis Tunnel-Manager:
 
 - Dienst `tunnel-manager`: `active`, `enabled`.
 - Dienst `cloudflared`: `active`, `enabled`.
 - `/apps/tunnel-manager/healthz` liefert `200`.
-- Login, `live-status` und `action-status` funktionieren über SmartHub/Caddy.
-- Keine `/tmp/shelljs_*`-Dateien.
-- Keine ShellJS-Child-Prozesse.
+- Login und Statusanzeige funktionieren über SmartHub/Caddy.
 
 Thermischer Vergleich auf `.83`, jeweils ca. 30 Minuten:
 
 | Zustand | Max | Schnitt |
 |---|---:|---:|
-| Alt aktiv `0.9.15` | 76,875 °C | 74,984 °C |
+| Vor Optimierung | 76,875 °C | 74,984 °C |
 | Tunnel-Manager aus | 70,000 °C | 68,543 °C |
-| Fix Lauf 1 `0.9.16` | 71,111 °C | 69,535 °C |
-| Fix Lauf 2 `0.9.16` | 75,625 °C | 73,790 °C |
+| Optimierter Lauf 1 | 71,111 °C | 69,535 °C |
+| Optimierter Lauf 2 | 75,625 °C | 73,790 °C |
 
-Hinweis: Die Thermalläufe wurden mit der gleichen Fix-Codebasis vor dem finalen Versionbump durchgeführt. `0.9.17` enthält den veröffentlichten Stand ohne `systemd-status`/`shelljs` und wurde zusätzlich per Installation, Healthcheck, Login und ShellJS-Regression geprüft.
+Hinweis: Die Thermalläufe wurden mit der gleichen Codebasis vor dem finalen Versionbump durchgeführt. Der veröffentlichte Stand wurde zusätzlich per Installation, Healthcheck und Login geprüft.
 
-Bewertung: Der `shelljs`-Pfad ist entfernt. Die thermische Reserve hängt weiterhin stark von Umgebung, Schaltschrank und Dauerlast ab; deshalb wurden die Montage- und Lüftungshinweise in der Hardware- und Sicherheitsdokumentation ergänzt.
+Bewertung: Die thermische Reserve hängt weiterhin stark von Umgebung, Schaltschrank und Dauerlast ab; deshalb wurden die Montage- und Lüftungshinweise in der Hardware- und Sicherheitsdokumentation ergänzt.
 
 ### Doku-Abgleich
 
@@ -75,7 +73,7 @@ Aktualisiert wurden:
 - Technische Daten mit klarer Trennung zwischen Speicher-Komponententemperatur und Schaltschrank-Umgebung.
 - Sicherheitshinweise zu Lüftung, Abstand und Wärmequellen.
 - SmartHub-Dokumentation mit `/sysDiag/usv`.
-- Tunnel-Manager-Dokumentation für `0.9.17`.
+- Tunnel-Manager-Dokumentation.
 - Release-Check-Stand 2026-06-09.
 
 ### Hinweise

@@ -6,21 +6,6 @@ Der Tunnel Manager richtet einen Remote-Zugriff auf die Weboberflächen des eHiv
 - Der Zugriff erfolgt über eine **seriennummernbasierte Subdomain** plus persönlichen **Hash**.
 - SSH-Zugriffe sind nur für Servicefälle vorgesehen und müssen gezielt aktiviert und wieder deaktiviert werden.
 
-## Aktueller Stand
-
-Dokumentierter Softwarestand: **Tunnel Manager 0.9.17**
-
-Ab Version `0.9.17` nutzt der Tunnel Manager für Dienststatus-Abfragen direkt `systemctl show`. Die frühere Abhängigkeit `systemd-status` und deren `shelljs`-Aufrufe werden nicht mehr verwendet. Das reduziert Hintergrundlast und vermeidet temporäre `shelljs_*`-Dateien.
-
-Status- und Reparaturprüfungen laufen bewusst weniger hektisch:
-
-- Standard-Backend-Polling: `30 s`
-- konfigurierbar über `TUNNEL_STATUS_POLL_INTERVAL_MS`
-- Systemd-Timeout: `CFM_SYSTEMCTL_TIMEOUT_MS`
-- kurzer Service-Status-Cache: `CFM_SERVICE_INFO_CACHE_MS`
-
-Dadurch kann ein Ausfall etwas später erkannt werden als früher, das System läuft aber deutlich ruhiger.
-
 ## Zugriff & Login
 
 - Öffne den Tunnel Manager über **SmartHub**.
@@ -72,7 +57,6 @@ Nach Updates mindestens prüfen:
 - `cloudflared` Dienst ist `active` und `enabled`.
 - `/apps/tunnel-manager/healthz` liefert `200`.
 - Login über SmartHub/Caddy funktioniert.
-- Es entstehen keine `/tmp/shelljs_*`-Dateien.
 
 ## Screenshots
 

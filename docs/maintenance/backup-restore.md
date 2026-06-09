@@ -4,7 +4,7 @@
 
 Ein Backup soll den Ist-Zustand des eHive-Systems sichern, damit ein Gerät nach einem Update, Defekt oder Austausch wieder auf den bekannten Stand gebracht werden kann.
 
-!!! note "Aktueller Stand"
+!!! note "Hinweis zum Backup"
     Ab SmartHub `1.1.6` gibt es die erste sichere Stufe des System-Backups: optionale USB-Sicherung, Backup-Liste, Prüfsummenprüfung und Download. Ein USB-Stick ist nicht erforderlich. Wenn kein Stick eingesteckt ist, wird kein Backup erzeugt und der automatische Timer überspringt den Lauf ohne Fehler. Die automatische Voll-Wiederherstellung ist noch nicht freigegeben; für eine Wiederherstellung nach Gerätetausch muss das geprüfte Backup aktuell durch Service oder Installateur eingespielt werden.
 
 Es gibt zwei unterschiedliche Backup-Arten:
@@ -14,7 +14,7 @@ Es gibt zwei unterschiedliche Backup-Arten:
 | SmartHub-Rollback | Ein SmartHub-Update rückgängig machen | SmartHub-Programm, SmartHub-Konfiguration, systemd-Dateien |
 | System-Backup | Gerät vollständig wiederherstellen | SmartHub, installierte Apps, Konfigurationen, Daten und Datenbank-Dumps |
 
-## Aktueller SmartHub-Rollback
+## SmartHub-Rollback
 
 Vor einem SmartHub-Update wird automatisch ein Rollback-Backup angelegt. Es liegt auf dem Gerät unter:
 

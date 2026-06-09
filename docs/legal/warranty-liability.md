@@ -16,6 +16,31 @@ Soweit gesetzlich zulässig, gilt:
 - Der Betreiber/Installateur ist dafür verantwortlich, die Eignung für den konkreten Anwendungsfall zu prüfen und vor der Integration ausreichend zu testen.
 - Eine Haftung für **mittelbare Schäden**, **Folgeschäden**, entgangenen Gewinn, Datenverlust oder Produktionsausfall ist - soweit gesetzlich zulässig - ausgeschlossen.
 - Für Schäden, die durch unsachgemäße Einbindung in fremde Netzwerke, fehlende Netzwerksegmentierung oder fehlende Schutzmaßnahmen entstehen, wird - soweit gesetzlich zulässig - keine Haftung übernommen.
+- Für Schäden durch Fehlbedienung, falsche Parametrierung, ungeeignete Versorgung, falsche Verdrahtung, blockierte Lüftung, nicht freigegebene Änderungen oder Betrieb außerhalb der dokumentierten Einsatzbedingungen wird - soweit gesetzlich zulässig - keine Gewährleistung oder Haftung übernommen.
+
+## Dritt-Hardware und Fremdanlagen
+
+eHive One kann mit Dritt-Hardware, bauseitigen Anlagen und externen Diensten verbunden werden. Dazu können z. B. Netzteile, USV-Module, Zähler, Wallboxen, Wechselrichter, Netzwerkkomponenten, Relais, Sensoren, Gateways, Speicher, USB-Geräte, Gebäudeautomation oder Cloud-/API-Dienste gehören.
+
+Für Dritt-Hardware, Fremdanlagen und externe Dienste gilt:
+
+- Es wird keine Gewährleistung für Funktion, Qualität, Verfügbarkeit, Sicherheit oder Normkonformität von Dritt-Hardware übernommen.
+- Kompatibilität mit Dritt-Hardware gilt nur dann als zugesichert, wenn sie ausdrücklich schriftlich für den konkreten Einsatzfall bestätigt wurde.
+- Schäden an oder durch Dritt-Hardware, Fremdanlagen, externe Dienste oder bauseitige Installationen liegen - soweit gesetzlich zulässig - außerhalb unserer Gewährleistung und Haftung.
+- Herstellerangaben, Datenblätter, Installationsanleitungen, Normen und Schutzkonzepte der Dritt-Hardware müssen vom Inbetriebnehmer beachtet und geprüft werden.
+
+## Verantwortung von Inbetriebnehmer und Betreiber
+
+Der Inbetriebnehmer bzw. Betreiber haftet vollumfänglich für den von ihm gewählten Einsatzzweck, soweit dies gesetzlich zulässig ist. Vor produktivem Betrieb muss er insbesondere prüfen und dokumentieren:
+
+- Eignung des eHive One für den konkreten Einsatzort und Zweck.
+- Funktion des Gesamtsystems einschließlich Dritt-Hardware, Netzwerk, Sensorik, Aktorik, Datenquellen und angeschlossenen Anlagen.
+- Einhaltung aller einschlägigen Normen, Vorschriften, Herstellervorgaben und Betreiberanforderungen.
+- Korrekte Montage, Verdrahtung, Absicherung, Versorgungsspannung, Belüftung und Umgebungstemperatur.
+- Korrekte Parametrierung, Benutzerrechte, Passwörter, Firewall-Regeln, Remote-Zugriffe und Backups.
+- Verhalten bei Fehlern, Ausfall, Neustart, Update, Netzwerkunterbrechung und Wartung.
+
+Die Inbetriebnahme muss vor Übergabe an den Betreiber durch geeignete Funktions-, Sicherheits- und Plausibilitätstests abgeschlossen werden. Der Produktivbetrieb ohne ausreichende Prüfung erfolgt auf Risiko des Inbetriebnehmers bzw. Betreibers.
 
 Unberührt bleiben zwingende gesetzliche Haftungsfälle, insbesondere:
 

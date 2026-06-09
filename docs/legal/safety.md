@@ -20,6 +20,13 @@
 - Die Einbindung in kritische Infrastruktur muss vor Inbetriebnahme mit der zuständigen IT-/OT-Administration bzw. dem Betreiber abgestimmt werden.
 - Netzwerkfreigaben, Ports, Routing und Remote-Zugriffe auf das notwendige Minimum beschränken.
 
+## Dritt-Hardware und Inbetriebnahme
+
+- Dritt-Hardware nur gemäß Herstellerangaben, Datenblatt und geltenden Normen anschließen und betreiben.
+- Der Inbetriebnehmer muss den konkreten Einsatzzweck, die Gesamtfunktion und die Normkonformität der Anlage vor Übergabe prüfen.
+- Fehlbedienung, falsche Verdrahtung, falsche Parametrierung, ungeeignete Dritt-Hardware oder Betrieb außerhalb der dokumentierten Bedingungen können zu Fehlfunktionen oder Schäden führen.
+- eHive One ersetzt keine Sicherheits-, Schutz- oder Abschalteinrichtung, sofern dies nicht ausdrücklich für den konkreten Anwendungsfall geplant, geprüft und freigegeben wurde.
+
 ## Support
 
 - Hersteller: Loher ECS

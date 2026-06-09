@@ -37,7 +37,7 @@ Durchgeführt bzw. als aktueller Stand dokumentiert:
 
 - Node-Syntaxchecks für App-Einstiege.
 - Build-Skripte mit `.deb`-Erzeugung, Installation und Health-Check.
-- API- und Routenprüfung über SmartHub/Caddy.
+- Prüfung der erreichbaren Oberflächen.
 - Browserprüfung für Desktop und Mobil.
 - String-Regression auf alte Status-, CSV- und Update-Begriffe.
 - Logprüfung nach Neustart der Dienste.
@@ -45,12 +45,7 @@ Durchgeführt bzw. als aktueller Stand dokumentiert:
 - Tunnel-Manager-Thermalläufe auf Testgerät `.83`.
 - Tunnel-Manager Smoke-Test nach finalem Versionbump und Release-Build.
 
-Ergebnis Tunnel-Manager:
-
-- Dienst `tunnel-manager`: `active`, `enabled`.
-- Dienst `cloudflared`: `active`, `enabled`.
-- `/apps/tunnel-manager/healthz` liefert `200`.
-- Login und Statusanzeige funktionieren über SmartHub/Caddy.
+Tunnel Manager wurde über SmartHub geöffnet; Login und Statusanzeige wurden geprüft.
 
 Thermischer Vergleich auf `.83`, jeweils ca. 30 Minuten:
 
@@ -109,7 +104,7 @@ Durchgeführt:
 
 - Node-Syntaxchecks für die App-Einstiege.
 - Build-Skripte mit `.deb`-Erzeugung, Installation und Health-Check.
-- API- und Routenprüfung über SmartHub/Caddy.
+- Prüfung der erreichbaren Oberflächen.
 - Browserprüfung für Desktop und Mobil.
 - String-Regression auf alte Status-, CSV- und Update-Begriffe.
 - Logprüfung nach erfolgreichem Neustart der Dienste.
@@ -117,14 +112,14 @@ Durchgeführt:
 Ergebnis:
 
 - Alle relevanten Dienste aktiv.
-- Kernrouten und Health-Endpunkte liefern `200`.
-- Alte wattRadar- und ioManager-Update-Endpunkte liefern `404`.
+- Relevante Oberflächen waren erreichbar.
+- Veraltete Update-Oberflächen sind nicht mehr sichtbar.
 - Interne UI-Prüfung wurde durchgeführt.
 - Browserprüfung: 16 von 16 Ansichten erfolgreich, keine JavaScript-Fehler, keine horizontalen Überläufe, keine Textüberläufe.
 - Logs ab erfolgreichem finalem wattRadar-Start sauber.
 
 ### Hinweise
 
-- `store`, `settings` und tunnel-manager liefern je nach Zustand erwartete Login- oder Redirect-Antworten.
+- Geschützte Bereiche zeigen je nach Zustand die erwartete Loginseite.
 - `git diff --check` ist bei chargeLedger und tunnel-manager wegen CRLF-Zeilenenden in geänderten Altdateien laut. Funktional war das nicht blockierend, eine separate Format-Bereinigung ist empfohlen.
 - Lokaler MkDocs-Build wurde auf dem Windows-Arbeitsplatz nicht ausgeführt, weil dort kein Python-Launcher verfügbar war.

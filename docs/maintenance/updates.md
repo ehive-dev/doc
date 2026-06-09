@@ -20,7 +20,7 @@ SmartHub bringt eine eigene Update-Oberfläche mit. Sie ist auch dann erreichbar
 - Direkt zur Update-Oberfläche: `http://ehiveone.local/update/` oder `http://<IP-ADRESSE>/update/`
 - Rettungszugriff, falls der Proxy nicht greift: `http://<IP-ADRESSE>:3003/`
 
-Ab SmartHub `1.1.4` leitet Caddy bei einem Ausfall des SmartHub-Dienstes automatisch auf die Update-Oberfläche weiter. Dadurch bleibt `http://ehiveone.local/` im Fehlerfall als Rettungseinstieg nutzbar, solange der Updater-Dienst läuft.
+Ab SmartHub `1.1.4` wird bei einem Ausfall der normalen Oberfläche automatisch auf die Update-Oberfläche weitergeleitet. Dadurch bleibt `http://ehiveone.local/` im Fehlerfall als Rettungseinstieg nutzbar.
 
 ### Ablauf
 

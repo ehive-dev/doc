@@ -49,15 +49,6 @@ Für Supportfälle kann ein temporärer Zugang eingerichtet werden:
 
 Für Schäden durch unsachgemäße Freigaben, fehlende Firewall, fehlende Netzwerksegmentierung oder nicht abgestimmte Remote-Zugriffe wird - soweit gesetzlich zulässig - keine Gewährleistung oder Haftung übernommen. Bei Fragen zur sicheren Einbindung unterstützen wir gerne.
 
-## Prüfungen
-
-Nach Updates mindestens prüfen:
-
-- `tunnel-manager` Dienst ist `active` und `enabled`.
-- `cloudflared` Dienst ist `active` und `enabled`.
-- `/apps/tunnel-manager/healthz` liefert `200`.
-- Login über SmartHub/Caddy funktioniert.
-
 ## Screenshots
 
 ![Tunnel Manager - Dashboard](../assets/images/ui-tunnelmanager-dashboard.png)

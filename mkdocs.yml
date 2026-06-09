@@ -21,8 +21,7 @@ theme:
 
 markdown_extensions:
 - admonition
-- toc:
-    permalink: true
+- toc
 - tables
 - footnotes
 - attr_list
@@ -51,7 +50,6 @@ nav:
   - Technische Daten: hardware/specs.md
 - Software:
   - SmartHub (Dashboard): software/smarthub.md
-  - Style-System: software/style-system.md
   - WattRadar: software/wattradar.md
   - ioManager: software/iomanager.md
   - Tunnel Manager: software/tunnel-manager.md

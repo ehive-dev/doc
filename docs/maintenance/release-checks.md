@@ -21,7 +21,7 @@ evcc wird bewusst ausgeklammert, weil evcc einen eigenen Stil und eigene Update-
 
 ### Geprüfte Schwerpunkte
 
-- Zentrales Style-System und `/style`-Seite.
+- Einheitliche UI-Darstellung in hell und dunkel.
 - Heller und dunkler Theme-Modus.
 - App-Layouts in Desktop- und Mobilansicht.
 - Entfernen alter App-eigener Update-Routen und Update-Runner-Reste.
@@ -126,7 +126,7 @@ Ergebnis:
 - Alle relevanten Dienste aktiv.
 - Kernrouten und Health-Endpunkte liefern `200`.
 - Alte wattRadar- und ioManager-Update-Endpunkte liefern `404`.
-- `/style` ist erreichbar.
+- Interne UI-Prüfung wurde durchgeführt.
 - Browserprüfung: 16 von 16 Ansichten erfolgreich, keine JavaScript-Fehler, keine horizontalen Überläufe, keine Textüberläufe.
 - Logs ab erfolgreichem finalem wattRadar-Start sauber.
 

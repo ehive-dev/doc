@@ -81,6 +81,4 @@ Details: [Updates](../maintenance/updates.md) und [Backup und Wiederherstellung]
 
 ## Screenshots
 
-![SmartHub - Startseite](../assets/images/ui-smarthub-home.png)
-
-![SmartHub - Einstellungen / Netzwerk](../assets/images/ui-smarthub-network.png)
+![SmartHub - USV-Diagnose](../assets/images/ui-smarthub-usv.png)

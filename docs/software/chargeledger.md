@@ -41,3 +41,7 @@ chargeLedger verwendet die im System verfügbaren Ladedaten. Je nach Auslieferun
 - PDF-Vorschau für einen bekannten Monat erzeugen.
 - Download/Export testen.
 - Zahlenformat und Kilometerangaben plausibilisieren.
+
+## Screenshot
+
+![chargeLedger - Hauptansicht](../assets/images/ui-chargeledger-main.png)

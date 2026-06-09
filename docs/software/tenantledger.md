@@ -40,3 +40,7 @@ tenantLedger ist ein unterstützendes Werkzeug für technische Abrechnungsunterl
 - Beispielzeitraum berechnen.
 - PDF erzeugen und Werte plausibilisieren.
 - Darstellung auf Desktop und Mobil prüfen.
+
+## Screenshot
+
+![tenantLedger - Hauptansicht](../assets/images/ui-tenantledger-main.png)

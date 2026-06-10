@@ -24,7 +24,7 @@ eHive One kann mit Dritt-Hardware, bauseitigen Anlagen und externen Diensten ver
 
 Für Dritt-Hardware, Fremdanlagen und externe Dienste gilt:
 
-- Es wird keine Gewährleistung für Funktion, Qualität, Verfügbarkeit, Sicherheit oder Normkonformität von Dritt-Hardware übernommen.
+- Es wird keine Gewährleistung für Funktion, Qualität, Verfügbarkeit, Sicherheit oder die Einhaltung von Normen durch Dritt-Hardware übernommen.
 - Kompatibilität mit Dritt-Hardware gilt nur dann als zugesichert, wenn sie ausdrücklich schriftlich für den konkreten Einsatzfall bestätigt wurde.
 - Schäden an oder durch Dritt-Hardware, Fremdanlagen, externe Dienste oder bauseitige Installationen liegen - soweit gesetzlich zulässig - außerhalb unserer Gewährleistung und Haftung.
 - Herstellerangaben, Datenblätter, Installationsanleitungen, Normen und Schutzkonzepte der Dritt-Hardware müssen vom Inbetriebnehmer beachtet und geprüft werden.

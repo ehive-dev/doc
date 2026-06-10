@@ -4,7 +4,7 @@
 
 - Wenn ein Problem nach den Schritten in [Troubleshooting](maintenance/troubleshooting.md) weiter besteht.
 - Bei sicherheitsrelevanten oder wiederkehrenden Ausfällen.
-- Wenn Konformitäts- oder Projektnachweise benötigt werden.
+- Wenn Projekt- oder Abnahmenachweise benötigt werden.
 
 ## 2) Welche Infos vorab sammeln?
 

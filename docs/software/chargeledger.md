@@ -46,4 +46,4 @@ chargeLedger verwendet die im System verfügbaren Ladedaten. Je nach Auslieferun
 
 Die Hauptansicht kombiniert Fahrzeug- und Monatsauswahl mit der PDF-Vorschau. Die Aktionen für Drucken, Download, E-Mail und Archivierung sitzen direkt an der Vorschau.
 
-![chargeLedger - Monatsabrechnung und PDF-Vorschau](../assets/images/ui-chargeledger-main.png)
+![chargeLedger.png](../assets/images/chargeLedger.png)

@@ -55,8 +55,8 @@ Für Schäden durch unsachgemäße Freigaben, fehlende Firewall, fehlende Netzwe
 
 ## Screenshots
 
-![Tunnel Manager - Dashboard](../assets/images/ui-tunnelmanager-dashboard.png)
+![TunnelManager.png](../assets/images/TunnelManager.png)
 
-![Tunnel Manager - Passwortvergabe](../assets/images/ui-tunnelmanager-password.png)
+![TunnelManager_PasswortVergabe.png](../assets/images/TunnelManager_PasswortVergabe.png)
 
-![Tunnel Manager - Temporärer Service-Zugang](../assets/images/ui-tunnelmanager-service-access.png)
+![TunnelManager_TemporärerServiceZugang.png](../assets/images/TunnelManager_TemporärerServiceZugang.png)

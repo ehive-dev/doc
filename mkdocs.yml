@@ -49,6 +49,7 @@ nav:
   - LEDs und Taster: hardware/leds-buttons.md
   - Technische Daten: hardware/specs.md
 - Software:
+  - Screenshot-Galerie: software/screenshots.md
   - SmartHub (Dashboard): software/smarthub.md
   - WattRadar: software/wattradar.md
   - ioManager: software/iomanager.md

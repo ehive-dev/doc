@@ -19,10 +19,11 @@ Dokumentierter Stand für die sichtbaren Oberflächen:
 
 ### Abgleich
 
-- Screenshots aus der aktuellen eHive-Oberfläche in `docs/assets/images` übernommen.
+- Screenshots aus der aktuellen eHive-Oberfläche unter ihren Originaldateinamen in `docs/assets/images` übernommen.
 - SmartHub-Doku um App-Store-Aktionen, Settings-Login und Systeminformationen ergänzt.
 - Update-Doku um das SmartHub-Menü für App-Updates ergänzt.
 - wattRadar, ioManager, chargeLedger, tenantLedger und Tunnel Manager mit aktuellen Screenshots abgeglichen.
+- Screenshot-Galerie mit allen 15 PNGs und kurzen Beschreibungen ergänzt.
 - Code-Snapshots der Apps für Menüs, Routen und sichtbare UI-Funktionen geprüft.
 
 ### Ergebnis

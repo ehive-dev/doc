@@ -72,12 +72,12 @@ Details: [Updates](../maintenance/updates.md) und [Backup und Wiederherstellung]
 
 ## Screenshots
 
-![SmartHub - Systeminformationen](../assets/images/ui-smarthub-system-info.png)
+![Systeminformationen.png](../assets/images/Systeminformationen.png)
 
-![SmartHub - App Store Aktionen](../assets/images/ui-smarthub-appstore-actions.png)
+![AppStoreInstalliereDeinstallierenNeustarten.png](../assets/images/AppStoreInstalliereDeinstallierenNeustarten.png)
 
-![SmartHub - Settings Login](../assets/images/ui-smarthub-settings-login.png)
+![LoginFürSettings.png](../assets/images/LoginFürSettings.png)
 
-![SmartHub - Einstellungen Netzwerk und Gerät](../assets/images/ui-smarthub-settings-network.png)
+![SettingsTeil1.png](../assets/images/SettingsTeil1.png)
 
-![SmartHub - Einstellungen Passwort und System](../assets/images/ui-smarthub-settings-password-system.png)
+![SettingsTeil2.png](../assets/images/SettingsTeil2.png)

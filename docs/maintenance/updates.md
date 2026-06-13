@@ -49,6 +49,14 @@ Wenn das Gerät danach weiterhin nicht erreichbar ist, Support kontaktieren und 
 
 Apps werden im SmartHub Store bzw. in der jeweiligen App-Verwaltung aktualisiert. Je nach App können zusätzlich **Starten**, **Neustarten**, **Installieren** oder **Deinstallieren** verfügbar sein.
 
+![SmartHub - App-Update über das Drei-Punkte-Menü](../assets/images/ui-smarthub-app-update-menu.png)
+
+Zentrale Update-Regel:
+
+- App-Updates laufen zentral über SmartHub.
+- Einzelne Apps dürfen keine eigenen `/update`-Seiten, `/api/update/*`-Routen, Update-Runner oder app-eigenen Update-Skripte mitbringen.
+- App-Pakete dürfen Metadaten für SmartHub bereitstellen, die Bedienung und Ausführung von Updates bleibt aber zentral.
+
 Hinweise:
 
 - Nicht installierte Apps sollten nicht als laufende App angezeigt werden.

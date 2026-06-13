@@ -41,6 +41,12 @@ tenantLedger ist ein unterstützendes Werkzeug für technische Abrechnungsunterl
 - PDF erzeugen und Werte plausibilisieren.
 - Darstellung auf Desktop und Mobil prüfen.
 
-## Screenshot
+## Screenshots
 
-![tenantLedger - Hauptansicht](../assets/images/ui-tenantledger-main.png)
+Die Verwaltungsansicht dient zum Prüfen und Pflegen von Wohnungen, Zählern, Rollen und Preisparametern.
+
+![tenantLedger - Verwaltung und Zuordnung](../assets/images/ui-tenantledger-management.png)
+
+Die Abrechnungsansicht zeigt die Monatsauswertung mit Summen, Preisfluss und PDF-Vorschau.
+
+![tenantLedger - Abrechnung und PDF-Vorschau](../assets/images/ui-tenantledger-billing.png)

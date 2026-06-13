@@ -31,7 +31,11 @@ Wenn eine URL weitergegeben wurde oder du den Zugriff rotieren willst:
 2. Es wird eine neue Remote-Adresse generiert.
 3. Den alten Link nicht weiterverwenden.
 
-### 3. Temporärer Zugang für Support/Installateur
+### 3. Passwort ändern
+
+Der Tunnel Manager kann das Basic-Auth-Passwort des veröffentlichten Webzugriffs ändern. Die Änderung wird in der lokalen Konfiguration gespeichert und in die Caddy-Konfiguration übernommen.
+
+### 4. Temporärer Zugang für Support/Installateur
 
 Für Supportfälle kann ein temporärer Zugang eingerichtet werden:
 
@@ -52,3 +56,7 @@ Für Schäden durch unsachgemäße Freigaben, fehlende Firewall, fehlende Netzwe
 ## Screenshots
 
 ![Tunnel Manager - Dashboard](../assets/images/ui-tunnelmanager-dashboard.png)
+
+![Tunnel Manager - Passwortvergabe](../assets/images/ui-tunnelmanager-password.png)
+
+![Tunnel Manager - Temporärer Service-Zugang](../assets/images/ui-tunnelmanager-service-access.png)

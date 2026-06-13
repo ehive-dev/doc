@@ -53,4 +53,6 @@ Diese sind für den normalen Betrieb nicht erforderlich.
 
 ## Screenshots
 
-![WattRadar – Hauptansicht](../assets/images/ui-wattradar-main.png)
+![WattRadar - Hauptansicht mit KPIs und Zeitverlauf](../assets/images/ui-wattradar-main.png)
+
+![WattRadar - Energiefluss und Diagramme](../assets/images/ui-wattradar-flow.png)

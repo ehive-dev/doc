@@ -1,5 +1,6 @@
 # Changelog
 
+- 0.1.13 - 2026-06-14 - Beschreibungen der Screenshot-Galerie fachlich erweitert.
 - 0.1.12 - 2026-06-14 - Vollständige Screenshot-Galerie mit allen aktuellen PNGs unter Originaldateinamen ergänzt.
 - 0.1.11 - 2026-06-14 - Optionale Lade-App aus der öffentlichen Software-Dokumentation entfernt.
 - 0.1.10 - 2026-06-13 - Aktuelle Screenshots für SmartHub `1.1.40`, App Store, Settings, wattRadar, ioManager, chargeLedger, tenantLedger und Tunnel Manager übernommen; App-Doku mit Code-Abgleich aktualisiert.

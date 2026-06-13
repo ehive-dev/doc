@@ -45,7 +45,6 @@ Aktueller dokumentierter Release-Stand:
 | chargeLedger | `0.2.8` | PDF-/Zahlenformatierung und km-Korrekturen |
 | tenantLedger | `0.1.8` | Style-Anpassungen und Beta-Hinweis |
 | tunnel-manager | `0.9.17` | Remote-Zugriff, Login und Statusanzeige |
-| chargeandgo | `0.1.0` | falls im System aktiviert |
 
 evcc wird bewusst ausgeklammert, weil evcc einen eigenen Stil und eigene Update-/Betriebslogik hat.
 

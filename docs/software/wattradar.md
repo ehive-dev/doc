@@ -53,4 +53,6 @@ Diese sind für den normalen Betrieb nicht erforderlich.
 
 ## Screenshots
 
-![WattRadar – Hauptansicht](../assets/images/ui-wattradar-main.png)
+![wattRadar1.png](../assets/images/wattRadar1.png)
+
+![wattRadar2.png](../assets/images/wattRadar2.png)

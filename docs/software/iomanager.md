@@ -20,4 +20,4 @@ Wähle den Zeitraum:
 
 ## Screenshots
 
-![ioManager – Verlauf / Status](../assets/images/ui-iomanager-main.png)
+![ioManager.png](../assets/images/ioManager.png)

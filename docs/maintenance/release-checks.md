@@ -1,5 +1,37 @@
 # Release-Checks
 
+## Release-Check 2026-06-13
+
+### Umfang
+
+Aktualisiert wurde die öffentliche Dokumentation auf Basis der aktuellen App-Screenshots vom 13.06.2026 und eines Code-Abgleichs der betroffenen Apps.
+
+Dokumentierter Stand für die sichtbaren Oberflächen:
+
+| Komponente | Version / Stand | Hinweis |
+|---|---:|---|
+| SmartHub | `1.1.40` | Dashboard, App Store, Einstellungen und Systeminformationen |
+| wattRadar | `0.4.3` | KPIs, Timeline, Leistungsdiagramme und Energiefluss |
+| ioManager | aktueller Screenshot | Status- und Verlaufsansicht |
+| chargeLedger | `0.2.8` | Monatsabrechnung mit PDF-Vorschau und Exportaktionen |
+| tenantLedger | `0.1.8` | Verwaltungs- und Abrechnungsansicht |
+| tunnel-manager | `0.9.17` | Dashboard, Passwortvergabe und temporärer Service-Zugang |
+
+### Abgleich
+
+- Screenshots aus der aktuellen eHive-Oberfläche unter ihren Originaldateinamen in `docs/assets/images` übernommen.
+- SmartHub-Doku um App-Store-Aktionen, Settings-Login und Systeminformationen ergänzt.
+- Update-Doku um das SmartHub-Menü für App-Updates ergänzt.
+- wattRadar, ioManager, chargeLedger, tenantLedger und Tunnel Manager mit aktuellen Screenshots abgeglichen.
+- Screenshot-Galerie mit allen 15 PNGs und kurzen Beschreibungen ergänzt.
+- Code-Snapshots der Apps für Menüs, Routen und sichtbare UI-Funktionen geprüft.
+
+### Ergebnis
+
+- Für die dokumentierten App-Seiten sind keine fehlenden Bilder offen.
+- Es wurden keine künstlich generierten Bilder benötigt.
+- Alle aktuellen PNGs wurden aus dem bereitgestellten Screenshot-Satz übernommen.
+
 ## Release-Check 2026-06-09
 
 ### Umfang
@@ -14,7 +46,6 @@ Aktueller dokumentierter Release-Stand:
 | chargeLedger | `0.2.8` | PDF-/Zahlenformatierung und km-Korrekturen |
 | tenantLedger | `0.1.8` | Style-Anpassungen und Beta-Hinweis |
 | tunnel-manager | `0.9.17` | Remote-Zugriff, Login und Statusanzeige |
-| chargeandgo | `0.1.0` | falls im System aktiviert |
 
 evcc wird bewusst ausgeklammert, weil evcc einen eigenen Stil und eigene Update-/Betriebslogik hat.
 

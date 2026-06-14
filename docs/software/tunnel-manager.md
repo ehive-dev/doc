@@ -8,7 +8,7 @@ Der Tunnel Manager richtet einen Remote-Zugriff auf die Weboberflächen des eHiv
 
 ## Zweck
 
-Die App stellt zeitlich und fachlich kontrollierten Remote-Zugriff bereit. Sie ist für Support, Inbetriebnahme und Servicefälle gedacht, nicht als dauerhaft offene Fernwartung ohne Betreiberfreigabe.
+Die App stellt Remote-Zugriff auf die Weboberflächen des eHive One bereit. Sie erzeugt eine gerätebezogene Adresse, schützt den Zugriff per Passwort und kann QR-Codes sowie temporäre Zugänge für definierte Anwendungsfälle bereitstellen.
 
 ## Zugriff & Login
 

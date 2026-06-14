@@ -2,11 +2,11 @@
 
 Dokumentierter Softwarestand: **tenantLedger 0.1.8**
 
-tenantLedger unterstützt die technische Auswertung von Mieterstrom-, Wohnungs- oder Mieterabrechnungen. Die App ordnet Verbrauchswerte, Zähler und Preisbestandteile strukturiert zu und kann daraus PDF-Unterlagen erzeugen.
+Mit tenantLedger wertest du Mieterstrom-, Wohnungs- oder Mieterabrechnungen technisch aus. Du ordnest Verbrauchswerte, Zähler und Preisbestandteile strukturiert zu und kannst daraus PDF-Unterlagen erzeugen.
 
 ## Zweck
 
-Die App unterstützt Betreiber beim Prüfen und Dokumentieren von Verbrauchs- und Preisanteilen je Wohnung oder Mieter. Sie ersetzt keine rechtliche Abrechnung, macht aber die technischen Grundlagen und PDF-Unterlagen nachvollziehbar.
+Du brauchst tenantLedger, wenn du Verbrauchs- und Preisanteile je Wohnung oder Mieter technisch prüfen und dokumentieren willst. So behältst du Zuordnungen, Werte und PDF-Unterlagen nachvollziehbar im Blick; die rechtliche Prüfung bleibt separat.
 
 ## Zugriff
 
@@ -34,13 +34,13 @@ Die App unterstützt Betreiber beim Prüfen und Dokumentieren von Verbrauchs- un
 
 ## Status
 
-tenantLedger ist ein unterstützendes Werkzeug für technische Abrechnungsunterlagen. Die rechtliche und abrechnungstechnische Prüfung bleibt erforderlich.
+Du nutzt tenantLedger als unterstützendes Werkzeug für technische Abrechnungsunterlagen. Die rechtliche und abrechnungstechnische Prüfung bleibt erforderlich.
 
 ## Wichtige Hinweise
 
 - Zählerzuordnung, Preise, Zeiträume und Messwerte müssen vor Verwendung geprüft werden.
 - Mieterstrom- und Abrechnungsmodelle können rechtliche, steuerliche und regulatorische Anforderungen auslösen.
-- Die App ersetzt keine Rechts-, Steuer- oder Messstellenprüfung.
+- tenantLedger ersetzt keine Rechts-, Steuer- oder Messstellenprüfung.
 - Für falsche Ausgangsdaten, falsche Zuordnung oder ungeprüfte Verwendung der Auswertung wird keine Gewährleistung übernommen.
 
 ## Prüfung nach Updates

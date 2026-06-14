@@ -2,11 +2,11 @@
 
 Dokumentierter Softwarestand: **chargeLedger 0.2.8**
 
-chargeLedger unterstützt die Auswertung und Dokumentation von Ladevorgängen je Fahrzeug und Monat. Die App ist als technische Abrechnungs- und Dokumentationshilfe gedacht.
+Mit chargeLedger wertest und dokumentierst du Ladevorgänge je Fahrzeug und Monat. Du nutzt es als technische Abrechnungs- und Dokumentationshilfe.
 
 ## Zweck
 
-Die App bündelt die monatliche Ladeauswertung für einzelne Fahrzeuge. Sie hilft dabei, Fahrer-, Kennzeichen- und Monatsdaten zu prüfen und daraus eine nachvollziehbare PDF-Unterlage zu erzeugen.
+Du brauchst chargeLedger, wenn du Ladevorgänge je Fahrzeug und Monat nachvollziehbar dokumentieren willst. Damit führst du Fahrzeug- und Monatsauswahl, Stammdatenprüfung und PDF-Erzeugung in einem Ablauf zusammen.
 
 ## Zugriff
 

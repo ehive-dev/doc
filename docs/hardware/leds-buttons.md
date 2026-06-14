@@ -3,7 +3,7 @@
 ## NetMode‑Taster
 
 - Position: **unterhalb der RJ45‑Buchse**.
-- Zweck: Netzwerk‑ und Passwort‑Recovery (`5 s` DHCP / `10 s` Default‑IP).
+- Du nutzt ihn für Netzwerk‑ und Passwort‑Recovery (`5 s` DHCP / `10 s` Default‑IP).
 - Hinweis: NetMode setzt bei beiden Aktionen die Zugangspasswörter zurück und startet das Gerät neu.
 
 ![Position des NetMode‑Tasters unterhalb der RJ45‑Buchse](../assets/images/ehive-one-ethernet-power.webp)

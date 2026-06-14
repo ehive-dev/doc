@@ -1,6 +1,6 @@
 # Tunnel Manager (Remote-Zugriff)
 
-Der Tunnel Manager richtet einen Remote-Zugriff auf die Weboberflächen des eHive One ein.
+Mit dem Tunnel Manager richtest du Remote-Zugriff auf die Weboberflächen des eHive One ein.
 
 - Veröffentlicht **nur Web-UIs**.
 - Der Zugriff erfolgt über eine **seriennummernbasierte Subdomain** plus persönlichen **Hash**.
@@ -8,7 +8,7 @@ Der Tunnel Manager richtet einen Remote-Zugriff auf die Weboberflächen des eHiv
 
 ## Zweck
 
-Die App stellt Remote-Zugriff auf die Weboberflächen des eHive One bereit. Sie erzeugt eine gerätebezogene Adresse, schützt den Zugriff per Passwort und kann QR-Codes sowie temporäre Zugänge für definierte Anwendungsfälle bereitstellen.
+Du brauchst den Tunnel Manager, wenn du die Weboberflächen des eHive One aus der Ferne erreichbar machen willst. Er erzeugt die gerätebezogene Adresse, schützt den Zugriff per Passwort und stellt QR-Codes sowie temporäre Zugänge bereit.
 
 ## Zugriff & Login
 

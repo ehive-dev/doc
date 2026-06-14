@@ -1,12 +1,12 @@
 # SmartHub (Dashboard)
 
-SmartHub ist das zentrale Dashboard von eHive One. Es listet verfügbare Apps, zeigt Status und bietet **Einstellungen** für Gerät, Netzwerk, Updates und Backups.
+Mit SmartHub bedienst du eHive One im Alltag. Du öffnest verfügbare Apps, prüfst deren Status und erreichst die **Einstellungen** für Gerät, Netzwerk, Updates und Backups.
 
 Dokumentierter Softwarestand: **SmartHub 1.1.40**
 
 ## Zweck
 
-SmartHub ist der zentrale Einstieg für Betreiber und Support. Hier werden Apps geöffnet, App-Zustände geprüft und geschützte Gerätefunktionen wie Netzwerk, Passwort, Updates und Backups verwaltet.
+Du brauchst SmartHub als zentralen Einstieg in eHive One: Damit öffnest du Apps, prüfst App-Zustände und verwaltest geschützte Gerätefunktionen wie Netzwerk, Passwort, Updates und Backups.
 
 ## Öffnen
 
@@ -86,7 +86,7 @@ Die zweite Einstellungsansicht fasst Passwortänderung und Systemaktionen zusamm
 
 ### Updates und Wiederherstellung
 
-SmartHub stellt eine Update-/Rettungsoberfläche bereit:
+Über SmartHub erreichst du die Update-/Rettungsoberfläche:
 
 - `http://ehiveone.local/update/`
 - `http://<IP-ADRESSE>/update/`

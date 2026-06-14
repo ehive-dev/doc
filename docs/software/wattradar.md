@@ -1,10 +1,10 @@
 # WattRadar
 
-WattRadar visualisiert Erzeugung/Verbrauch und weitere Energie‑Kennzahlen als zeitlichen Verlauf. Die Daten stammen aus der vorkonfigurierten evcc‑Datenbank (z. B. InfluxDB) – für Endanwender ist **keine Konfiguration** nötig.
+Mit WattRadar siehst du Erzeugung, Verbrauch und weitere Energie‑Kennzahlen als zeitlichen Verlauf. Die Daten stammen aus der vorkonfigurierten evcc‑Datenbank (z. B. InfluxDB) – für Endanwender ist **keine Konfiguration** nötig.
 
 ## Zweck
 
-Die App hilft beim Prüfen, ob Energieflüsse und Messwerte plausibel sind. Sie macht Erzeugung, Verbrauch, Netzbezug, Einspeisung, Batterie und Ladevorgänge über Zeit sichtbar.
+Du brauchst WattRadar, wenn du prüfen willst, ob Energieflüsse und Messwerte plausibel sind. Du siehst Erzeugung, Verbrauch, Netzbezug, Einspeisung, Batterie und Ladevorgänge über die Zeit.
 
 ## Zugriff
 

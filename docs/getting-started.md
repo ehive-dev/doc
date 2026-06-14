@@ -5,7 +5,7 @@
 - Montage auf **Hutschiene**.
 - Betrieb nur in **trockener Innenumgebung**.
 - **Nicht offen** montieren – vorgesehen für **Schaltschrank / Abdeckung** (Schutzart IP20).
-- Für ausreichende Luftzirkulation im Schaltschrank sorgen.
+- Für ausreichende Luftzirkulation im Schaltschrank sorgen; oberhalb und unterhalb des Geräts mindestens 40 mm freien Luftweg vorsehen.
 
 ## Versorgung
 

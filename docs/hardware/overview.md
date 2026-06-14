@@ -43,7 +43,7 @@ eHive One ist für den Betrieb in Niederspannungs-Umgebungen vorgesehen und wird
 eHive One ist passiv gekühlt. Für dauerhaften Betrieb muss der Schaltschrank so aufgebaut sein, dass die Wärme frei abziehen kann.
 
 - Lüftungsschlitze am Gerät dürfen nicht verdeckt oder durch Kabel, Kabelkanäle, Abdeckungen oder benachbarte Geräte blockiert werden.
-- Oberhalb und unterhalb des Geräts muss ein freier Luftweg vorhanden sein. Als interne Planungsvorgabe mindestens **20 mm** frei lassen; bei dichter Bestückung, warmem Schrank oder hoher Dauerlast mehr Abstand vorsehen.
+- Oberhalb und unterhalb des Geräts muss ein freier Luftweg vorhanden sein. Als interne Planungsvorgabe mindestens 40 mm frei lassen, bei dichter Bestückung, warmem Schrank oder hoher Dauerlast mehr Abstand vorsehen.
 - Wärmequellen wie Netzteile, Relais, Schütze, Leistungsschalter, Wechselrichter, Ladeelektronik oder Heizungen nicht direkt über, unter oder unmittelbar neben dem Gerät platzieren.
 - Erwärmte Abluft anderer Komponenten darf nicht direkt in die Lüftungsschlitze des eHive One steigen.
 - Die Temperatur ist am Montageort im Schaltschrank zu bewerten, nicht nur anhand der Raumtemperatur.

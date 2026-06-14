@@ -7,7 +7,7 @@
 - Vor Arbeiten am Gerät: Versorgung spannungsfrei schalten.
 - Für ausreichende Luftzirkulation sorgen.
 - Lüftungsschlitze am Gerät nicht abdecken oder durch Kabel, Kabelkanäle, Abdeckungen oder Nachbargeräte versperren.
-- Oberhalb und unterhalb des Geräts ausreichend freien Luftweg vorsehen; als Planungsvorgabe mindestens 20 mm, bei warmer oder dichter Bestückung entsprechend mehr.
+- Oberhalb und unterhalb des Geräts muss ein freier Luftweg vorhanden sein. Als interne Planungsvorgabe mindestens 40 mm frei lassen, bei dichter Bestückung, warmem Schrank oder hoher Dauerlast mehr Abstand vorsehen.
 - Wärmequellen nicht direkt über, unter oder unmittelbar neben dem Gerät platzieren.
 - Ohne gesonderten thermischen Nachweis sollte die Lufttemperatur am Montageort im Schaltschrank 40 °C nicht überschreiten; der 24-h-Mittelwert sollte 35 °C nicht überschreiten.
 - Bei höheren Schranktemperaturen sind Derating, Lüftung/Kühlung und die Einhaltung der geltenden Normen durch eine Elektrofachkraft zu prüfen.

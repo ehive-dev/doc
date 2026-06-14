@@ -23,7 +23,7 @@
 | Schutzart / Umgebung | IP20, trockene Innenumgebung |
 | Montageumgebung | Schaltschrank oder Montage unter Abdeckung |
 | Planungsgrenze Schrank-Innenraum | **max. 40 °C**, über 24 h im Mittel **max. 35 °C**, sofern kein gesonderter thermischer Nachweis vorliegt |
-| Luftführung | Lüftungsschlitze freihalten; oberhalb und unterhalb freien Luftweg vorsehen |
+| Luftführung | Lüftungsschlitze freihalten; oberhalb und unterhalb mindestens 40 mm freien Luftweg vorsehen |
 | Abstand zu Wärmequellen | Wärmequellen nicht direkt über, unter oder unmittelbar neben dem Gerät platzieren |
 
 ## Speicher

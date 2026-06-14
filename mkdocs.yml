@@ -59,7 +59,6 @@ nav:
   - Weitere Apps: software/other-apps.md
 - Wartung:
   - Updates: maintenance/updates.md
-  - Release-Checks: maintenance/release-checks.md
   - Backup und Wiederherstellung: maintenance/backup-restore.md
   - Troubleshooting: maintenance/troubleshooting.md
 - Support-Prozess: support.md

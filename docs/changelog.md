@@ -1,5 +1,6 @@
 # Changelog
 
+- 0.1.17 - 2026-06-14 - Interne Wartungsseite aus der öffentlichen Dokumentation entfernt.
 - 0.1.16 - 2026-06-14 - Separate Zweck-Abschnitte aus den App-Seiten entfernt und Inhalte in kurze Einleitungen übernommen.
 - 0.1.15 - 2026-06-14 - Planungsvorgabe für freien Luftweg oberhalb und unterhalb des Geräts auf mindestens 40 mm aktualisiert.
 - 0.1.14 - 2026-06-14 - Zweck-Abschnitte in direkte Nutzeransprache umformuliert.

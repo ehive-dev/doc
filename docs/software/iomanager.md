@@ -1,13 +1,11 @@
 # ioManager
 
-Mit ioManager siehst du den aktuellen Status und den zeitlichen Verlauf eines digitalen Signals (HIGH/LOW). Typische Anwendungsfälle:
+Mit ioManager siehst du den aktuellen Status und den zeitlichen Verlauf eines digitalen Signals (HIGH/LOW). So erkennst du, ob ein Eingang gerade aktiv ist und wann sich der Zustand geändert hat.
+
+Typische Anwendungsfälle:
 
 - Überwachung eines digitalen Eingangs (z. B. DI für **EnWG §14a**, Relaiskontakt, Statusleitung)
 - Diagnose: „Kommt das Signal an?“ / „Wann hat es geschaltet?“
-
-## Zweck
-
-Du brauchst ioManager, wenn du sehen willst, ob ein digitaler Eingang gerade HIGH oder LOW ist und wann sich der Zustand geändert hat. Das hilft dir bei Diagnose, Relaiskontakten und EnWG-14a-Signalen.
 
 ## Zugriff
 

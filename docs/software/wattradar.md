@@ -1,10 +1,6 @@
 # WattRadar
 
-Mit WattRadar siehst du Erzeugung, Verbrauch und weitere Energie‑Kennzahlen als zeitlichen Verlauf. Die Daten stammen aus der vorkonfigurierten evcc‑Datenbank (z. B. InfluxDB) – für Endanwender ist **keine Konfiguration** nötig.
-
-## Zweck
-
-Du brauchst WattRadar, wenn du prüfen willst, ob Energieflüsse und Messwerte plausibel sind. Du siehst Erzeugung, Verbrauch, Netzbezug, Einspeisung, Batterie und Ladevorgänge über die Zeit.
+Mit WattRadar prüfst du Energieflüsse und Messwerte im zeitlichen Verlauf. WattRadar zeigt Erzeugung, Verbrauch, Netzbezug, Einspeisung, Batterie und Ladevorgänge aus der vorkonfigurierten evcc‑Datenbank (z. B. InfluxDB); für Endanwender ist **keine Konfiguration** nötig.
 
 ## Zugriff
 

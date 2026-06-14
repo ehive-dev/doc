@@ -1,8 +1,7 @@
 # NetMode (Netzwerk‑Taster)
 
-NetMode ist die Funktion hinter dem Hardware‑Taster, um das Gerät im Netzwerk wieder erreichbar zu machen (z. B. nach Fehlkonfiguration) und die Zugangspasswörter zurückzusetzen.
+Mit NetMode machst du eHive One nach einer Netzwerk-Fehlkonfiguration wieder erreichbar und setzt die Zugangspasswörter zurück. Die Funktion wird über den Hardware‑Taster unterhalb der RJ45‑Buchse ausgelöst.
 
-- Tasterposition: **unterhalb der RJ45‑Buchse**.
 - Default‑IP im Recovery‑Modus: **192.168.100.1/24** (fix).
 - Bei beiden NetMode‑Aktionen werden die Zugangspasswörter zurückgesetzt.
 - Nach dem Loslassen startet das Gerät neu. Der Ablauf dauert ca. **1 Minute**; während des Reboots leuchtet die **System‑LED nahe USB‑C dauerhaft**.

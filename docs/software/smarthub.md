@@ -1,12 +1,8 @@
 # SmartHub (Dashboard)
 
-Mit SmartHub bedienst du eHive One im Alltag. Du öffnest verfügbare Apps, prüfst deren Status und erreichst die **Einstellungen** für Gerät, Netzwerk, Updates und Backups.
+Mit SmartHub bedienst du eHive One im Alltag. Du öffnest verfügbare Apps, prüfst deren Status und erreichst die **Einstellungen** für Gerät, Netzwerk, Passwort, Updates und Backups.
 
 Dokumentierter Softwarestand: **SmartHub 1.1.40**
-
-## Zweck
-
-Du brauchst SmartHub als zentralen Einstieg in eHive One: Damit öffnest du Apps, prüfst App-Zustände und verwaltest geschützte Gerätefunktionen wie Netzwerk, Passwort, Updates und Backups.
 
 ## Öffnen
 

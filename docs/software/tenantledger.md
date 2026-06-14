@@ -1,12 +1,8 @@
 # tenantLedger
 
+Mit tenantLedger wertest du Mieterstrom-, Wohnungs- oder Mieterabrechnungen technisch aus. Du ordnest Verbrauchswerte, Zähler und Preisbestandteile strukturiert zu und behältst PDF-Unterlagen nachvollziehbar im Blick; die rechtliche Prüfung bleibt separat.
+
 Dokumentierter Softwarestand: **tenantLedger 0.1.8**
-
-Mit tenantLedger wertest du Mieterstrom-, Wohnungs- oder Mieterabrechnungen technisch aus. Du ordnest Verbrauchswerte, Zähler und Preisbestandteile strukturiert zu und kannst daraus PDF-Unterlagen erzeugen.
-
-## Zweck
-
-Du brauchst tenantLedger, wenn du Verbrauchs- und Preisanteile je Wohnung oder Mieter technisch prüfen und dokumentieren willst. So behältst du Zuordnungen, Werte und PDF-Unterlagen nachvollziehbar im Blick; die rechtliche Prüfung bleibt separat.
 
 ## Zugriff
 

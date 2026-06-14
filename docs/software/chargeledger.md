@@ -1,12 +1,8 @@
 # chargeLedger
 
+Mit chargeLedger wertest und dokumentierst du Ladevorgänge je Fahrzeug und Monat. Fahrzeug- und Monatsauswahl, Stammdatenprüfung und PDF-Erzeugung laufen in einem nachvollziehbaren Ablauf zusammen.
+
 Dokumentierter Softwarestand: **chargeLedger 0.2.8**
-
-Mit chargeLedger wertest und dokumentierst du Ladevorgänge je Fahrzeug und Monat. Du nutzt es als technische Abrechnungs- und Dokumentationshilfe.
-
-## Zweck
-
-Du brauchst chargeLedger, wenn du Ladevorgänge je Fahrzeug und Monat nachvollziehbar dokumentieren willst. Damit führst du Fahrzeug- und Monatsauswahl, Stammdatenprüfung und PDF-Erzeugung in einem Ablauf zusammen.
 
 ## Zugriff
 

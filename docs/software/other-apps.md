@@ -1,6 +1,6 @@
 # Weitere Apps und Dienste
 
-Je nach Auslieferungsstand können auf eHive One weitere Dienste vorinstalliert oder vorbereitet sein. Diese werden, wenn aktiviert, über **SmartHub** erreichbar gemacht.
+Über SmartHub erreichst du je nach Auslieferungsstand weitere Dienste, die auf eHive One vorinstalliert oder vorbereitet sind. Sichtbar werden sie nur, wenn sie aktiviert und gestartet sind.
 
 Diese Endanwender-Doku beschreibt die wichtigsten eHive-Tools. Für Dritt-UIs und externe Dienste gelten zusätzlich die jeweiligen Projektdokumentationen und Herstellerangaben.
 

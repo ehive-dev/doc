@@ -15,6 +15,10 @@ Dokumentierter Softwarestand: **SmartHub 1.1.40**
 
 Beim ersten Öffnen kann SmartHub das Setzen eines neuen Admin-Passworts erzwingen.
 
+Für die Systemeinstellungen gibt es eine separate Anmeldung. Dadurch bleiben App-Ansicht und Gerätekonfiguration getrennt; Änderungen an Netzwerk, Passwort oder Systemfunktionen werden erst nach erneuter Authentifizierung zugänglich.
+
+![SmartHub Login für die geschützten Einstellungen](../assets/images/LoginFürSettings.png)
+
 ## Navigation
 
 - Links in der Sidebar: Apps
@@ -32,6 +36,10 @@ SmartHub trennt die installierten Apps von der Store-Ansicht:
 - Das Drei-Punkte-Menü einer App bietet je nach Zustand **Update**, **Neustarten**, **Installieren** oder **Deinstallieren**.
 - Während Updates, Installationen oder Neustarts zeigt SmartHub ein Log-Panel und aktualisiert die App-Liste danach.
 
+Im App-Store-/Verwaltungsmodus öffnet das Drei-Punkte-Menü die passenden Aktionen zur jeweiligen App. Bei installierten Apps sind zum Beispiel Neustart und Deinstallation sichtbar; bei nicht installierten Apps steht stattdessen die Installation im Vordergrund.
+
+![SmartHub App-Verwaltung mit Kontextmenü](../assets/images/AppStoreInstalliereDeinstallierenNeustarten.png)
+
 ## Einstellungen
 
 SmartHub -> **Einstellungen**:
@@ -45,12 +53,20 @@ Zeigt u. a.:
 - Interface, MAC
 - Systeminformationen und Seriennummer
 
+Die Systeminformationen zeigen Seriennummer, SmartHub-Version sowie CPU-, Temperatur- und RAM-Werte. Diese Ansicht ist besonders für Support und Wartung nützlich, weil die wichtigsten Gerätedaten ohne SSH direkt im Browser ablesbar sind.
+
+![SmartHub Systeminformationen mit Seriennummer und Auslastung](../assets/images/Systeminformationen.png)
+
 ### Netzwerk ändern
 
 - Hostname setzen
 - Interface auswählen
 - IP-Modus: DHCP oder Statisch
 - Änderungen werden per Dialog bestätigt (Rollback möglich)
+
+Die erste Einstellungsansicht bündelt Geräte-, Netzwerk- und Remote-Access-Daten. Hier lässt sich nach der Inbetriebnahme prüfen, ob Hostname, IP-Adresse, Gateway, DNS und Schnittstelle zum geplanten Netzwerk passen.
+
+![SmartHub Einstellungen für Gerät und Netzwerk](../assets/images/SettingsTeil1.png)
 
 ### Passwort ändern
 
@@ -59,6 +75,10 @@ Zeigt u. a.:
 ### System
 
 - Neustart über Button (Bestätigung erforderlich)
+
+Die zweite Einstellungsansicht fasst Passwortänderung und Systemaktionen zusammen. Dort wird das lokale Admin-Passwort geändert und ein Neustart bewusst über den Systembereich ausgelöst.
+
+![SmartHub Einstellungen für Passwort und Systemaktionen](../assets/images/SettingsTeil2.png)
 
 ### Updates und Wiederherstellung
 
@@ -69,15 +89,3 @@ SmartHub stellt eine Update-/Rettungsoberfläche bereit:
 - `http://<IP-ADRESSE>:3003/` als direkter Rettungszugriff
 
 Details: [Updates](../maintenance/updates.md) und [Backup und Wiederherstellung](../maintenance/backup-restore.md).
-
-## Screenshots
-
-![Systeminformationen.png](../assets/images/Systeminformationen.png)
-
-![AppStoreInstalliereDeinstallierenNeustarten.png](../assets/images/AppStoreInstalliereDeinstallierenNeustarten.png)
-
-![LoginFürSettings.png](../assets/images/LoginFürSettings.png)
-
-![SettingsTeil1.png](../assets/images/SettingsTeil1.png)
-
-![SettingsTeil2.png](../assets/images/SettingsTeil2.png)

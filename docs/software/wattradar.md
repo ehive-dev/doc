@@ -53,6 +53,14 @@ Diese sind für den normalen Betrieb nicht erforderlich.
 
 ## Screenshots
 
-![wattRadar1.png](../assets/images/wattRadar1.png)
+### Energieüberblick und Zeitverlauf
 
-![wattRadar2.png](../assets/images/wattRadar2.png)
+Die Hauptansicht zeigt oben KPI-Kacheln für aktuelle Energiekennzahlen und darunter Timeline sowie Leistungsdiagramme. Damit lässt sich prüfen, ob Messdaten ankommen, welcher Zeitraum ausgewertet wird und wie sich Erzeugung, Verbrauch, Netzbezug, Batterie und Ladevorgänge entwickeln.
+
+![WattRadar Hauptansicht mit Kennzahlen und Diagrammen](../assets/images/wattRadar1.png)
+
+### Energiefluss
+
+Die Energieflussansicht ergänzt die Zeitverläufe um eine Sankey-Darstellung. Sie zeigt, wie Energie zwischen PV, Netz, Haus, Batterie, Export und Ladepunkten verteilt wird. Diese Ansicht hilft besonders bei der Plausibilisierung, ob Energie direkt verbraucht, gespeichert, eingespeist oder geladen wurde.
+
+![WattRadar Energiefluss mit zugehörigen Zeitverläufen](../assets/images/wattRadar2.png)

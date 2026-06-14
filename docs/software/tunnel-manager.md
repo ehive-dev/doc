@@ -23,6 +23,10 @@ Der Tunnel Manager richtet einen Remote-Zugriff auf die Weboberflächen des eHiv
    - `<SERIAL>-<HASH>.<domain>`
 4. Ein QR-Code kann angezeigt werden; abhängig vom Handy öffnet er die passende App oder Weboberfläche.
 
+Das Dashboard zeigt Tunnelstatus, Domain- bzw. Hash-Feld, QR-Code und Statusmeldung. Hier wird geprüft, ob der Remote-Zugriff aktiv ist und welche Adresse bzw. welcher QR-Code für den Zugriff verwendet wird.
+
+![Tunnel Manager Dashboard mit Tunnelstatus und QR-Code](../assets/images/TunnelManager.png)
+
 ### 2. Hash neu erzeugen
 
 Wenn eine URL weitergegeben wurde oder du den Zugriff rotieren willst:
@@ -35,12 +39,20 @@ Wenn eine URL weitergegeben wurde oder du den Zugriff rotieren willst:
 
 Der Tunnel Manager kann das Basic-Auth-Passwort des veröffentlichten Webzugriffs ändern. Die Änderung wird in der lokalen Konfiguration gespeichert und in die Caddy-Konfiguration übernommen.
 
+Der Einstellungsdialog dient zur Vergabe des Passworts für den veröffentlichten Webzugriff. Nach dem Speichern ist dieses Passwort für den Zugriff über den Tunnel maßgeblich; Standard- oder Übergangspasswörter sollten nicht im produktiven Betrieb bleiben.
+
+![Tunnel Manager Passwortdialog für den Remote-Zugriff](../assets/images/TunnelManager_PasswortVergabe.png)
+
 ### 4. Temporärer Zugang für Support/Installateur
 
 Für Supportfälle kann ein temporärer Zugang eingerichtet werden:
 
 - Aktivieren -> Link/QR weitergeben
 - Nach Abschluss: temporären Zugang **deaktivieren/entfernen**
+
+Der Dialog für den temporären Service-Zugang nimmt E-Mail-Adresse und Laufzeit auf. Er ist für Supportfälle gedacht, in denen ein zeitlich begrenzter Zugriff benötigt wird; die Laufzeit sollte so kurz wie möglich gewählt und nach Abschluss entfernt werden.
+
+![Tunnel Manager Dialog für temporären Service-Zugang](../assets/images/TunnelManager_TemporärerServiceZugang.png)
 
 ## Sicherheit
 
@@ -52,11 +64,3 @@ Für Supportfälle kann ein temporärer Zugang eingerichtet werden:
 - Remote-Zugriff und Firewall-Regeln müssen vor Aktivierung mit der zuständigen IT-/OT-Administration bzw. dem Betreiber abgestimmt werden.
 
 Für Schäden durch unsachgemäße Freigaben, fehlende Firewall, fehlende Netzwerksegmentierung oder nicht abgestimmte Remote-Zugriffe wird - soweit gesetzlich zulässig - keine Gewährleistung oder Haftung übernommen. Bei Fragen zur sicheren Einbindung unterstützen wir gerne.
-
-## Screenshots
-
-![TunnelManager.png](../assets/images/TunnelManager.png)
-
-![TunnelManager_PasswortVergabe.png](../assets/images/TunnelManager_PasswortVergabe.png)
-
-![TunnelManager_TemporärerServiceZugang.png](../assets/images/TunnelManager_TemporärerServiceZugang.png)

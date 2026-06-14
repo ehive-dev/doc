@@ -23,7 +23,7 @@ Dokumentierter Stand für die sichtbaren Oberflächen:
 - SmartHub-Doku um App-Store-Aktionen, Settings-Login und Systeminformationen ergänzt.
 - Update-Doku um das SmartHub-Menü für App-Updates ergänzt.
 - wattRadar, ioManager, chargeLedger, tenantLedger und Tunnel Manager mit aktuellen Screenshots abgeglichen.
-- Screenshot-Galerie mit allen 15 PNGs und kurzen Beschreibungen ergänzt.
+- Alle aktuellen PNGs in die passenden Software- und Wartungsseiten einsortiert und fachlich beschrieben.
 - Code-Snapshots der Apps für Menüs, Routen und sichtbare UI-Funktionen geprüft.
 
 ### Ergebnis

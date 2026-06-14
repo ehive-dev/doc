@@ -49,7 +49,9 @@ Wenn das Gerät danach weiterhin nicht erreichbar ist, Support kontaktieren und 
 
 Apps werden im SmartHub Store bzw. in der jeweiligen App-Verwaltung aktualisiert. Je nach App können zusätzlich **Starten**, **Neustarten**, **Installieren** oder **Deinstallieren** verfügbar sein.
 
-![AppsUpdaten.png](../assets/images/AppsUpdaten.png)
+Wenn SmartHub für eine App eine neuere Version erkennt, erscheint die Update-Aktion direkt im Drei-Punkte-Menü der App. Dort sind installierte und verfügbare Version sichtbar, sodass vor dem Start klar ist, welche Komponente aktualisiert wird.
+
+![SmartHub App-Menü mit verfügbarer Update-Aktion](../assets/images/AppsUpdaten.png)
 
 Zentrale Update-Regel:
 

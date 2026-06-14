@@ -43,10 +43,14 @@ tenantLedger ist ein unterstützendes Werkzeug für technische Abrechnungsunterl
 
 ## Screenshots
 
-Die Verwaltungsansicht dient zum Prüfen und Pflegen von Wohnungen, Zählern, Rollen und Preisparametern.
+### Verwaltung und Zuordnung
 
-![tenantLedgerVerwaltung.png](../assets/images/tenantLedgerVerwaltung.png)
+Die Verwaltungsansicht dient zum Prüfen und Pflegen der fachlichen Grundlage für die Abrechnung: Wohnungen, Zähler, Rollen, Preisparameter und Zuordnungen. Vor einer produktiven Auswertung müssen diese Daten vollständig und plausibel sein, weil sie direkt in die späteren Beträge und PDF-Unterlagen einfließen.
 
-Die Abrechnungsansicht zeigt die Monatsauswertung mit Summen, Preisfluss und PDF-Vorschau.
+![tenantLedger Verwaltung mit Wohnungen, Zählern und Preisparametern](../assets/images/tenantLedgerVerwaltung.png)
 
-![tenantLedgerAbbrechnung.png](../assets/images/tenantLedgerAbbrechnung.png)
+### Abrechnung und PDF-Vorschau
+
+Die Abrechnungsansicht zeigt Monatsauswertung, Summen, Preisfluss und PDF-Vorschau. Hier werden die gepflegten Zuordnungen angewendet und die Werte für Betreiberübersicht sowie Mieterabrechnungen kontrolliert.
+
+![tenantLedger Abrechnung mit Preisfluss und PDF-Vorschau](../assets/images/tenantLedgerAbbrechnung.png)

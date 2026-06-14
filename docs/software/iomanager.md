@@ -20,4 +20,8 @@ Wähle den Zeitraum:
 
 ## Screenshots
 
-![ioManager.png](../assets/images/ioManager.png)
+### Status und Verlauf eines digitalen Signals
+
+Die Ansicht zeigt den aktuellen Signalzustand und ein Verlaufsdiagramm für den gewählten Zeitraum. Über die Zeitfilter lässt sich nachvollziehen, wann ein Eingang geschaltet hat. Das ist hilfreich bei Relaiskontakten, Sperrsignalen, EnWG-14a-Signalen oder allgemeinen digitalen Diagnoseeingängen.
+
+![ioManager Statusanzeige und Signalverlauf](../assets/images/ioManager.png)

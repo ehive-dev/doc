@@ -29,7 +29,7 @@ Hinweis: Detaillierte Klemmen- und Tasterbeschreibung siehe *Gerät -> Anschlüs
 
 ## Bestimmungsgemäße Verwendung
 
-eHive One ist für den Betrieb in Niederspannungs-Umgebungen vorgesehen und wird üblicherweise im Schaltschrank eingesetzt. Die Software ist auf Bedienung über Weboberflächen ausgelegt.
+eHive One ist für den Betrieb in Niederspannungs-Umgebungen vorgesehen und wird üblicherweise im Schaltschrank eingesetzt.
 
 ## Montageumgebung
 

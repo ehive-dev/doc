@@ -1,2 +1,9 @@
 # Local website snapshots; keep out of git
 awatt_*.html
+
+# Local Codex/workspace helpers; not part of the published docs repo
+.codex_remote/
+_smarthub_update_path_fix/
+pic/
+workflows/
+site/

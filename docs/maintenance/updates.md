@@ -51,7 +51,7 @@ Apps werden im SmartHub Store bzw. in der jeweiligen App-Verwaltung aktualisiert
 
 Wenn SmartHub für eine App eine neuere Version erkennt, erscheint die Update-Aktion direkt im Drei-Punkte-Menü der App. Dort sind installierte und verfügbare Version sichtbar, sodass vor dem Start klar ist, welche Komponente aktualisiert wird.
 
-![SmartHub App-Menü mit verfügbarer Update-Aktion](../assets/images/AppsUpdaten.png)
+![SmartHub App-Menü mit verfügbarer Update-Aktion](../assets/images/ui-smarthub-app-update-menu.png)
 
 Zentrale Update-Regel:
 

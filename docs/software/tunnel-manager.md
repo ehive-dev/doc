@@ -6,6 +6,10 @@ Der Tunnel Manager richtet einen Remote-Zugriff auf die Weboberflächen des eHiv
 - Der Zugriff erfolgt über eine **seriennummernbasierte Subdomain** plus persönlichen **Hash**.
 - SSH-Zugriffe sind nur für Servicefälle vorgesehen und müssen gezielt aktiviert und wieder deaktiviert werden.
 
+## Zweck
+
+Die App stellt zeitlich und fachlich kontrollierten Remote-Zugriff bereit. Sie ist für Support, Inbetriebnahme und Servicefälle gedacht, nicht als dauerhaft offene Fernwartung ohne Betreiberfreigabe.
+
 ## Zugriff & Login
 
 - Öffne den Tunnel Manager über **SmartHub**.
@@ -25,7 +29,7 @@ Der Tunnel Manager richtet einen Remote-Zugriff auf die Weboberflächen des eHiv
 
 Das Dashboard zeigt Tunnelstatus, Domain- bzw. Hash-Feld, QR-Code und Statusmeldung. Hier wird geprüft, ob der Remote-Zugriff aktiv ist und welche Adresse bzw. welcher QR-Code für den Zugriff verwendet wird.
 
-![Tunnel Manager Dashboard mit Tunnelstatus und QR-Code](../assets/images/TunnelManager.png)
+![Tunnel Manager Dashboard mit Tunnelstatus und QR-Code](../assets/images/ui-tunnelmanager-dashboard.png)
 
 ### 2. Hash neu erzeugen
 
@@ -41,7 +45,7 @@ Der Tunnel Manager kann das Basic-Auth-Passwort des veröffentlichten Webzugriff
 
 Der Einstellungsdialog dient zur Vergabe des Passworts für den veröffentlichten Webzugriff. Nach dem Speichern ist dieses Passwort für den Zugriff über den Tunnel maßgeblich; Standard- oder Übergangspasswörter sollten nicht im produktiven Betrieb bleiben.
 
-![Tunnel Manager Passwortdialog für den Remote-Zugriff](../assets/images/TunnelManager_PasswortVergabe.png)
+![Tunnel Manager Passwortdialog für den Remote-Zugriff](../assets/images/ui-tunnelmanager-password.png)
 
 ### 4. Temporärer Zugang für Support/Installateur
 
@@ -52,7 +56,7 @@ Für Supportfälle kann ein temporärer Zugang eingerichtet werden:
 
 Der Dialog für den temporären Service-Zugang nimmt E-Mail-Adresse und Laufzeit auf. Er ist für Supportfälle gedacht, in denen ein zeitlich begrenzter Zugriff benötigt wird; die Laufzeit sollte so kurz wie möglich gewählt und nach Abschluss entfernt werden.
 
-![Tunnel Manager Dialog für temporären Service-Zugang](../assets/images/TunnelManager_TemporärerServiceZugang.png)
+![Tunnel Manager Dialog für temporären Service-Zugang](../assets/images/ui-tunnelmanager-service-access.png)
 
 ## Sicherheit
 
@@ -64,3 +68,18 @@ Der Dialog für den temporären Service-Zugang nimmt E-Mail-Adresse und Laufzeit
 - Remote-Zugriff und Firewall-Regeln müssen vor Aktivierung mit der zuständigen IT-/OT-Administration bzw. dem Betreiber abgestimmt werden.
 
 Für Schäden durch unsachgemäße Freigaben, fehlende Firewall, fehlende Netzwerksegmentierung oder nicht abgestimmte Remote-Zugriffe wird - soweit gesetzlich zulässig - keine Gewährleistung oder Haftung übernommen. Bei Fragen zur sicheren Einbindung unterstützen wir gerne.
+
+## Prüfung nach Updates
+
+- Tunnel Manager über SmartHub öffnen.
+- Tunnelstatus prüfen.
+- QR-Code bzw. Remote-Adresse anzeigen lassen.
+- Passwortdialog öffnen, ohne produktive Zugangsdaten unnötig zu ändern.
+- Temporären Zugang testweise nur in einer kontrollierten Support-Situation anlegen.
+
+## Troubleshooting
+
+- **Tunnel bleibt inaktiv:** Netzwerk, DNS und ausgehende Verbindung prüfen.
+- **Remote-Link funktioniert nicht:** Hash neu erzeugen und aktuellen Link verwenden.
+- **Login schlägt fehl:** Tunnel-Passwort neu setzen und alte gespeicherte Browserdaten verwerfen.
+- **Temporärer Zugang bleibt aktiv:** Zugang nach Abschluss im Tunnel Manager entfernen.

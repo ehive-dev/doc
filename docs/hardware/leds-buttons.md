@@ -6,7 +6,7 @@
 - Zweck: Netzwerk‑ und Passwort‑Recovery (`5 s` DHCP / `10 s` Default‑IP).
 - Hinweis: NetMode setzt bei beiden Aktionen die Zugangspasswörter zurück und startet das Gerät neu.
 
-![Position des NetMode‑Tasters unterhalb der RJ45‑Buchse](../assets/images/eHiveOne_Oben.PNG)
+![Position des NetMode‑Tasters unterhalb der RJ45‑Buchse](../assets/images/ehive-one-ethernet-power.webp)
 
 Details siehe *Software → NetMode (Netzwerk‑Taster)*.
 

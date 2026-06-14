@@ -75,9 +75,25 @@ Für Service- und Austauschfälle ist ein USB-Backup besonders hilfreich.
 6. Backup über **Prüfen** kontrollieren.
 7. USB-Stick sicher entfernen und getrennt vom Gerät aufbewahren.
 
-SmartHub erkennt beschreibbare Datenträger unter `/media`, `/mnt` und `/run/media`. Ein Stick mit Label `EHIVE_BACKUP` wird bevorzugt eingebunden. Die Backups liegen auf dem Stick unter:
+SmartHub erkennt beschreibbare Datenträger unter `/media`, `/mnt` und `/run/media`. Der empfohlene Kundenstick trägt das Label `EHIVE_STORE` und wird automatisch unter `/mnt/ehive-storage` eingebunden. System-Backups nutzen darauf nur einen eigenen Unterordner:
 
 `EHIVE-BACKUPS/<geraete-id>/<zeitstempel>/`
+
+Für Kundensticks ist **exFAT** mit dem Label `EHIVE_STORE` der empfohlene Standard. Der Stick kann daneben auch für weitere Erweiterungs- oder Austauschdaten genutzt werden; Backup-Daten liegen getrennt unter `EHIVE-BACKUPS`.
+
+## USB-Speicher vorbereiten
+
+Ein Kundenstick sollte bewusst vorbereitet werden. Das Gerät bringt dafür das Service-Tool `ehive-storage-prepare` mit. Es formatiert den ausgewählten USB-Datenträger als exFAT, setzt das Label `EHIVE_STORE`, legt die Marker-Datei `.ehive-store` an und erstellt die Ordner `EHIVE-BACKUPS` und `EHIVE-TRANSFER`.
+
+Beispiel:
+
+```sh
+lsblk -o NAME,PATH,TRAN,HOTPLUG,RM,FSTYPE,LABEL,UUID,SIZE,MOUNTPOINTS
+ehive-storage-prepare /dev/sda --yes
+```
+
+!!! warning "Achtung"
+    Das Vorbereiten löscht alle Daten auf dem ausgewählten USB-Datenträger. Vorher immer mit `lsblk` prüfen, welches Gerät der Stick ist.
 
 Zusätzlich richtet SmartHub einen wöchentlichen Timer ein. Jeden Sonntag ab ca. 03:15 Uhr wird ein USB-Backup erstellt, wenn ein passender USB-Stick eingesteckt ist. Ist kein USB-Stick vorhanden, wird der Lauf ohne Fehler übersprungen.
 

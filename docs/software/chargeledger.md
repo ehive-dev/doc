@@ -4,6 +4,16 @@ Dokumentierter Softwarestand: **chargeLedger 0.2.8**
 
 chargeLedger unterstützt die Auswertung und Dokumentation von Ladevorgängen je Fahrzeug und Monat. Die App ist als technische Abrechnungs- und Dokumentationshilfe gedacht.
 
+## Zweck
+
+Die App bündelt die monatliche Ladeauswertung für einzelne Fahrzeuge. Sie hilft dabei, Fahrer-, Kennzeichen- und Monatsdaten zu prüfen und daraus eine nachvollziehbare PDF-Unterlage zu erzeugen.
+
+## Zugriff
+
+- SmartHub öffnen.
+- In der App-Liste **chargeLedger** auswählen.
+- Falls die App nicht sichtbar ist, im SmartHub App Store prüfen, ob sie installiert und gestartet ist.
+
 ## Typische Nutzung
 
 1. chargeLedger über SmartHub öffnen.
@@ -42,10 +52,17 @@ chargeLedger verwendet die im System verfügbaren Ladedaten. Je nach Auslieferun
 - Download/Export testen.
 - Zahlenformat und Kilometerangaben plausibilisieren.
 
-## Screenshot
+## Troubleshooting
+
+- **Keine Fahrzeuge sichtbar:** Datenquelle und evcc-Ladevorgänge prüfen.
+- **PDF bleibt leer:** Monat und Fahrzeugauswahl prüfen; testweise einen Zeitraum mit bekannten Ladevorgängen wählen.
+- **Falsche Stammdaten:** Fahrer, Kennzeichen und Kilometerstand vor dem Export korrigieren.
+- **Export funktioniert nicht:** Browser-Popup-Blocker und Download-Berechtigungen prüfen.
+
+## Screenshots
 
 Die Hauptansicht kombiniert Fahrzeug- und Monatsauswahl mit der PDF-Vorschau. Die Aktionen für Drucken, Download, E-Mail und Archivierung sitzen direkt an der Vorschau.
 
 Die Ansicht unterstützt den normalen Abrechnungsablauf: Fahrzeug und Monat auswählen, Fahrer- und Kennzeichendaten prüfen, PDF-Vorschau kontrollieren und die Monatsabrechnung anschließend exportieren oder weitergeben.
 
-![chargeLedger Monatsabrechnung mit PDF-Vorschau](../assets/images/chargeLedger.png)
+![chargeLedger Monatsabrechnung mit PDF-Vorschau](../assets/images/ui-chargeledger-main.png)

@@ -4,6 +4,10 @@ SmartHub ist das zentrale Dashboard von eHive One. Es listet verfügbare Apps, z
 
 Dokumentierter Softwarestand: **SmartHub 1.1.40**
 
+## Zweck
+
+SmartHub ist der zentrale Einstieg für Betreiber und Support. Hier werden Apps geöffnet, App-Zustände geprüft und geschützte Gerätefunktionen wie Netzwerk, Passwort, Updates und Backups verwaltet.
+
 ## Öffnen
 
 - Browser -> `http://ehiveone.local/` oder `http://<IP-ADRESSE>/`
@@ -17,7 +21,7 @@ Beim ersten Öffnen kann SmartHub das Setzen eines neuen Admin-Passworts erzwing
 
 Für die Systemeinstellungen gibt es eine separate Anmeldung. Dadurch bleiben App-Ansicht und Gerätekonfiguration getrennt; Änderungen an Netzwerk, Passwort oder Systemfunktionen werden erst nach erneuter Authentifizierung zugänglich.
 
-![SmartHub Login für die geschützten Einstellungen](../assets/images/LoginFürSettings.png)
+![SmartHub Login für die geschützten Einstellungen](../assets/images/ui-smarthub-settings-login.png)
 
 ## Navigation
 
@@ -38,7 +42,7 @@ SmartHub trennt die installierten Apps von der Store-Ansicht:
 
 Im App-Store-/Verwaltungsmodus öffnet das Drei-Punkte-Menü die passenden Aktionen zur jeweiligen App. Bei installierten Apps sind zum Beispiel Neustart und Deinstallation sichtbar; bei nicht installierten Apps steht stattdessen die Installation im Vordergrund.
 
-![SmartHub App-Verwaltung mit Kontextmenü](../assets/images/AppStoreInstalliereDeinstallierenNeustarten.png)
+![SmartHub App-Verwaltung mit Kontextmenü](../assets/images/ui-smarthub-appstore-actions.png)
 
 ## Einstellungen
 
@@ -55,7 +59,7 @@ Zeigt u. a.:
 
 Die Systeminformationen zeigen Seriennummer, SmartHub-Version sowie CPU-, Temperatur- und RAM-Werte. Diese Ansicht ist besonders für Support und Wartung nützlich, weil die wichtigsten Gerätedaten ohne SSH direkt im Browser ablesbar sind.
 
-![SmartHub Systeminformationen mit Seriennummer und Auslastung](../assets/images/Systeminformationen.png)
+![SmartHub Systeminformationen mit Seriennummer und Auslastung](../assets/images/ui-smarthub-system-info.png)
 
 ### Netzwerk ändern
 
@@ -66,7 +70,7 @@ Die Systeminformationen zeigen Seriennummer, SmartHub-Version sowie CPU-, Temper
 
 Die erste Einstellungsansicht bündelt Geräte-, Netzwerk- und Remote-Access-Daten. Hier lässt sich nach der Inbetriebnahme prüfen, ob Hostname, IP-Adresse, Gateway, DNS und Schnittstelle zum geplanten Netzwerk passen.
 
-![SmartHub Einstellungen für Gerät und Netzwerk](../assets/images/SettingsTeil1.png)
+![SmartHub Einstellungen für Gerät und Netzwerk](../assets/images/ui-smarthub-settings-network.png)
 
 ### Passwort ändern
 
@@ -78,7 +82,7 @@ Die erste Einstellungsansicht bündelt Geräte-, Netzwerk- und Remote-Access-Dat
 
 Die zweite Einstellungsansicht fasst Passwortänderung und Systemaktionen zusammen. Dort wird das lokale Admin-Passwort geändert und ein Neustart bewusst über den Systembereich ausgelöst.
 
-![SmartHub Einstellungen für Passwort und Systemaktionen](../assets/images/SettingsTeil2.png)
+![SmartHub Einstellungen für Passwort und Systemaktionen](../assets/images/ui-smarthub-settings-password-system.png)
 
 ### Updates und Wiederherstellung
 
@@ -89,3 +93,19 @@ SmartHub stellt eine Update-/Rettungsoberfläche bereit:
 - `http://<IP-ADRESSE>:3003/` als direkter Rettungszugriff
 
 Details: [Updates](../maintenance/updates.md) und [Backup und Wiederherstellung](../maintenance/backup-restore.md).
+
+## Prüfung nach Updates
+
+- SmartHub öffnen und Version in den Systeminformationen prüfen.
+- App-Liste laden und Statusanzeigen kontrollieren.
+- App Store öffnen und Drei-Punkte-Menü einer App prüfen.
+- Einstellungen nach erneuter Anmeldung öffnen.
+- Netzwerkdaten, Passwortbereich und Systemaktionen sichtbar prüfen.
+- Update-/Rettungsoberfläche über `/update/` erreichbar testen.
+
+## Troubleshooting
+
+- **SmartHub nicht erreichbar:** IP-Adresse, mDNS und NetMode prüfen.
+- **App zeigt `off`:** App neu starten und danach App-Status erneut laden.
+- **Einstellungen öffnen nicht:** Gerätepasswort prüfen und Browser neu laden.
+- **Update-Aktion fehlt:** App Store aktualisieren und installierten App-Status prüfen.

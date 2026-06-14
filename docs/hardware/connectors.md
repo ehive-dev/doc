@@ -6,15 +6,15 @@ Die folgenden Fotoansichten zeigen die Position der Schnittstellen am Gerät.
 
 ### QR mit USB-C
 
-![eHive One Front-/Labelseite](../assets/images/eHiveOne_Draufsicht.png)
+![eHive One Front-/Labelseite](../assets/images/ehive-one-front.webp)
 
 ### Ethernet + Versorgung + NetMode-Taster
 
-![eHive One Anschlussseite Ethernet und Versorgung](../assets/images/eHiveOne_Oben.PNG)
+![eHive One Anschlussseite Ethernet und Versorgung](../assets/images/ehive-one-ethernet-power.webp)
 
 ### RJ45, 12-30 V DC, NetMode Taster + LED
 
-![eHive One Anschlussseite RS485 und DI](../assets/images/eHiveOne_Unten.PNG)
+![eHive One Anschlussseite RS485 und DI](../assets/images/ehive-one-rs485-di.webp)
 
 Die folgenden Anschlüsse/Funktionen sind für die Standardausführung vorgesehen.
 

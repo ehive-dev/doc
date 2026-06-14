@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  const SHOP_URL = "https://ehive-dev.github.io/ehiveWeb/shop.html";
+  const PRODUCT_URL = "https://www.ehiv3.de/";
 
   function addShopLink() {
     const headerInner = document.querySelector(".md-header__inner");
@@ -11,7 +11,7 @@
     if (!link) {
       link = document.createElement("a");
       link.className = "md-header-shop-link";
-      link.href = SHOP_URL;
+      link.href = PRODUCT_URL;
       link.textContent = "Produktseite";
       link.setAttribute("aria-label", "Zur Produktseite");
 

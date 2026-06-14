@@ -5,6 +5,23 @@ ioManager zeigt den aktuellen Status und den zeitlichen Verlauf eines digitalen 
 - Überwachung eines digitalen Eingangs (z. B. DI für **EnWG §14a**, Relaiskontakt, Statusleitung)
 - Diagnose: „Kommt das Signal an?“ / „Wann hat es geschaltet?“
 
+## Zweck
+
+Die App macht digitale Signale für Betreiber und Support sichtbar. Sie zeigt, ob ein Eingang aktuell aktiv ist und wann sich der Zustand geändert hat.
+
+## Zugriff
+
+- SmartHub öffnen.
+- In der App-Liste **ioManager** auswählen.
+- Falls die App nicht sichtbar ist, im SmartHub App Store prüfen, ob sie installiert und gestartet ist.
+
+## Typische Nutzung
+
+1. ioManager öffnen.
+2. Aktuellen HIGH/LOW-Status prüfen.
+3. Zeitraum auswählen.
+4. Signalverlauf mit dem erwarteten Schaltverhalten vergleichen.
+
 ## Oberfläche
 
 - **Status‑Badge:** aktueller Zustand **HIGH** oder **LOW**
@@ -18,10 +35,23 @@ Wähle den Zeitraum:
 - Letzte 3 Tage / 7 Tage
 - Alle Daten
 
+## Prüfung nach Updates
+
+- App in SmartHub öffnen.
+- Aktuellen Signalzustand prüfen.
+- Zeitraum wechseln und Diagramm neu laden.
+- Falls ein Testsignal verfügbar ist, Schaltvorgang auslösen und Verlauf kontrollieren.
+
+## Troubleshooting
+
+- **Status bleibt unverändert:** Verdrahtung, Eingang und erwarteten Pegel prüfen.
+- **Diagramm zeigt keine Daten:** Zeitraum vergrößern und App neu laden.
+- **Signal wirkt invertiert:** Eingangslogik und angeschlossene Hardware prüfen.
+
 ## Screenshots
 
 ### Status und Verlauf eines digitalen Signals
 
 Die Ansicht zeigt den aktuellen Signalzustand und ein Verlaufsdiagramm für den gewählten Zeitraum. Über die Zeitfilter lässt sich nachvollziehen, wann ein Eingang geschaltet hat. Das ist hilfreich bei Relaiskontakten, Sperrsignalen, EnWG-14a-Signalen oder allgemeinen digitalen Diagnoseeingängen.
 
-![ioManager Statusanzeige und Signalverlauf](../assets/images/ioManager.png)
+![ioManager Statusanzeige und Signalverlauf](../assets/images/ui-iomanager-main.png)

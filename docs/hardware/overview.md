@@ -11,19 +11,19 @@
 
 ### Gesamtansicht
 
-![eHive One Gesamtansicht](../assets/images/eHiveOne.png)
+![eHive One Gesamtansicht](../assets/images/ehive-one-overview.webp)
 
 ### QR mit USB-C
 
-![eHive One Frontansicht](../assets/images/eHiveOne_Draufsicht.png)
+![eHive One Frontansicht](../assets/images/ehive-one-front.webp)
 
 ### RJ45, 12-30 V DC, NetMode Taster + LED
 
-![eHive One Anschlussseite Ethernet und Versorgung](../assets/images/eHiveOne_Oben.PNG)
+![eHive One Anschlussseite Ethernet und Versorgung](../assets/images/ehive-one-ethernet-power.webp)
 
 ### RS485 + DI
 
-![eHive One Anschlussseite RS485 und DI](../assets/images/eHiveOne_Unten.PNG)
+![eHive One Anschlussseite RS485 und DI](../assets/images/ehive-one-rs485-di.webp)
 
 Hinweis: Detaillierte Klemmen- und Tasterbeschreibung siehe *Gerät -> Anschlüsse und Bedienelemente*.
 

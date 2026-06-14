@@ -38,6 +38,12 @@ Weiterführend:
 - [NetMode (Netzwerk-Taster)](software/netmode.md)
 - [Troubleshooting](maintenance/troubleshooting.md)
 
+## Produktseite
+
+- [eHive Homepage](https://www.ehiv3.de/)
+- [Shop](https://www.ehiv3.de/shop.html)
+- [News](https://www.ehiv3.de/news.html)
+
 ## Support
 
 - Kontakt: `eHive@gmx.de`

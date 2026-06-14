@@ -1,5 +1,6 @@
 # Changelog
 
+- 0.1.13 - 2026-06-14 - Projektordner als saubere Git-Arbeitskopie eingerichtet, GitHub-Pages-Workflow korrigiert, App-Doku vereinheitlicht und Screenshot-/Hardware-Assets auf einheitliche, optimierte Dateinamen umgestellt.
 - 0.1.12 - 2026-06-14 - Aktuelle PNG-Screenshots in die passenden Software- und Wartungsseiten einsortiert und fachlich beschrieben.
 - 0.1.11 - 2026-06-14 - Optionale Lade-App aus der öffentlichen Software-Dokumentation entfernt.
 - 0.1.10 - 2026-06-13 - Aktuelle Screenshots für SmartHub `1.1.40`, App Store, Settings, wattRadar, ioManager, chargeLedger, tenantLedger und Tunnel Manager übernommen; App-Doku mit Code-Abgleich aktualisiert.

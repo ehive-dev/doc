@@ -6,7 +6,7 @@ theme:
   name: material
   language: de
   font: false
-  logo: assets/images/logo_512x512.png
+  logo: assets/images/eHiveWhite.png
   features:
   - navigation.instant
   - navigation.tracking

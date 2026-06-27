@@ -76,6 +76,16 @@ textarea {
   padding: 0;
   display: inline-flex;
   align-items: center;
+  background: transparent !important;
+  box-shadow: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.md-header__button.md-logo:hover,
+.md-header__button.md-logo:focus,
+.md-header__button.md-logo:active {
+  background: transparent !important;
+  box-shadow: none;
 }
 
 .md-header__button.md-logo img,

@@ -31,6 +31,11 @@ Die folgenden Anschlüsse/Funktionen sind für die Standardausführung vorgesehe
 
 - Klemmen: **G (GND)**, **B**, **A**
 - Verwendung: Integrationsabhängig (z. B. Zähler/Gateway/Feldbus‑Anbindungen)
+- Hardware-Prinzip: TTL-UART zu RS485, halbduplex, mit automatischer Richtungsumschaltung.
+- Es ist keine separate DE/RE-Steuerleitung vorgesehen. Software nutzt nur TX, RX und GND.
+- Interner UART-Default für Projekt-/Servicetests: `/dev/ttyS2`, typischer Modbus-RTU-Test mit `9600 8N1`.
+- Abschlusswiderstand: 120 Ohm nur an den beiden Bus-Enden aktivieren. Bei kurzen Einzeltests kann der Abschluss je nach Gegenstelle entfallen.
+- Empfehlung: verdrilltes A/B-Paar verwenden und GND als Bezug mitführen, besonders bei längeren Leitungen oder separaten Versorgungen.
 
 ## Digitaler Eingang (EnWG §14a)
 
@@ -53,4 +58,3 @@ Die folgenden Anschlüsse/Funktionen sind für die Standardausführung vorgesehe
 
 - Netzteil: **mindestens 15 W**
 - Absicherung: gemäß verwendetem **Netzteil** und Installation durch Elektrofachkraft
-

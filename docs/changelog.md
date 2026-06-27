@@ -1,5 +1,7 @@
 # Changelog
 
+- 0.1.19 - 2026-06-26 - evcc-HEMS-Konfiguration für ioManager ergänzt: lokaler Zugriff über `http://localhost:3000/api/gpio` mit `jq: .value`; RS485-Gerätezugriff `/dev/ttyS2` in Zugriff und technischen Daten ergänzt; Logo auf lokales `logo_512x512.png` umgestellt.
+- 0.1.18 - 2026-06-18 - RS485-Hardwarestand dokumentiert: TTL-UART zu RS485 mit Auto-Direction, Pinning G/B/A und `/dev/ttyS2` als Projekt-/Service-Default.
 - 0.1.17 - 2026-06-14 - Wartungsbereich gestrafft; die technische Prüfseite ist nicht mehr Teil der Doku.
 - 0.1.16 - 2026-06-14 - App-Seiten starten jetzt mit kurzen Einleitungen statt separaten Zweck-Blöcken.
 - 0.1.15 - 2026-06-14 - Freier Luftweg ober- und unterhalb des Geräts: Planungsvorgabe 40 mm.

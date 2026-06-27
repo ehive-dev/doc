@@ -13,6 +13,23 @@ Typische Anwendungsfälle:
 - In der App-Liste **ioManager** auswählen.
 - Falls die App nicht sichtbar ist, im SmartHub App Store prüfen, ob sie installiert und gestartet ist.
 
+## evcc HEMS
+
+Wenn evcc auf demselben eHive wie ioManager läuft, kann der digitale Eingang als HEMS-Limit über `localhost` eingebunden werden.
+
+In evcc unter **HEMS**:
+
+```yaml
+type: relay
+maxpower: 4000
+limit:
+  source: http
+  uri: http://localhost:3000/api/gpio
+  jq: .value
+```
+
+`maxpower` ist der freigegebene Leistungswert und muss passend zur Anlage eingestellt werden. Der Endpunkt `api/gpio` liefert den aktuellen Kontaktzustand als JSON, z. B. `{"value":false}`.
+
 ## Typische Nutzung
 
 1. ioManager öffnen.

@@ -14,6 +14,22 @@ Wenn `ehiveone.local` nicht funktioniert:
 - IP in Router-/DHCP-Liste ermitteln
 - bei Fehlkonfiguration `NetMode` nutzen (siehe *Software -> NetMode (Netzwerk-Taster)*)
 
+## evcc mit ioManager
+
+Wenn evcc und ioManager auf demselben eHive laufen, wird der ioManager-Kontakt in evcc lokal eingebunden. Die API-URL für die HEMS-Konfiguration lautet:
+
+`http://localhost:3000/api/gpio`
+
+In evcc wird daraus ein HTTP-Limit mit `jq: .value`. Das vollständige Beispiel steht unter [ioManager -> evcc HEMS](software/iomanager.md#evcc-hems).
+
+## RS485
+
+Der lokale Gerätezugriff für die RS485-Schnittstelle ist:
+
+`/dev/ttyS2`
+
+Die Schnittstelle ist als halbduplex RS485 mit Auto-Direction ausgeführt. Details zu Klemmenbelegung und Verdrahtung stehen unter [Anschlüsse & Bedienelemente -> RS485](hardware/connectors.md#rs485).
+
 ## Standard-Zugang
 
 - Benutzer: `admin`

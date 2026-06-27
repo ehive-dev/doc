@@ -40,6 +40,6 @@ Hinweis: Der Speicher-Komponententemperaturbereich ist nicht als zulässige Scha
 
 | Schnittstelle | Beschreibung |
 |---|---|
-| RS485 | On-board (Integration abhängig von Projekt/Parametrierung) |
+| RS485 | On-board, halbduplex, TTL-UART-zu-RS485 mit Auto-Direction; Klemmen G/B/A; Gerätezugriff `/dev/ttyS2` |
 | DI (EnWG §14a) | Digitaler Eingang; Status über DI-LED sichtbar |
 | HDMI | **nicht Bestandteil der Standardausführung**, optional auf Anfrage |

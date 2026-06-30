@@ -1,5 +1,6 @@
 # Changelog
 
+- 0.1.23 - 2026-06-30 - chargeLedger-Archivbeschreibung konkretisiert und Screenshots für Hauptansicht sowie Archiv-Menü aktualisiert.
 - 0.1.22 - 2026-06-30 - chargeLedger-Dokumentation auf `0.2.39` erweitert: Berechnungsmodelle, rechtliche Hinweise, Quellen, Unit-Tests und Archiv-Ausschnitt ergänzt.
 - 0.1.21 - 2026-06-27 - Hintergrund des Header-Logos transparent gestellt und mobile Logo-Tap-Fläche ohne sichtbaren Hintergrund abgesichert.
 - 0.1.20 - 2026-06-27 - Logo wieder auf `assets/images/eHiveWhite.png` zurückgestellt.

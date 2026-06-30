@@ -102,12 +102,21 @@ Quellen zur Einordnung:
 
 ## Archiv
 
-chargeLedger kann erzeugte PDFs manuell oder automatisch archivieren.
+chargeLedger kann erzeugte PDF-Abrechnungen direkt aus der PDF-Vorschau heraus archivieren. Das Archiv-Menü sitzt rechts oben neben Drucken, Download und E-Mail.
 
-- **Manueller Upload:** Im Archiv-Menü klickst du direkt auf **Microsoft 365** oder **Dropbox**. Das Cloud-Symbol im Button zeigt die Upload-Aktion.
-- **Automatischer Upload:** Rechts neben dem Ziel sitzt ein Automatik-Symbol mit Schiebeschalter. Der Tooltip lautet: `Automatischer Upload am 2ten jedes Monats`.
-- Ist ein Ziel noch nicht eingerichtet, öffnet chargeLedger beim Upload oder beim Aktivieren der Automatik den passenden Einrichtungsdialog.
-- Unterstützte Ziele sind Microsoft 365 und Dropbox.
+Neue Funktionen:
+
+- **Microsoft 365 Upload:** Der Button **Microsoft 365** startet den manuellen Upload der aktuell angezeigten PDF-Abrechnung. Das Cloud-Symbol im Button kennzeichnet die Upload-Aktion.
+- **Dropbox Upload:** Der Button **Dropbox** lädt die aktuelle PDF manuell in das verbundene Dropbox-Ziel hoch.
+- **Automatischer Upload:** Das Automatik-Symbol mit Schiebeschalter aktiviert den monatlichen Upload für das jeweilige Ziel. Der Tooltip lautet: `Automatischer Upload am 2ten jedes Monats`.
+- **Ziel einrichten:** Über **Dropbox einrichten...** bzw. **Microsoft 365 einrichten...** wird die jeweilige Verbindung vorbereitet oder geändert.
+
+Wichtiges Verhalten:
+
+- Ist Microsoft 365 oder Dropbox noch nicht eingerichtet, öffnet chargeLedger beim manuellen Upload oder beim Aktivieren der Automatik direkt den passenden Einrichtungsdialog.
+- Der automatische Upload läuft am 2. eines Monats für den vorherigen Abrechnungsmonat.
+- Pro Ziel kann die Automatik getrennt aktiviert werden. Dropbox und Microsoft 365 können also unabhängig voneinander genutzt werden.
+- Der Upload verwendet die Daten der PDF-Abrechnung. Vor produktiver Nutzung sollten Fahrzeug, Monat, km-Stand, Zählerstände, Tarif und Summe geprüft werden.
 
 ![chargeLedger Archiv-Menü mit Cloud-Upload und Automatik-Schalter](../assets/images/ui-chargeledger-archive-menu.png)
 

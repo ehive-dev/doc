@@ -120,26 +120,6 @@ Wichtiges Verhalten:
 
 ![chargeLedger Archiv-Menü mit Cloud-Upload und Automatik-Schalter](../assets/images/ui-chargeledger-archive-menu.png)
 
-## Tests und Qualitätssicherung
-
-Ab chargeLedger `0.2.39` gibt es Unit-Tests für die wichtigsten Berechnungen.
-
-Geprüfte Fälle:
-
-- Netzpreis, Netzentgelt und anteilige Grundgebühr.
-- PV-/Batterie-Mix mit Netzanteil.
-- Vorrang von evcc-Sessionkosten.
-- Strompreispauschale ohne zusätzliche Grundgebühr.
-- Zeitabhängige Tarife über Mitternacht.
-- Fehlende Tarife ohne falsche Kosten.
-- evcc-Gesamtverbrauch aus Haus- und Ladepunkt-Metrics.
-
-Lokaler Testbefehl im chargeLedger-Repo:
-
-```bash
-npm test
-```
-
 ## Prüfung nach Updates
 
 - App in SmartHub öffnen.

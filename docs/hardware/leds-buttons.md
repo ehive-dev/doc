@@ -12,7 +12,7 @@ Details siehe *Software → NetMode (Netzwerk‑Taster)*.
 
 ## NetMode‑LED
 
-Die grüne NetMode‑LED signalisiert den Netzwerk‑Recovery‑Modus:
+Die rote NetMode‑LED unterhalb der RJ45‑Buchse signalisiert den Netzwerk‑Recovery‑Modus:
 
 - **Taster unter 5 s gehalten:** LED leuchtet dauerhaft.
 - **Taster 5 s bis unter 10 s gehalten:** LED aus.
@@ -25,7 +25,7 @@ Nach abgeschlossenem Start zeigt die LED den aktiven Netzwerkmodus an:
 
 ## System‑LED
 
-- Position: **nahe USB‑C**.
+- Farbe und Position: **grün, nahe USB‑C**.
 - Während des Reboots nach NetMode leuchtet die System‑LED dauerhaft; der Ablauf dauert ca. 1 Minute.
 
 ## DI‑LED (EnWG §14a)

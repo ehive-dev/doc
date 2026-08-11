@@ -16,7 +16,7 @@ Mit NetMode machst du eHive One nach einer Netzwerk-Fehlkonfiguration wieder err
 
 ## LED‑Hinweise
 
-Während der Taster gehalten wird, zeigt die grüne NetMode‑LED die erreichte Schwelle an:
+Während der Taster gehalten wird, zeigt die rote NetMode‑LED unterhalb der RJ45‑Buchse die erreichte Schwelle an:
 
 - **unter 5 s:** LED leuchtet dauerhaft
 - **5 s bis unter 10 s:** LED aus

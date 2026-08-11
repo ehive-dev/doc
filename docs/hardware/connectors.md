@@ -50,8 +50,8 @@ Die folgenden Anschlüsse/Funktionen sind für die Standardausführung vorgesehe
 
 ## LEDs
 
-- **NetMode‑LED:** zeigt den Netzwerk‑Recovery‑Modus an.
-- **System‑LED:** befindet sich nahe USB‑C und leuchtet während des Reboots nach NetMode dauerhaft.
+- **NetMode‑LED (rot):** befindet sich unterhalb der RJ45‑Buchse und zeigt den Netzwerk‑Recovery‑Modus an.
+- **System‑LED (grün):** befindet sich nahe USB‑C und leuchtet während des Reboots nach NetMode dauerhaft.
 - **DI‑LED (EnWG §14a):** zeigt den Status des digitalen Eingangs an.
 
 ## Versorgungsempfehlung

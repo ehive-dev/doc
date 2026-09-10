@@ -143,8 +143,3 @@ HiveScope liest bei dieser Erkennung keine Betriebsregister aus und verändert k
 Die Hauptansicht kombiniert Netzwerksuche, animiertes Radar, Gerätefilter und die gezielte Portprüfung. Im Beispiel wurden 32 Geräte gefunden; fünf davon tragen einen EVCC-Hinweis. Erkannte Template-Kandidaten werden direkt neben dem grünen Blitz angezeigt.
 
 ![HiveScope mit Radar, Geräteliste, EVCC-Hinweisen und Portprüfung](../assets/images/ui-hivescope-main.webp)
-
-## Projekt und Download
-
-- [HiveScope Quellcode auf GitHub](https://github.com/ehive-dev/HiveScope)
-- [HiveScope Releases und Installer](https://github.com/ehive-dev/HiveScope_releases/releases)

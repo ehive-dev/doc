@@ -2,6 +2,9 @@
 
 Mit WattRadar prüfst du Energieflüsse und Messwerte im zeitlichen Verlauf. WattRadar zeigt Erzeugung, Verbrauch, Netzbezug, Einspeisung, Batterie und Ladevorgänge aus der vorkonfigurierten evcc‑Datenbank (z. B. InfluxDB); für Endanwender ist **keine Konfiguration** nötig.
 
+!!! warning "Lokale evcc-InfluxDB nicht abkoppeln"
+    WattRadar ist auf die lokale InfluxDB-Datenquelle von evcc angewiesen. Wird diese Datenbank von evcc getrennt, deaktiviert oder entfernt, erhält WattRadar keine Messwerte mehr und funktioniert nicht mehr. Die lokale evcc-InfluxDB-Anbindung muss deshalb bestehen bleiben.
+
 ## Zugriff
 
 - SmartHub öffnen.
@@ -75,6 +78,7 @@ Diese sind für den normalen Betrieb nicht erforderlich.
 ## Troubleshooting
 
 - **Keine Daten:** Größeres Zeitfenster wählen und evcc-Datenquelle prüfen.
+- **WattRadar funktioniert nach einer evcc-Änderung nicht mehr:** Prüfen, ob evcc weiterhin mit der lokalen InfluxDB verbunden ist und Messwerte dorthin schreibt. Eine abgekoppelte oder deaktivierte lokale InfluxDB muss wieder angebunden werden.
 - **Live-Werte bleiben stehen:** Live-Modus aktivieren und Netzwerkverbindung prüfen.
 - **Einzelne Reihen fehlen:** Messpunkt kann je nach Anlage nicht vorhanden sein.
 - **Export leer:** Zeitraum mit bekannten Messwerten wählen.

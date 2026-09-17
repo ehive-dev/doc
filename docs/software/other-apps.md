@@ -4,6 +4,14 @@
 
 Diese Endanwender-Doku beschreibt die wichtigsten eHive-Tools. Für Dritt-UIs und externe Dienste gelten zusätzlich die jeweiligen Projektdokumentationen und Herstellerangaben.
 
+## Tools im App Store
+
+- **HiveScope** findet Geräte und offene Dienste im lokalen Netzwerk und markiert mögliche evcc-Kandidaten.
+- **HiveBus** untersucht Modbus TCP und Modbus RTU, liest Geräteinformationen und unterstützt gezielte Schreibzugriffe durch den Anwender.
+- **KNX Bridge** verbindet ausgewählte evcc-Datenpunkte mit KNX-Gruppenadressen.
+
+Die Tools erscheinen zunächst im App Store. Erst nach erfolgreicher Installation und Start zeigt SmartHub sie als verfügbare App an. Installation und Deinstallation wurden mit SmartHub `1.1.55` auch über einen Seiten-Neuladevorgang hinweg geprüft.
+
 ## Typische Dritt- oder Zusatzkomponenten
 
 - evcc

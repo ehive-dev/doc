@@ -2,7 +2,7 @@
 
 Mit SmartHub bedienst du eHive One im Alltag. Du öffnest verfügbare Apps, prüfst deren Status und erreichst die **Einstellungen** für Gerät, Netzwerk, Passwort, Updates und Backups.
 
-Dokumentierter Softwarestand: **SmartHub 1.1.40**
+Dokumentierter Softwarestand: **SmartHub 1.1.55**
 
 ## Öffnen
 
@@ -33,8 +33,11 @@ SmartHub trennt die installierten Apps von der Store-Ansicht:
 
 - **Apps** zeigt die installierten und erreichbaren Anwendungen.
 - **App Store** zeigt vorbereitete oder verfügbare Apps mit Installationsstatus.
+- **Tools** bündelt unter anderem HiveBus, KNX Bridge und HiveScope. Eine App wird erst nach der Installation in der normalen App-Übersicht angezeigt.
 - Das Drei-Punkte-Menü einer App bietet je nach Zustand **Update**, **Neustarten**, **Installieren** oder **Deinstallieren**.
 - Während Updates, Installationen oder Neustarts zeigt SmartHub ein Log-Panel und aktualisiert die App-Liste danach.
+
+Installation, Aktualisierung und Deinstallation laufen als Auftrag auf dem eHive weiter. Wird die Seite währenddessen neu geladen, kann SmartHub den laufenden Auftrag sowie das bisherige Protokoll wieder anzeigen. Geschützte App-Aktionen öffnen bei abgelaufener Anmeldung automatisch die Passwortabfrage und führen anschließend zurück zum App Store.
 
 Im App-Store-/Verwaltungsmodus öffnet das Drei-Punkte-Menü die passenden Aktionen zur jeweiligen App. Bei installierten Apps sind zum Beispiel Neustart und Deinstallation sichtbar; bei nicht installierten Apps steht stattdessen die Installation im Vordergrund.
 
@@ -61,6 +64,7 @@ Die Systeminformationen zeigen Seriennummer, SmartHub-Version sowie CPU-, Temper
 
 - Hostname setzen
 - Interface auswählen
+- physischen WLAN-Adapter erkennen, aktivieren und konfigurieren
 - IP-Modus: DHCP oder Statisch
 - Änderungen werden per Dialog bestätigt (Rollback möglich)
 
@@ -75,6 +79,8 @@ Die erste Einstellungsansicht bündelt Geräte-, Netzwerk- und Remote-Access-Dat
 ### System
 
 - Neustart über Button (Bestätigung erforderlich)
+
+Ab SmartHub `1.1.55` wird der Neustart auf der headless DietPi-Basis direkt über das systemd-Ziel ausgelöst. Dadurch erscheint bei dem absichtlich deaktivierten Anmeldedienst `systemd-logind` keine irreführende login1-Warnung mehr.
 
 Die zweite Einstellungsansicht fasst Passwortänderung und Systemaktionen zusammen. Dort wird das lokale Admin-Passwort geändert und ein Neustart bewusst über den Systembereich ausgelöst.
 

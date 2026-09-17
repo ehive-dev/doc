@@ -1,5 +1,6 @@
 # Changelog
 
+- 0.1.26 - 2026-09-17 - SmartHub-Dokumentation auf `1.1.55` aktualisiert: WLAN-Verwaltung, Tools-Katalog mit HiveBus, KNX Bridge und HiveScope, Passwortabfrage für geschützte App-Aktionen, fortlaufende Aufträge nach Seiten-Neuladen und der korrigierte DietPi-Neustart beschrieben.
 - 0.1.25 - 2026-09-11 - WattRadar-Abhängigkeit von der lokalen evcc-InfluxDB deutlich ergänzt: Wird die Datenquelle abgekoppelt oder deaktiviert, erhält WattRadar keine Messwerte mehr.
 - 0.1.24 - 2026-09-10 - HiveScope als eigene Softwareseite ergänzt: Netzwerkscan, Gerätefilter, Portprüfung, EVCC-Kandidaten, Modbus-Gerätekennung, Sicherheit, Troubleshooting und aktuelle Oberfläche dokumentiert.
 - 0.1.23 - 2026-06-30 - chargeLedger-Archivbeschreibung konkretisiert und Screenshots für Hauptansicht sowie Archiv-Menü aktualisiert.

@@ -49,6 +49,10 @@ Wenn das Gerät danach weiterhin nicht erreichbar ist, Support kontaktieren und 
 
 Apps werden im SmartHub Store bzw. in der jeweiligen App-Verwaltung aktualisiert. Je nach App können zusätzlich **Starten**, **Neustarten**, **Installieren** oder **Deinstallieren** verfügbar sein.
 
+Geschützte Aktionen verlangen eine gültige Anmeldung für die Systemeinstellungen. Ist die Sitzung abgelaufen, zeigt SmartHub die Passwortabfrage und kehrt nach erfolgreicher Anmeldung zur gewünschten Aktion zurück.
+
+Der Auftrag selbst läuft auf dem eHive weiter, auch wenn die Seite neu geladen oder der Browser kurz geschlossen wird. Beim erneuten Öffnen verbindet sich SmartHub wieder mit dem laufenden Auftrag und zeigt das gespeicherte Protokoll. Das Gerät darf während einer Installation oder Deinstallation trotzdem nicht ausgeschaltet werden.
+
 Wenn SmartHub für eine App eine neuere Version erkennt, erscheint die Update-Aktion direkt im Drei-Punkte-Menü der App. Dort sind installierte und verfügbare Version sichtbar, sodass vor dem Start klar ist, welche Komponente aktualisiert wird.
 
 ![SmartHub App-Menü mit verfügbarer Update-Aktion](../assets/images/ui-smarthub-app-update-menu.png)
@@ -62,6 +66,7 @@ Zentrale Update-Regel:
 Hinweise:
 
 - Nicht installierte Apps sollten nicht als laufende App angezeigt werden.
+- HiveBus, KNX Bridge und HiveScope werden im App Store unter **Tools** angeboten und erst nach ihrer Installation in die App-Übersicht übernommen.
 - Während einer App-Aktualisierung kann die App kurz nicht erreichbar sein.
 - Datenbank- oder Messdaten-Backups sind app-spezifisch und nicht automatisch Teil des SmartHub-Rollback-Backups.
 

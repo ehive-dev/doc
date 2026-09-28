@@ -37,10 +37,6 @@ Wenn ProductionDesk den Token bereits während der Produktion auf das Gerät üb
 - Ermittle die IP-Adresse in der Geräteliste deines Routers.
 - Öffne anschließend `http://<IP-ADRESSE>:7070`.
 
-### Das Eingabefeld ist gesperrt
-
-Ist bereits ein Sponsortoken in der Datei `evcc.yaml` hinterlegt, kann die Eingabe in der Oberfläche gesperrt sein. Entferne nicht eigenständig vorhandene Einträge. Wende dich an den eHive-Support, wenn der hinterlegte Token ersetzt werden muss.
-
 ### Die Lizenz wird nicht aktiv
 
 - Prüfe, ob der Token vollständig und ohne zusätzliche Leerzeichen kopiert wurde.

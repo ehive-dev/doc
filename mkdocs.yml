@@ -42,6 +42,7 @@ nav:
 - Erste Schritte:
   - Inbetriebnahme: getting-started.md
   - Zugriff und URLs: access.md
+  - evcc Lifetime-Lizenz: evcc-lizenz.md
 - Gerät:
   - Überblick und Sicherheit: hardware/overview.md
   - Anschlüsse und Bedienelemente: hardware/connectors.md

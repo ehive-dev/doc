@@ -51,6 +51,7 @@ nav:
   - Technische Daten: hardware/specs.md
 - Software:
   - SmartHub (Dashboard): software/smarthub.md
+  - USB-Konfiguration: software/usb-konfiguration.md
   - HiveScope: software/hivescope.md
   - WattRadar: software/wattradar.md
   - ioManager: software/iomanager.md

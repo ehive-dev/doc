@@ -2,7 +2,7 @@
 
 Mit SmartHub bedienst du eHive One im Alltag. Du öffnest verfügbare Apps, prüfst deren Status und erreichst die **Einstellungen** für Gerät, Netzwerk, Passwort, Updates und Backups.
 
-Dokumentierter Softwarestand: **SmartHub 1.1.55**
+Dokumentierter Softwarestand: **SmartHub 1.1.65**
 
 ## Öffnen
 
@@ -95,6 +95,12 @@ Die zweite Einstellungsansicht fasst Passwortänderung und Systemaktionen zusamm
 - `http://<IP-ADRESSE>:3003/` als direkter Rettungszugriff
 
 Details: [Updates](../maintenance/updates.md) und [Backup und Wiederherstellung](../maintenance/backup-restore.md).
+
+### USB-Konfiguration
+
+Installateure können Netzwerk, Zeitserver, USB-WLAN, Admin-Passwort, automatische Backups und evcc White Label bereits in der Werkstatt auf einem vorbereiteten USB-Stick hinterlegen. SmartHub übernimmt nur ausdrücklich mit `apply=true` freigegebene Bereiche und schreibt den tatsächlich aktiven Zustand nach jeder Verarbeitung in `status.conf` zurück.
+
+Der vollständige Ablauf einschließlich LED-Signalen, Logging und Dateistruktur steht unter [USB-Konfiguration für die Werkstatt](usb-konfiguration.md).
 
 ## Prüfung nach Updates
 

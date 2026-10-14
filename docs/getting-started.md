@@ -44,3 +44,9 @@ Netzteil-Empfehlung:
 2. Optional: Hostname anpassen.
 3. Optional: Netzwerk (DHCP/Statisch) konfigurieren.
 4. Bei Bedarf: Remote-Zugriff über Tunnel Manager einrichten (für Installateure/Service). Für den Zugang wird das Admin-Passwort benötigt.
+
+## Alternative: Vorbereitung per USB-Stick
+
+Ab SmartHub `1.1.65` können Installateure wiederkehrende Einstellungen bereits in der Werkstatt vorbereiten und anschließend am Gerät übernehmen lassen. Dazu wird ein Stick mit dem Label `EHIVE` oder `EHIVE_BACKUP` verwendet. SmartHub legt auf einem leeren Stick automatisch die vollständige Konfigurationsvorlage, eine Statusdatei sowie Ordner für Branding, Logs und Backups an.
+
+Anleitung: [USB-Konfiguration für die Werkstatt](software/usb-konfiguration.md).

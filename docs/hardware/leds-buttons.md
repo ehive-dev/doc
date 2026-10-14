@@ -26,7 +26,21 @@ Nach abgeschlossenem Start zeigt die LED den aktiven Netzwerkmodus an:
 ## System‑LED
 
 - Farbe und Position: **grün, nahe USB‑C**.
-- Während des Reboots nach NetMode leuchtet die System‑LED dauerhaft; der Ablauf dauert ca. 1 Minute.
+- **Normalbetrieb:** weiches Atmen mit etwa zwei Sekunden Periodendauer.
+- **Hohe CPU-Last:** Sind alle vier CPU-Kerne mindestens drei Sekunden lang zu mindestens 80 % ausgelastet, blinkt die LED im Sekundentakt. Sobald mindestens ein Kern zehn Sekunden lang unter 60 % liegt, wechselt sie zurück zum Atmen.
+- **Reboot nach NetMode:** Die LED leuchtet dauerhaft; der Ablauf dauert ca. 1 Minute.
+
+### USB-Konfiguration
+
+Bei der Konfiguration über einen Stick mit dem Label `EHIVE` oder `EHIVE_BACKUP` zeigt die System-LED zusätzliche Muster:
+
+| LED-Muster | Bedeutung |
+| --- | --- |
+| 3 × kurz, Pause; insgesamt dreimal | Netzwerkkonfiguration erfolgreich übernommen und geprüft |
+| 5 × schnell | Netzwerkkonfiguration fehlgeschlagen |
+| 2 × kurz | Diagnose-Logging auf dem USB-Stick gestartet |
+
+Nach dem Signalmuster kehrt die LED in den normalen Betriebszustand zurück. Für alle Einzelheiten und die Kontrolle über `status.conf` siehe [USB-Konfiguration für die Werkstatt](../software/usb-konfiguration.md).
 
 ## DI‑LED (EnWG §14a)
 

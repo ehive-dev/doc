@@ -122,6 +122,10 @@ theme=auto
 
 SmartHub kopiert die Branding-Dateien auf das Gerät, aktualisiert die evcc-Konfiguration und startet evcc neu. Beide Logos müssen gemeinsam angegeben oder gemeinsam leer gelassen werden.
 
+![Beispiel für ein eigenes Logo und eigene Kontaktdaten im Infofenster von evcc](../assets/images/ui-evcc-white-label-example.png)
+
+*Beispiel: Im evcc-Infofenster erscheinen das eigene Logo sowie Website, Telefonnummer und Support-E-Mail des Fachbetriebs.*
+
 ## Fehler prüfen
 
 Wenn eine Einstellung nicht übernommen wurde:

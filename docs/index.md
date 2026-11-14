@@ -46,5 +46,5 @@ Weiterführend:
 
 ## Support
 
-- Kontakt: `eHive@gmx.de`
+- Kontakt: [support@ehiv3.de](mailto:support@ehiv3.de)
 - Ablauf: [Support-Prozess](support.md)

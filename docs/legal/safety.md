@@ -30,7 +30,7 @@
 ## Support
 
 - Hersteller: Loher ECS
-- Kontakt: `support-eHive@gmx.de`
+- Kontakt: [support@ehiv3.de](mailto:support@ehiv3.de)
 
 Bei Fragen zur sicheren Einbindung, Firewall-Regeln oder Netztrennung unterstützen wir gerne.
 

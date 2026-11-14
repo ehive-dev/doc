@@ -24,5 +24,5 @@ eHive One kann Open-Source-Komponenten enthalten. Nutzungsrechte und Pflichten e
 
 Bei Fragen zu konkreten Komponenten/Lizenzständen:
 
-- E-Mail: `support-eHive@gmx.de`
+- E-Mail: [support@ehiv3.de](mailto:support@ehiv3.de)
 - Ablauf: siehe [Support-Prozess](../support.md)

@@ -11,6 +11,12 @@ Mit der evcc Lifetime-Lizenz wird die Sponsoring-Funktion von evcc auf deinem eH
 !!! warning "Token vertraulich behandeln"
     Der Sponsortoken ist deine persönliche Lizenz. Veröffentliche ihn nicht und gib ihn nicht an Dritte weiter.
 
+## Geltungsbereich der Lizenz
+
+Eine über eHive erworbene oder von eHive bereitgestellte evcc-Lizenz darf ausschließlich auf eHive-Geräten eingesetzt werden. Die Nutzung auf Fremdhardware sowie die Weitergabe oder Überlassung des Sponsortokens an Dritte ist nicht gestattet.
+
+Diese Nutzungsbeschränkung betrifft die von eHive bereitgestellte Lizenz. Sie verändert nicht die Rechte und Pflichten aus den Open-Source-Lizenzen von evcc oder anderen enthaltenen Softwarekomponenten.
+
 ## Lizenz eintragen
 
 1. Verbinde den eHive One mit deinem Netzwerk und warte, bis das Gerät vollständig gestartet ist.

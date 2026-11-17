@@ -58,6 +58,8 @@ nav:
   - chargeLedger: software/chargeledger.md
   - tenantLedger: software/tenantledger.md
   - Tunnel Manager: software/tunnel-manager.md
+  - KNX Bridge: software/knx-bridge.md
+  - KNX Logger: software/knx-logger.md
   - NetMode (Netzwerk-Taster): software/netmode.md
   - Weitere Apps: software/other-apps.md
 - Wartung:

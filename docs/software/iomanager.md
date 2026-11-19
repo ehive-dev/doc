@@ -111,7 +111,7 @@ Die beiden DI2-Beispiele zeigen den jeweiligen `limit`-Abschnitt. `type` und `ma
 - Den gewünschten Eingang und Zeitraum für den Verlauf auswählen.
 - Bei Bedarf den Verlauf des ausgewählten Eingangs als CSV exportieren.
 
-Die Eingänge werden im konfigurierten Pollingintervall eingelesen, standardmäßig alle fünf Sekunden. Schnelle Impulse werden nicht garantiert erfasst. Verlaufsänderungen werden gepuffert gespeichert; bei einem Neustart können die letzten fünf Minuten fehlen.
+Die Eingänge werden im konfigurierten Pollingintervall eingelesen. Das Installationspaket verwendet eine Sekunde; bei Updates bleibt die vorhandene Einstellung erhalten. Schnelle Impulse werden nicht garantiert erfasst. Verlaufsänderungen werden gepuffert gespeichert; bei einem Neustart können die letzten fünf Minuten fehlen.
 
 ## Prüfung nach dem Update
 

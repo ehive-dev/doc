@@ -20,7 +20,11 @@ Wenn evcc und ioManager auf demselben eHive laufen, wird der ioManager-Kontakt i
 
 `http://localhost:3000/api/gpio`
 
-In evcc wird daraus ein HTTP-Limit mit `jq: .value`. Das vollständige Beispiel steht unter [ioManager -> evcc HEMS](software/iomanager.md#evcc-hems).
+DI1 wird weiterhin mit `jq: .value` abgefragt. Für DI2 wird bei derselben URL `jq: .di2` verwendet. Alternativ liefert `http://localhost:3000/api/gpio?input=di2` den DI2-Zustand über `.value`.
+
+Das vollständige Beispiel steht unter [ioManager → evcc HEMS](software/iomanager.md#evcc-hems).
+
+Von einem anderen Gerät erfolgt der Zugriff über SmartHub: `http://<IP-ADRESSE>/apps/ioManager/api/gpio`. Details zur [DI1-/DI2-Schnittstelle](software/iomanager.md#di1-und-di2-abfragen).
 
 ## RS485
 

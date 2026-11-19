@@ -24,7 +24,7 @@ Die folgenden Anschlüsse/Funktionen sind für die Standardausführung vorgesehe
 | Netzwerk | **RJ45 Ethernet (Gigabit)** | Netzwerkzugang; optional mit PoE |
 | USB | **USB‑C** | Erweiterungen (z. B. WLAN‑Stick, USB‑Peripherie); je nach System auch Service/Diagnose |
 | Feldbus | **RS485** | Serielle Schnittstelle für Feld-/Zähler-/Gateway‑Anbindungen. **Klemmenbelegung: G (GND), B, A** |
-| Digitaleingang | **DI (EnWG §14a)** | Digitaler Eingang für ein Steuersignal (nicht galvanisch getrennt). Es muss ein Relaiskontakt verwendet werden |
+| Digitaleingänge | **DI1 / DI2** | Steuersignale und Statuskontakte; nicht galvanisch getrennt. Je Eingang einen potentialfreien Relaiskontakt verwenden |
 
 
 ## RS485
@@ -37,10 +37,14 @@ Die folgenden Anschlüsse/Funktionen sind für die Standardausführung vorgesehe
 - Abschlusswiderstand: 120 Ohm nur an den beiden Bus-Enden aktivieren. Bei kurzen Einzeltests kann der Abschluss je nach Gegenstelle entfallen.
 - Empfehlung: verdrilltes A/B-Paar verwenden und GND als Bezug mitführen, besonders bei längeren Leitungen oder separaten Versorgungen.
 
-## Digitaler Eingang (EnWG §14a)
+<span id="digitaler-eingang-enwg-14a"></span>
 
-- Eingangssignal: Steuersignal
-- Hinweis: Der Eingang ist **nicht potentialfrei**. Es muss ein Relaiskontakt verwendet werden.
+## Digitale Eingänge DI1 und DI2
+
+- DI1 und DI2 erfassen zwei unabhängige Kontaktzustände, etwa Steuersignale sowie Betriebs- oder Störmeldungen.
+- Die Eingänge sind **nicht galvanisch getrennt**. Für die Ansteuerung jeweils einen **potentialfreien Relaiskontakt** verwenden.
+- **Keine externe Spannung anlegen.** Kontakte gemäß der Beschriftung des jeweiligen Geräts anschließen.
+- Anzeige, Statusabfrage und Beispiele: [ioManager](../software/iomanager.md#di1-und-di2-abfragen).
 
 ## Taster
 

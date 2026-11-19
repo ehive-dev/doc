@@ -1,23 +1,78 @@
 # ioManager
 
-Mit ioManager siehst du den aktuellen Status und den zeitlichen Verlauf eines digitalen Signals (HIGH/LOW). So erkennst du, ob ein Eingang gerade aktiv ist und wann sich der Zustand geändert hat.
+ioManager zeigt den aktuellen Zustand und den Verlauf der Digitaleingänge **DI1** und **DI2**. Beide Eingänge lassen sich unabhängig überwachen und über eine HTTP-Schnittstelle auslesen.
 
-Typische Anwendungsfälle:
-
-- Überwachung eines digitalen Eingangs (z. B. DI für **EnWG §14a**, Relaiskontakt, Statusleitung)
-- Diagnose: „Kommt das Signal an?“ / „Wann hat es geschaltet?“
+Typische Anwendungen sind Relaiskontakte, Betriebs- und Störmeldungen sowie externe Steuersignale. Anschlusshinweise stehen unter [Digitale Eingänge](../hardware/connectors.md#digitale-eingange-di1-und-di2).
 
 ## Zugriff
 
-- SmartHub öffnen.
-- In der App-Liste **ioManager** auswählen.
-- Falls die App nicht sichtbar ist, im SmartHub App Store prüfen, ob sie installiert und gestartet ist.
+1. SmartHub öffnen.
+2. **ioManager** in der App-Liste auswählen.
+3. Falls die App fehlt, im SmartHub App Store installieren oder aktualisieren.
+
+## DI1 und DI2 abfragen
+
+Auf demselben eHive:
+
+```text
+http://localhost:3000/api/gpio
+```
+
+Beispielantwort, wenn nur DI2 aktiv ist:
+
+```json
+{"value":false,"di1":false,"di2":true}
+```
+
+| Feld | Bedeutung |
+|---|---|
+| `value` | DI1; bleibt für bestehende Abfragen unverändert |
+| `di1` | Zustand von DI1 |
+| `di2` | Zustand von DI2 |
+
+`true` bedeutet aktiv, `false` bedeutet inaktiv. **Bestehende Abfragen mit `.value` funktionieren weiterhin für DI1.**
+
+### DI2 gezielt auswählen
+
+```text
+http://localhost:3000/api/gpio?input=di2
+```
+
+Bei dieser Abfrage enthält `value` den Zustand von DI2:
+
+```json
+{"value":true,"di1":false,"di2":true}
+```
+
+`input=di1` wählt DI1. Die Felder `di1` und `di2` enthalten unabhängig von der Auswahl weiterhin beide Eingangszustände. Ein eigener Endpunkt nur für DI2 ist nicht erforderlich. Ungültige Eingangsauswahlen liefern HTTP 400.
+
+### Zugriff aus dem Netzwerk
+
+Über den SmartHub-Proxy:
+
+```text
+http://<IP-ADRESSE>/apps/ioManager/api/gpio
+http://<IP-ADRESSE>/apps/ioManager/api/gpio?input=di2
+```
+
+Groß-/Kleinschreibung bei `ioManager` beachten. `localhost` bezeichnet immer das Gerät, auf dem die Abfrage ausgeführt wird. Port 3000 ist für lokale Anwendungen auf dem eHive vorgesehen.
+
+### Weitere Schnittstellen
+
+| Abfrage | Rückgabe |
+|---|---|
+| `/api/status` | Zustände als 0/1, Eingangsdetails und Antwortzeitstempel |
+| `/api/status?input=di2` | DI2 zusätzlich im Feld `value` |
+| `/api/trend?range=24h&input=di2` | Verlauf von DI2 |
+| `/api/export.csv?range=24h&input=di2` | Verlauf von DI2 als CSV |
+
+Für die Verlaufs- und Exportabfragen kann `input=di1` verwendet werden. Ohne Auswahl wird DI1 abgefragt. Als Zeitraum stehen `24h` und `7d` zur Verfügung.
 
 ## evcc HEMS
 
-Wenn evcc auf demselben eHive wie ioManager läuft, kann der digitale Eingang als HEMS-Limit über `localhost` eingebunden werden.
+Wenn evcc auf demselben eHive läuft, kann ein Eingang als HEMS-Limit eingebunden werden.
 
-In evcc unter **HEMS**:
+### DI1: bestehende Konfiguration
 
 ```yaml
 type: relay
@@ -28,45 +83,53 @@ limit:
   jq: .value
 ```
 
-`maxpower` ist der freigegebene Leistungswert und muss passend zur Anlage eingestellt werden. Der Endpunkt `api/gpio` liefert den aktuellen Kontaktzustand als JSON, z. B. `{"value":false}`.
+### DI2
 
-## Typische Nutzung
+Für DI2 in derselben Konfiguration den Filter ändern:
 
-1. ioManager öffnen.
-2. Aktuellen HIGH/LOW-Status prüfen.
-3. Zeitraum auswählen.
-4. Signalverlauf mit dem erwarteten Schaltverhalten vergleichen.
+```yaml
+limit:
+  source: http
+  uri: http://localhost:3000/api/gpio
+  jq: .di2
+```
 
-## Oberfläche
+Alternativ lässt sich DI2 über die URL auswählen und der bisherige Filter beibehalten:
 
-- **Status‑Badge:** aktueller Zustand **HIGH** oder **LOW**
-- **Polling/Intervall:** wie häufig der Status aktualisiert wird
+```yaml
+limit:
+  source: http
+  uri: http://localhost:3000/api/gpio?input=di2
+  jq: .value
+```
 
-## Trend‑Diagramm
+Die beiden DI2-Beispiele zeigen den jeweiligen `limit`-Abschnitt. `type` und `maxpower` bleiben wie im vollständigen DI1-Beispiel bestehen. `maxpower` muss zur Anlage und zum vorgesehenen Steuersignal passen.
 
-Wähle den Zeitraum:
+## Anzeige und Verlauf
 
-- Letzte 1 h / 6 h / 24 h
-- Letzte 3 Tage / 7 Tage
-- Alle Daten
+- DI1 und DI2 getrennt auf HIGH/LOW prüfen.
+- Den gewünschten Eingang und Zeitraum für den Verlauf auswählen.
+- Bei Bedarf den Verlauf des ausgewählten Eingangs als CSV exportieren.
 
-## Prüfung nach Updates
+Die Eingänge werden im konfigurierten Pollingintervall eingelesen, standardmäßig alle fünf Sekunden. Schnelle Impulse werden nicht garantiert erfasst. Verlaufsänderungen werden gepuffert gespeichert; bei einem Neustart können die letzten fünf Minuten fehlen.
 
-- App in SmartHub öffnen.
-- Aktuellen Signalzustand prüfen.
-- Zeitraum wechseln und Diagramm neu laden.
-- Falls ein Testsignal verfügbar ist, Schaltvorgang auslösen und Verlauf kontrollieren.
+## Prüfung nach dem Update
 
-## Troubleshooting
+1. Beide Kontakte öffnen: DI1 und DI2 müssen inaktiv sein.
+2. Nur DI1 schließen: `di1` und `value` müssen `true`, `di2` muss `false` sein.
+3. Nur DI2 schließen: `di2` muss `true`, `di1` und die bisherige Abfrage `value` müssen `false` sein.
+4. Beide Kontakte schließen: `di1` und `di2` müssen `true` sein.
+5. Beide Kontakte wieder öffnen und den inaktiven Zustand prüfen.
 
-- **Status bleibt unverändert:** Verdrahtung, Eingang und erwarteten Pegel prüfen.
-- **Diagramm zeigt keine Daten:** Zeitraum vergrößern und App neu laden.
-- **Signal wirkt invertiert:** Eingangslogik und angeschlossene Hardware prüfen.
+Die Angaben zu `value` beziehen sich hier auf `/api/gpio` ohne Eingangsauswahl.
 
-## Screenshots
+## Fehlerbehebung
 
-### Status und Verlauf eines digitalen Signals
+- **Antwort enthält nur `value`:** Die installierte App stellt nur die bisherige DI1-Schnittstelle bereit. ioManager im SmartHub aktualisieren.
+- **Status bleibt unverändert:** Kontakt, Verdrahtung und Pollingintervall prüfen. Keine externe Spannung an die Eingänge anlegen.
+- **HTTP 404 oder „unknown app“:** Proxy-Pfad und Groß-/Kleinschreibung von `ioManager` prüfen.
+- **Diagramm ohne Daten:** Eingang und Zeitraum prüfen, Kontakt schalten und Ansicht neu laden.
 
-Die Ansicht zeigt den aktuellen Signalzustand und ein Verlaufsdiagramm für den gewählten Zeitraum. Über die Zeitfilter lässt sich nachvollziehen, wann ein Eingang geschaltet hat. Das ist hilfreich bei Relaiskontakten, Sperrsignalen, EnWG-14a-Signalen oder allgemeinen digitalen Diagnoseeingängen.
+## Screenshot
 
 ![ioManager Statusanzeige und Signalverlauf](../assets/images/ui-iomanager-main.png)
